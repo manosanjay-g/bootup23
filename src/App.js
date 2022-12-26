@@ -8,7 +8,7 @@ const App = () => {
     <div className="App">
       <ParticlesBackground />
 
-      <div id="landing" className="flex flex-col py-7 bg-black text-white min-h-screen container justify-between">
+      <div id="landing" className="flex flex-col py-7 bg-black text-white min-h-screen  justify-between">
         <div className="flex flex-row justify-center">
           <img src={require('./assets/REC.png')} className="h-15 w-40" alt="" />
         </div>
@@ -23,7 +23,7 @@ const App = () => {
           </button>
         </div>
       </div>
-      <div id="events-technical" className="flex flex-col py-7 bg-black text-white min-h-screen container">
+      <div id="events-technical" className="flex flex-col py-7 bg-black text-white min-h-screen ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl tracking-widest">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl tracking-widest">TECHNICAL</p>
@@ -33,7 +33,7 @@ const App = () => {
         </div>
 
       </div>
-      <div id="events-non-technical" className="flex flex-col py-7 bg-black text-white min-h-screen container">
+      <div id="events-non-technical" className="flex flex-col py-7 bg-black text-white min-h-screen ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl tracking-widest">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl tracking-widest">NON-TECHNICAL</p>
@@ -42,13 +42,13 @@ const App = () => {
           NON-TECHINCAL EVENT CARDS GO HERE
         </div>
       </div>
-      <div id="sponsers-and-organizers" className="flex flex-col py-7 bg-black text-white min-h-screen container">
+      <div id="sponsers-and-organizers" className="flex flex-col py-7 bg-black text-white min-h-screen">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl tracking-widest">SPONSERS</h1>
-          <div className="flex flex-row justify-around w-full my-10 flex-wrap">
-            <img src={require('./assets/csiCert.png')} className="w-52 h-52 mx-10" alt="" />
-            <img src={require('./assets/ieeeCert.png')} className="w-52 h-52 mx-10" alt="" />
-            <img src={require('./assets/acmCert.png')} className="w-52 h-52 mx-10" alt="" />
+          <div className="flex flex-col items-center md:flex-row md:justify-around w-full my-10 flex-wrap">
+            <img src={require('./assets/csiCert.png')} className="w-52 h-52  " alt="" />
+            <img src={require('./assets/ieeeCert.png')} className="w-52 h-52  " alt="" />
+            <img src={require('./assets/acmCert.png')} className="w-52 h-52  " alt="" />
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
