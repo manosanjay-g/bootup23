@@ -89,3 +89,20 @@ body {
     overflow-x: hidden;
   }
 }
+@media only screen and (max-width: 600px) {
+  #app {
+    min-height: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #app {
+    min-height: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #app {
+    min-height: 100%;
+  }
+}
