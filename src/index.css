@@ -8,3 +8,7 @@ html {
 #event-card {
   background-color: #12202d;
 }
+.wide-text {
+  letter-spacing: 0.35em;
+  text-indent: 0.35em;
+}
