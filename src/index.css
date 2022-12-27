@@ -6,7 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 #event-card {
-  background-color: #12202d;
   position: relative;
 }
 .wide-text {

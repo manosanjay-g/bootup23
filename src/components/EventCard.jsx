@@ -2,7 +2,7 @@ const EventCard = () => {
     return (
         <div
             id="event-card"
-            class="flex flex-col items-center justify-between border-4  border-blue-400  bg-opacity-100 text-center mt-4 cursor-default lg:max-w-xs py-6 px-9  "
+            class="bg-gray-800 bg-opacity-60 flex flex-col items-center justify-between border-4  border-blue-400  bg-opacity-100 text-center mt-4 cursor-default lg:max-w-xs py-6 px-9  "
         >
 
             <div class="box top left"></div>
