@@ -157,9 +157,9 @@ const App = () => {
     return <EventCard name={e.name} info={e.info} icon={e.icon} />
   })
   const [isLoading, setLoading] = useState(true);
-  setTimeout(() => {
-    setLoading(false)
-  }, 4000)
+  // setTimeout(() => {
+  //   setLoading(false)
+  // }, 4000)
 
   const slideLeftTechnical = () => {
     const slider = document.getElementById("technical-slider")
@@ -178,7 +178,7 @@ const App = () => {
     slider.scrollLeft = slider.scrollLeft + 250
   }
   return isLoading === true ? (
-    <div className="App flex justify-center items-center min-h-screen overflow-hidden">
+    <div id="app" className="">
       <ParticlesBackground />
       <div className="flex flex-row items-center  ">
         <svg width="180" className="w-20 mx-4" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
