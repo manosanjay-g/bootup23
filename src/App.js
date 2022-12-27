@@ -174,7 +174,7 @@ const App = () => {
           </button>
         </div>
       </div>
-      <div id="events-technical" className="flex flex-col py-7 px-6 bg-black text-white min-h-screen ">
+      <div id="events-technical" className="flex flex-col py-7 sm:px-6 bg-black text-white min-h-screen ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
@@ -184,7 +184,7 @@ const App = () => {
         </div>
 
       </div>
-      <div id="events-non-technical" className="flex flex-col py-7 px-6 bg-black text-white min-h-screen ">
+      <div id="events-non-technical" className="flex flex-col py-7 sm:px-6 bg-black text-white min-h-screen ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl wide-text">NON-TECHNICAL</p>
