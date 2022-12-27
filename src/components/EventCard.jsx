@@ -1,5 +1,6 @@
 const EventCard = ({ name, info, icon }) => {
-
+    const uppercaseName = name.toUpperCase();
+    const uppercaseInfo = info.toUpperCase();
     return (
         <div
             id="event-card"
@@ -12,8 +13,8 @@ const EventCard = ({ name, info, icon }) => {
             <div class="box bottom right"></div>
 
             <div className="mb-4 place-self-center">
-                <h2 class="font-semibold text-2xl mb-1 tracking-widest ">{name}</h2>
-                <p className="text-gray-300 font-semibold tracking-widest">{info}</p>
+                <h2 class="font-semibold text-2xl mb-1 tracking-widest ">{uppercaseName}</h2>
+                <p className="text-gray-300 font-semibold tracking-widest">{uppercaseInfo}</p>
             </div>
             <img alt="event-img" src={icon} className="w-20 my-2 self-center " />
             <button className="self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
