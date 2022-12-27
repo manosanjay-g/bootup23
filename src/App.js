@@ -156,10 +156,10 @@ const App = () => {
   const nonTechnicalEventsMap = nonTechnicalEvents.map((e) => {
     return <EventCard name={e.name} info={e.info} icon={e.icon} />
   })
-  const [isLoading] = useState(true);
-  // setTimeout(() => {
-  //   setLoading(false)
-  // }, 4000)
+  const [isLoading, setLoading] = useState(true);
+  setTimeout(() => {
+    setLoading(false)
+  }, 4000)
 
   const slideLeftTechnical = () => {
     const slider = document.getElementById("technical-slider")
