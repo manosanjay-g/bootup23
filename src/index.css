@@ -76,10 +76,10 @@ body {
 
 @media only screen and (min-width: 992px) {
   #technical-slider {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
   #non-technical-slider {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 }
 
