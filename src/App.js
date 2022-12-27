@@ -167,12 +167,13 @@ const App = () => {
           <img src={require('./assets/BootUp_23Logo-White.png')} className="max-w-xs md:max-w-md lg:max-w-lg" alt="" />
           <p className="mt-2 mb-1 wide-text font-semibold text-md ">BROUGHT TO YOU BY</p>
           <p className="font-semibold wide-text text-md  px-2">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
+          <div className="flex flex-row justify-center mt-16">
+            <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
+              EXPLORE
+            </button>
+          </div>
         </div>
-        <div className="flex flex-row justify-center">
-          <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
-            EXPLORE
-          </button>
-        </div>
+        <div></div>
       </div>
       <div id="events-technical" className="flex flex-col py-7 sm:px-6 bg-black text-white min-h-screen ">
         <div className="flex flex-col items-center justify-center">

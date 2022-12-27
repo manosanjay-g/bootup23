@@ -1,5 +1,5 @@
 const EventCard = ({ name, info, icon }) => {
-    const uppercaseName = name.toUpperCase();
+    const uppercaseName = name !== "iCatching" ? name.toUpperCase() : "iCATCHING";
     const uppercaseInfo = info.toUpperCase();
     return (
         <div
