@@ -1,7 +1,6 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
 const ParticlesBackground = () => {
     const particlesInit = useCallback(async engine => {
         console.log(engine);
@@ -21,9 +20,15 @@ const ParticlesBackground = () => {
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
-
                 fpsLimit: 120,
+                fullScreen: {
+                    zIndex: -1,
+                },
+                background: {
+                    color: "#000"
+                },
                 interactivity: {
+
                     events: {
                         onClick: {
                             enable: false,
@@ -55,7 +60,7 @@ const ParticlesBackground = () => {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         directions: "none",
