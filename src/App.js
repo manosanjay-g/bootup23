@@ -161,7 +161,7 @@ const App = () => {
     setLoading(false)
   }, 4000)
   return isLoading === true ? (
-    <div className="App">
+    <div className="App overflow-hidden">
       <ParticlesBackground />
       <div id="landing" className="flex flex-col py-7  text-white min-h-screen items-center  justify-center">
         <div className="flex flex-row items-center ">
