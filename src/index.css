@@ -7,8 +7,28 @@ html {
 }
 #event-card {
   background-color: #12202d;
+  position: relative;
 }
 .wide-text {
   letter-spacing: 0.35em;
   text-indent: 0.35em;
+}
+
+.box {
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  background: rgb(96 165 250);
+}
+.top {
+  top: 0;
+}
+.right {
+  right: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.left {
+  left: 0;
 }
