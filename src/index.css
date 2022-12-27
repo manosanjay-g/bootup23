@@ -18,6 +18,9 @@ html {
   width: 16rem;
   min-width: 16rem;
   max-width: 16rem;
+  height: 24rem;
+  min-height: 24rem;
+  max-height: 24rem;
 }
 .wide-text {
   letter-spacing: 0.35em;
