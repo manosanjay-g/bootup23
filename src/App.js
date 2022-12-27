@@ -18,7 +18,7 @@ const App = () => {
           <p className="font-semibold wide-text text-md  px-2">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
         </div>
         <div className="flex flex-row justify-center">
-          <button id="explore-button" onClick={goToTop} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-violet-500 ">
+          <button id="explore-button" onClick={goToTop} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
             EXPLORE
           </button>
         </div>
