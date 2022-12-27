@@ -21,14 +21,14 @@ const App = () => {
     },
     {
       name: "404 Not Found",
-      info: "BUG HUNTING",
+      info: "Bug Hunting",
       icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
       route: "/404-not-found",
       description: "",
     },
     {
       name: "iCatching",
-      info: "WEB DEVELOPMENT",
+      info: "Web Development",
       icon: "https://img.icons8.com/ios/100/ffffff/web.png",
       route: "/icatching",
       description: "",
