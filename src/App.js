@@ -164,9 +164,11 @@ const App = () => {
           <img src={require('./assets/REC.png')} className="h-15 w-40" alt="" />
         </div>
         <div id="logo-and-line" className="flex flex-col items-center justify-center text-center">
-          <svg width="796" className="max-w-xs md:max-w-md lg:max-w-lg" height="180" viewBox="0 0 796 180" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+
+          {/* SVG START  */}
+          <svg width="796" height="180" viewBox="0 0 796 180"
+            className="max-w-xs md:max-w-md lg:max-w-lg" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <g id="Canvas">
-              <rect width="796" height="180" fill="black" />
               <rect id="logo" x="17.9998" y="17" width="150" height="146.018" fill="url(#pattern0)" />
               <rect id="word" x="194" y="19" width="600" height="160.65" fill="url(#pattern1)" />
               <path id="ellipse" d="M92 174C81.1003 174 70.3073 171.853 60.2373 167.682C50.1672 163.511 41.0174 157.397 33.3101 149.69C25.6029 141.983 19.4891 132.833 15.318 122.763C11.1468 112.693 8.99999 101.9 9 90.9999C9.00001 80.1002 11.1469 69.3072 15.318 59.2372C19.4892 49.1672 25.6029 40.0173 33.3102 32.3101C41.0175 24.6028 50.1673 18.4891 60.2374 14.318C70.3074 10.1468 81.1004 7.99998 92.0001 8L92.0001 11.769C81.5953 11.769 71.2925 13.8183 61.6797 17.8C52.0669 21.7818 43.3326 27.6179 35.9753 34.9751C28.618 42.3324 22.7819 51.0668 18.8001 60.6795C14.8184 70.2923 12.769 80.5952 12.769 90.9999C12.769 101.405 14.8183 111.708 18.8001 121.32C22.7818 130.933 28.6179 139.667 35.9752 147.025C43.3325 154.382 52.0668 160.218 61.6796 164.2C71.2923 168.182 81.5952 170.231 92 170.231L92 174Z" fill="#D9D9D9" />
@@ -183,7 +185,7 @@ const App = () => {
             </defs>
           </svg>
 
-
+          {/* SVG END */}
 
           <p className="mt-2 mb-1 wide-text font-semibold text-md ">BROUGHT TO YOU BY</p>
           <p className="font-semibold wide-text text-md  px-2">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
@@ -200,7 +202,7 @@ const App = () => {
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
         </div>
-        <div className="flex-wrap mx-10 sm:mx-0 justify-center sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10  mt-4">
+        <div className="flex-wrap mx-10 sm:mx-0  justify-center sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10  mt-4">
           {technicalEventsMap}
         </div>
 
