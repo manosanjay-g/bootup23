@@ -254,8 +254,8 @@ const App = () => {
       </div>
       <div id="events-non-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
         <div className="flex flex-col items-center justify-center mb-10">
-          <h1 className="text-4xl wide-text">EVENTS</h1>
-          <p className="text-gray-400 my-2 text-xl wide-text">NON-TECHNICAL</p>
+          <h1 className="text-4xl wide-text font-semibold">EVENTS</h1>
+          <p className="text-gray-400 my-2 text-xl wide-text font-semibold">NON-TECHNICAL</p>
         </div>
         <div className="flex mx-2 gap-4 items-center">
           <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftNonTechnical} />
