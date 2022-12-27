@@ -178,9 +178,9 @@ const App = () => {
     slider.scrollLeft = slider.scrollLeft + 250
   }
   return isLoading === true ? (
-    <div id="app" className="">
+    <div className="flex justify-center stretch-to-screen ">
       <ParticlesBackground />
-      <div className="flex flex-row items-center  ">
+      <div className="flex flex-row items-center">
         <svg width="180" className="w-20 mx-4" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
           <g id="Canvas">
             <rect id="logo" x="17.9998" y="17" width="150" height="146.018" fill="url(#pattern0)" />
@@ -198,14 +198,14 @@ const App = () => {
 
     </div>
   ) : (
-    <div className="App ">
+    <div>
       <ParticlesBackground />
 
-      <div id="landing" className="flex flex-col py-7  text-white min-h-screen  justify-between">
+      <div id="landing" className="flex flex-col items-center py-7  text-white stretch-to-screen  justify-between">
         <div className="flex flex-row justify-center">
           <img src={require('./assets/REC.png')} className="h-15 w-40" alt="" />
         </div>
-        <div id="logo-and-line" className="flex flex-col items-center justify-center text-center">
+        <div id="logo-and-line" className="flex flex-col items-center text-center">
 
           {/* SVG START  */}
           <svg width="796" height="180" viewBox="0 0 796 180"
@@ -229,15 +229,13 @@ const App = () => {
 
           {/* SVG END */}
 
-          <p className="mt-2 mb-1 wide-text font-semibold text-md ">BROUGHT TO YOU BY</p>
+          <p className="mb-1 wide-text font-semibold text-md ">BROUGHT TO YOU BY</p>
           <p className="font-semibold wide-text text-md  px-2">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
-          <div className="flex flex-row justify-center mt-16">
-            <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
-              EXPLORE
-            </button>
-          </div>
+
         </div>
-        <div></div>
+        <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 mb-8">
+          EXPLORE
+        </button>
       </div>
       <div id="events-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
         <div className="flex flex-col mb-10 items-center justify-center">
