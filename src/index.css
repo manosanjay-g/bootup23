@@ -11,6 +11,9 @@ html {
 }
 #event-card {
   position: relative;
+  width: 16rem;
+  min-width: 16rem;
+  max-width: 16rem;
 }
 .wide-text {
   letter-spacing: 0.35em;
@@ -47,5 +50,21 @@ html {
   }
   to {
     transform: rotate(360deg) scale(1.08);
+  }
+}
+
+#technical-slider {
+  overflow-x: scroll;
+}
+#non-technical-slider {
+  overflow-x: scroll;
+}
+
+@media only screen and (min-width: 992px) {
+  #technical-slider {
+    overflow-x: hidden;
+  }
+  #non-technical-slider {
+    overflow-x: hidden;
   }
 }

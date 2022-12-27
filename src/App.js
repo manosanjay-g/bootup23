@@ -160,6 +160,23 @@ const App = () => {
   setTimeout(() => {
     setLoading(false)
   }, 4000)
+
+  const slideLeftTechnical = () => {
+    const slider = document.getElementById("technical-slider")
+    slider.scrollLeft -= 250;
+  }
+  const slideRightTechnical = () => {
+    const slider = document.getElementById("technical-slider")
+    slider.scrollLeft = slider.scrollLeft + 250
+  }
+  const slideLeftNonTechnical = () => {
+    const slider = document.getElementById("non-technical-slider")
+    slider.scrollLeft -= 250;
+  }
+  const slideRightNonTechnical = () => {
+    const slider = document.getElementById("non-technical-slider")
+    slider.scrollLeft = slider.scrollLeft + 250
+  }
   return isLoading === true ? (
     <div className="App overflow-hidden">
       <ParticlesBackground />
@@ -223,26 +240,34 @@ const App = () => {
         </div>
         <div></div>
       </div>
-      <div id="events-technical" className="flex flex-col py-7 sm:px-6 bg-black text-white min-h-screen ">
-        <div className="flex flex-col items-center justify-center">
+      <div id="events-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
+        <div className="flex flex-col mb-10 items-center justify-center">
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
         </div>
-        <div className="flex-wrap mx-10 sm:mx-0  justify-center sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10  mt-4">
-          {technicalEventsMap}
+        <div className="flex mx-2 gap-4 items-center">
+          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className="w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftTechnical} />
+          <div id="technical-slider" className="flex px-4 overflow-x-scroll gap-8 scroll scroll-smooth whitespace-nowrap snap-x">
+            {technicalEventsMap}
+          </div>
+          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className="w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideRightTechnical} />
         </div>
 
       </div>
-      <div id="events-non-technical" className="flex flex-col py-7 sm:px-6 bg-black text-white min-h-screen ">
-        <div className="flex flex-col items-center justify-center">
+      <div id="events-non-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
+        <div className="flex flex-col items-center justify-center mb-10">
           <h1 className="text-4xl wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl wide-text">NON-TECHNICAL</p>
         </div>
-        <div className="flex-wrap mx-10 sm:mx-0 justify-center sm:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10  mt-4">
-          {nonTechnicalEventsMap}
+        <div className="flex mx-2 gap-4 items-center">
+          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className="w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftNonTechnical} />
+          <div id="non-technical-slider" className="flex px-4 overflow-x-scroll gap-8 scroll scroll-smooth whitespace-nowrap snap-x">
+            {nonTechnicalEventsMap}
+          </div>
+          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className="w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideRightNonTechnical} />
         </div>
       </div>
-      <div id="sponsers-and-organizers" className="flex flex-col py-7 bg-black text-white min-h-screen">
+      <div id="sponsers-and-organizers" className="flex flex-col py-10 bg-black text-white ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl wide-text">SPONSERS</h1>
           <div className="flex flex-col items-center md:flex-row md:justify-around w-full my-10 flex-wrap">
