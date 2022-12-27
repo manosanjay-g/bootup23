@@ -156,7 +156,7 @@ const App = () => {
   const nonTechnicalEventsMap = nonTechnicalEvents.map((e) => {
     return <EventCard name={e.name} info={e.info} icon={e.icon} />
   })
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading] = useState(true);
   // setTimeout(() => {
   //   setLoading(false)
   // }, 4000)
