@@ -10,7 +10,7 @@ const EventCard = () => {
                 <p className="text-gray-300 font-semibold tracking-widest">EVENT INFO</p>
             </div>
             <img src={require("../assets/acmCert.png")} className="w-32 my-2 self-center" alt="event-logo" />
-            <button className="self-center border-solid border-2 mt-5 border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
+            <button className="self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
                 MORE INFO
             </button>
 
