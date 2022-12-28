@@ -284,7 +284,7 @@ const App = () => {
           EXPLORE
         </button>
       </div>
-      <div id="events-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
+      <div id="events-technical" className="flex flex-col py-10 sm:px-6  text-white  ">
         <div className="flex flex-col  items-center justify-center">
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
@@ -299,7 +299,7 @@ const App = () => {
         </div>
 
       </div>
-      <div id="events-non-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
+      <div id="events-non-technical" className="flex flex-col py-10 sm:px-6  text-white  ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl wide-text font-semibold">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl wide-text font-semibold">NON-TECHNICAL</p>
@@ -313,7 +313,7 @@ const App = () => {
           <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow" alt="" onClick={slideRightNonTechnical} />
         </div>
       </div>
-      <div id="sponsers-and-organizers" className="flex flex-col py-10 bg-black text-white ">
+      <div id="sponsers-and-organizers" className="flex flex-col py-10  text-white ">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl wide-text">SPONSERS</h1>
           <div className="flex flex-col items-center md:flex-row md:justify-around w-full my-10 flex-wrap">

@@ -97,6 +97,7 @@ body {
   transform-style: preserve-3d;
   transition: all 1s ease;
 }
+
 .flip-card {
   transform: rotateY(180deg) scale(1.02);
 }
