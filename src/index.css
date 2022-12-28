@@ -20,15 +20,7 @@ body {
 ::-webkit-scrollbar {
   -webkit-appearance: none;
 }
-#event-card {
-  position: relative;
-  width: 16rem;
-  min-width: 16rem;
-  max-width: 16rem;
-  height: 24rem;
-  min-height: 24rem;
-  max-height: 24rem;
-}
+
 .wide-text {
   letter-spacing: 0.35em;
   text-indent: 0.35em;
@@ -85,4 +77,31 @@ body {
 
 .stretch-to-screen {
   min-height: 100dvh;
+}
+
+.card-both {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+}
+.flip-card {
+  transform: rotateY(180deg) scale(1.02);
+}
+
+.front-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
+}
+.back-card {
+  position: absolute;
+  transform: rotateY(180deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
 }

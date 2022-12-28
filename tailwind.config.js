@@ -1,3 +1,13 @@
+const plugin = require('tailwindcss/plugin')
+
+const rotateY = plugin(function ({ addUtilities }) {
+  addUtilities({
+    '.rotate-y-180': {
+      transform: 'rotateY(180deg)'
+    }
+  })
+})
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,5 +16,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [rotateY],
 }

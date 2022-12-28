@@ -13,6 +13,8 @@ const App = () => {
       icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
       route: "/silicon-valley",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "The Revolution",
@@ -20,6 +22,8 @@ const App = () => {
       icon: "https://img.icons8.com/windows/96/ffffff/presentation-screen.png",
       route: "/the-revolution",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "404 Not Found",
@@ -27,6 +31,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
       route: "/404-not-found",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "iCatching",
@@ -34,6 +40,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/web.png",
       route: "/icatching",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Halt and Catch Fire",
@@ -41,6 +49,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/keyboard.png",
       route: "/halt-and-catch-fire",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "The Perfect Exploit",
@@ -48,6 +58,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/flag--v1.png",
       route: "/the-perfect-exploit",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "The Office",
@@ -55,6 +67,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-filled/100/ffffff/briefcase.png",
       route: "/the-office",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Machine Impossible",
@@ -62,6 +76,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/workstation.png",
       route: "/machine-impossible",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Ex Machina",
@@ -69,6 +85,8 @@ const App = () => {
       icon: "https://img.icons8.com/material-rounded/96/ffffff/bot.png",
       route: "/ex-machina",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Fly High",
@@ -76,6 +94,8 @@ const App = () => {
       icon: "https://img.icons8.com/material-rounded/96/ffffff/drone.png",
       route: "/fly-high",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
   ]
   const nonTechnicalEvents = [
@@ -85,6 +105,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-filled/100/ffffff/voice-recognition-scan.png",
       route: "/vanmam",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Ready Player One",
@@ -92,6 +114,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/valorant.png",
       route: "/ready-player-one-valorant",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Ready Player One",
@@ -99,6 +123,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-glyphs/90/ffffff/pubg.png",
       route: "/ready-player-one-bgmi",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Oru Naal President",
@@ -106,6 +132,8 @@ const App = () => {
       icon: "https://img.icons8.com/external-others-pike-picture/100/ffffff/external-President-democracy-others-pike-picture-3.png",
       route: "/oru-naal-president",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Fandom Wars",
@@ -113,6 +141,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
       route: "/fandom-quiz",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Naduvula Konjam Audio-va Kaanom",
@@ -120,6 +150,8 @@ const App = () => {
       icon: "https://img.icons8.com/material-sharp/96/ffffff/micro.png",
       route: "/naduvula-konjam-audiova-kaanom",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Tiki-Taka",
@@ -127,6 +159,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
       route: "/tiki-taka",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Master the Blaster",
@@ -134,6 +168,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios/100/ffffff/cricket.png",
       route: "/master-the-blaster",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "Kodak",
@@ -141,6 +177,8 @@ const App = () => {
       icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
       route: "/kodak",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
     {
       name: "She Boss!",
@@ -148,15 +186,17 @@ const App = () => {
       icon: "https://img.icons8.com/ios-filled/100/ffffff/woman-head.png",
       route: "/she-boss",
       description: "",
+      short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+      rules: []
     },
   ]
 
   //Event Card Mapping Start
-  const technicalEventsMap = technicalEvents.map((e) => {
-    return <EventCard name={e.name} info={e.info} icon={e.icon} />
+  const technicalEventsMap = technicalEvents.map((e, index) => {
+    return <EventCard name={e.name} info={e.info} icon={e.icon} index={index + '-t'} key={index} short_description={e.short_description} />
   })
-  const nonTechnicalEventsMap = nonTechnicalEvents.map((e) => {
-    return <EventCard name={e.name} info={e.info} icon={e.icon} />
+  const nonTechnicalEventsMap = nonTechnicalEvents.map((e, index) => {
+    return <EventCard name={e.name} info={e.info} icon={e.icon} index={index + '-nt'} key={index} short_description={e.short_description} />
   })
   const [isLoading, setLoading] = useState(true);
   setTimeout(() => {
@@ -248,13 +288,14 @@ const App = () => {
         <div className="flex flex-col mb-10 items-center justify-center">
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
+          <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
         </div>
         <div className="flex mx-2 gap-4 items-center">
-          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftTechnical} />
-          <div id="technical-slider" className="flex px-4 overflow-x-scroll gap-8 scroll scroll-smooth whitespace-nowrap snap-x">
+          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer" alt="" onClick={slideLeftTechnical} />
+          <div id="technical-slider" className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x">
             {technicalEventsMap}
           </div>
-          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideRightTechnical} />
+          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer" alt="" onClick={slideRightTechnical} />
         </div>
 
       </div>
@@ -262,10 +303,11 @@ const App = () => {
         <div className="flex flex-col items-center justify-center mb-10">
           <h1 className="text-4xl wide-text font-semibold">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl wide-text font-semibold">NON-TECHNICAL</p>
+          <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
         </div>
         <div className="flex mx-2 gap-4 items-center">
           <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftNonTechnical} />
-          <div id="non-technical-slider" className="flex px-4 overflow-x-scroll gap-8 scroll scroll-smooth whitespace-nowrap snap-x">
+          <div id="non-technical-slider" className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x">
             {nonTechnicalEventsMap}
           </div>
           <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideRightNonTechnical} />
