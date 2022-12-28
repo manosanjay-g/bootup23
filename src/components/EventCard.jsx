@@ -11,14 +11,14 @@ const EventCard = ({ name, info, icon, index, short_description }) => {
             eventCard.classList.add('flip-card');
         }
     }
-    const goToRoute = () => {
-        const eventCard = document.getElementById(id);
-        if (eventCard.classList.contains('flip-card')) {
-            eventCard.classList.remove('flip-card');
-        }
-        window.location.href = "https://www.google.com";
+    // const goToRoute = () => {
+    //     const eventCard = document.getElementById(id);
+    //     if (eventCard.classList.contains('flip-card')) {
+    //         eventCard.classList.remove('flip-card');
+    //     }
+    //     window.location.href = "https://www.google.com";
 
-    }
+    // }
     const id = "event-card-" + index + ">not(.ignore-btn)";
     return (
         <div
