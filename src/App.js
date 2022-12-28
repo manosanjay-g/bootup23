@@ -5,6 +5,7 @@ const App = () => {
   const goToTechnical = () => {
     window.location.href = "#events-technical"
   };
+
   const technicalEvents = [
     {
       name: "Silicon Valley",
@@ -150,6 +151,7 @@ const App = () => {
     },
   ]
 
+  //Event Card Mapping Start
   const technicalEventsMap = technicalEvents.map((e) => {
     return <EventCard name={e.name} info={e.info} icon={e.icon} />
   })
@@ -160,7 +162,9 @@ const App = () => {
   setTimeout(() => {
     setLoading(false)
   }, 4000)
+  //Event Card Mapping End
 
+  // Slider Methods Start
   const slideLeftTechnical = () => {
     const slider = document.getElementById("technical-slider")
     slider.scrollLeft -= 250;
@@ -177,6 +181,8 @@ const App = () => {
     const slider = document.getElementById("non-technical-slider")
     slider.scrollLeft = slider.scrollLeft + 250
   }
+  //Slider Methods End
+
   return isLoading === true ? (
     <div className="flex justify-center stretch-to-screen ">
       <ParticlesBackground />
@@ -234,7 +240,7 @@ const App = () => {
           <p className="font-semibold wide-text text-md  px-2">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</p>
 
         </div>
-        <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 mb-8">
+        <button id="explore-button" onClick={goToTechnical} className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4">
           EXPLORE
         </button>
       </div>
