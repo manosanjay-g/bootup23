@@ -285,7 +285,7 @@ const App = () => {
         </button>
       </div>
       <div id="events-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
-        <div className="flex flex-col mb-10 items-center justify-center">
+        <div className="flex flex-col  items-center justify-center">
           <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
           <p className="text-gray-400 my-2 font-semibold text-xl wide-text">TECHNICAL</p>
           <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
@@ -300,7 +300,7 @@ const App = () => {
 
       </div>
       <div id="events-non-technical" className="flex flex-col py-10 sm:px-6 bg-black text-white  ">
-        <div className="flex flex-col items-center justify-center mb-10">
+        <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl wide-text font-semibold">EVENTS</h1>
           <p className="text-gray-400 my-2 text-xl wide-text font-semibold">NON-TECHNICAL</p>
           <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
