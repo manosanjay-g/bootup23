@@ -291,11 +291,11 @@ const App = () => {
           <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
         </div>
         <div className="flex mx-2 gap-4 items-center">
-          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer" alt="" onClick={slideLeftTechnical} />
+          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow" alt="" onClick={slideLeftTechnical} />
           <div id="technical-slider" className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x">
             {technicalEventsMap}
           </div>
-          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer" alt="" onClick={slideRightTechnical} />
+          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow" alt="" onClick={slideRightTechnical} />
         </div>
 
       </div>
@@ -306,11 +306,11 @@ const App = () => {
           <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">CLICK TO FLIP!</p>
         </div>
         <div className="flex mx-2 gap-4 items-center">
-          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideLeftNonTechnical} />
+          <img src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow" alt="" onClick={slideLeftNonTechnical} />
           <div id="non-technical-slider" className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x">
             {nonTechnicalEventsMap}
           </div>
-          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer hover:scale-150" alt="" onClick={slideRightNonTechnical} />
+          <img src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png" className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow" alt="" onClick={slideRightNonTechnical} />
         </div>
       </div>
       <div id="sponsers-and-organizers" className="flex flex-col py-10 bg-black text-white ">

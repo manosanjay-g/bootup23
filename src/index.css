@@ -65,7 +65,20 @@ body {
 #non-technical-slider {
   overflow-x: scroll;
 }
-
+.left-arrow {
+  display: none;
+}
+.right-arrow {
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  .left-arrow {
+    display: block;
+  }
+  .right-arrow {
+    display: block;
+  }
+}
 @media only screen and (min-width: 992px) {
   #technical-slider {
     overflow-x: scroll;
