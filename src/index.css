@@ -78,6 +78,15 @@ body {
   .right-arrow {
     display: block;
   }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
 @media only screen and (min-width: 992px) {
   #technical-slider {
