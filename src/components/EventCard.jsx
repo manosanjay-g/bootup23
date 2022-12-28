@@ -19,7 +19,7 @@ const EventCard = ({ name, info, icon, index, short_description }) => {
     //     window.location.href = "https://www.google.com";
 
     // }
-    const id = "event-card-" + index + ">not(.ignore-btn)";
+    const id = "event-card-" + index;
     return (
         <div
             id={id}
