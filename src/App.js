@@ -1,6 +1,7 @@
 import ParticlesBackground from "./components/ParticlesBackground";
 import EventCard from "./components/EventCard";
 import { useState } from "react";
+import OrganizerCard from "./components/OrganizerCard";
 const App = () => {
   const goToTechnical = () => {
     window.location.href = "#events-technical";
@@ -211,6 +212,290 @@ const App = () => {
     },
   ];
 
+  const organizersTechnical = [
+    {
+      name: "Surya V",
+      event: "Silicon Valley",
+      image: "",
+    },
+    {
+      name: "Chinna Sakthi V",
+      event: "Silicon Valley",
+      image: "",
+    },
+    {
+      name: "Jeevitha C",
+      event: "The Revolution",
+      image: "",
+    },
+    {
+      name: "Jeevamutharasi S",
+      event: "The Revolution",
+      image: "",
+    },
+    {
+      name: "Vijay A",
+      event: "404 Not Found",
+      image: "",
+    },
+    {
+      name: "Zafar Sadik H D",
+      event: "404 Not Found",
+      image: "",
+    },
+    {
+      name: "Akhila Vignesh",
+      event: "iCatching",
+      image: "",
+    },
+    {
+      name: "Jayapriyaa RG",
+      event: "iCatching",
+      image: "",
+    },
+    {
+      name: "Jeevana V",
+      event: "Halt and Catch Fire",
+      image: "",
+    },
+    {
+      name: "Harish Kumar S",
+      event: "Halt and Catch Fire",
+      image: "",
+    },
+    {
+      name: "Abuthahir A",
+      event: "The Perfect Exploit",
+      image: "",
+    },
+    {
+      name: "Krithic Kumar U B",
+      event: "The Perfect Exploit",
+      image: "",
+    },
+    {
+      name: "Rohit M",
+      event: "The Office",
+      image: "",
+    },
+    {
+      name: "Sriviveknath S R",
+      event: "The Office",
+      image: "",
+    },
+    {
+      name: "Abhijit PV",
+      event: "Machine Impossible",
+      image: "",
+    },
+    {
+      name: "Charan V",
+      event: "Machine Impossible",
+      image: "",
+    },
+    {
+      name: "Sriviveknath S R",
+      event: "Ex Machina",
+      image: "",
+    },
+    {
+      name: "Sujan G",
+      event: "Ex Machina",
+      image: "",
+    },
+    {
+      name: "Jagadeep N",
+      event: "Fly High",
+      image: "",
+    },
+    {
+      name: "Varun Rishwandh S",
+      event: "Fly High",
+      image: "",
+    },
+  ];
+  const organizersNonTechnical = [
+    {
+      name: "Mohanapriya R",
+      event: "#Vanmam",
+      image: "",
+    },
+    {
+      name: "Pootheswari J",
+      event: "#Vanmam",
+      image: "",
+    },
+    {
+      name: "Pavithra S",
+      event: "#Vanmam",
+      image: "",
+    },
+    {
+      name: "Mierudhula Sa",
+      event: "#Vanmam",
+      image: "",
+    },
+    {
+      name: "Dhanush Aravind A",
+      event: "Ready Player One (VALORANT)",
+      image: "",
+    },
+    {
+      name: "Udhayachandhiran",
+      event: "Ready Player One (VALORANT)",
+      image: "",
+    },
+    {
+      name: "Venkatesan R S",
+      event: "Ready Player One (VALORANT)",
+      image: "",
+    },
+    {
+      name: "Adesh Sai A",
+      event: "Ready Player One (VALORANT)",
+      image: "",
+    },
+    {
+      name: "Sudarchanan MS",
+      event: "Ready Player One (BGMI)",
+      image: "",
+    },
+    {
+      name: "Varun S",
+      event: "Ready Player One (BGMI)",
+      image: "",
+    },
+    {
+      name: "Anagha Nambiar",
+      event: "Oru Naal President",
+      image: "",
+    },
+    {
+      name: "Deepthi P",
+      event: "Oru Naal President",
+      image: "",
+    },
+    {
+      name: "Nandita Sajeev",
+      event: "Oru Naal President",
+      image: "",
+    },
+    {
+      name: "Anjana D",
+      event: "Fandom Wars",
+      image: "",
+    },
+    {
+      name: "Deepika R",
+      event: "Fandom Wars",
+      image: "",
+    },
+    {
+      name: "Dhanalakshmi R",
+      event: "Fandom Wars",
+      image: "",
+    },
+    {
+      name: "Kesheka E",
+      event: "Fandom Wars",
+      image: "",
+    },
+    {
+      name: "Aruna S",
+      event: "Naduvula Konjam Audio-va Kaanom",
+      image: "",
+    },
+    {
+      name: "Deepasree R",
+      event: "Naduvula Konjam Audio-va Kaanom",
+      image: "",
+    },
+    {
+      name: "Geethanjali M",
+      event: "Naduvula Konjam Audio-va Kaanom",
+      image: "",
+    },
+    {
+      name: "Harish S",
+      event: "Tiki-Taka",
+      image: "",
+    },
+    {
+      name: "Lakshmi Prasath S",
+      event: "Tiki-Taka",
+      image: "",
+    },
+    {
+      name: "Krishna Vamsee",
+      event: "Tiki-Taka",
+      image: "",
+    },
+    {
+      name: "Jabez Samuel W",
+      event: "Tiki-Taka",
+      image: "",
+    },
+    {
+      name: "Kevin Austin",
+      event: "Tiki-Taka",
+      image: "",
+    },
+    {
+      name: "Sabarish Abishek",
+      event: "Master The Blaster",
+      image: "",
+    },
+    {
+      name: "Riyazuddin",
+      event: "Master The Blaster",
+      image: "",
+    },
+    {
+      name: "Sabarish VU",
+      event: "Master The Blaster",
+      image: "",
+    },
+    {
+      name: "Sasidharan S",
+      event: "Master The Blaster",
+      image: "",
+    },
+    {
+      name: "Santhosh R",
+      event: "Master The Blaster",
+      image: "",
+    },
+    {
+      name: "Sharveshwaran R",
+      event: "Kodak",
+      image: "",
+    },
+    {
+      name: "Shwetha M",
+      event: "Kodak",
+      image: "",
+    },
+    {
+      name: "Santoshkumar PA",
+      event: "Kodak",
+      image: "",
+    },
+    {
+      name: "Varsha P",
+      event: "She Boss!",
+      image: "",
+    },
+    {
+      name: "Urjha MB",
+      event: "She Boss!",
+      image: "",
+    },
+    {
+      name: "Pooja V",
+      event: "She Boss!",
+      image: "",
+    },
+  ];
   //Event Card Mapping Start
   const technicalEventsMap = technicalEvents.map((e, index) => {
     return (
@@ -241,25 +526,69 @@ const App = () => {
     setLoading(false);
   }, 4000);
   //Event Card Mapping End
+  //Organizer Card Mapping Start
 
+  //Organizer Card Mapping End
+  const organizersTechnicalMap = organizersTechnical.map((e, index) => {
+    return (
+      <OrganizerCard
+        event={e.event}
+        name={e.name}
+        image={e.image}
+        index={index + "-t"}
+        key={index}
+      />
+    );
+  });
+  const organizersNonTechnicalMap = organizersNonTechnical.map((e, index) => {
+    return (
+      <OrganizerCard
+        event={e.event}
+        name={e.name}
+        image={e.image}
+        index={index + "-nt"}
+        key={index}
+      />
+    );
+  });
   // Slider Methods Start
   const slideLeft = (type) => {
     const technicalSlider = document.getElementById("technical-slider");
     const nonTechnicalSlider = document.getElementById("non-technical-slider");
+    const organizerTechnicalSlider = document.getElementById(
+      "organizer-technical-slider"
+    );
+    const organizerNonTechnicalSlider = document.getElementById(
+      "organizer-non-technical-slider"
+    );
     if (type === "technical-slider") {
       technicalSlider.scrollLeft -= 250;
     } else if (type === "non-technical-slider") {
       nonTechnicalSlider.scrollLeft -= 250;
+    } else if (type === "organizer-technical-slider") {
+      organizerTechnicalSlider.scrollLeft -= 250;
+    } else if (type === "organizer-non-technical-slider") {
+      organizerNonTechnicalSlider.scrollLeft -= 250;
     } else {
     }
   };
   const slideRight = (type) => {
     const technicalSlider = document.getElementById("technical-slider");
     const nonTechnicalSlider = document.getElementById("non-technical-slider");
+    const organizerTechnicalSlider = document.getElementById(
+      "organizer-technical-slider"
+    );
+    const organizerNonTechnicalSlider = document.getElementById(
+      "organizer-non-technical-slider"
+    );
     if (type === "technical-slider") {
       technicalSlider.scrollLeft += 250;
     } else if (type === "non-technical-slider") {
       nonTechnicalSlider.scrollLeft += 250;
+    } else if (type === "organizer-technical-slider") {
+      organizerTechnicalSlider.scrollLeft += 250;
+    } else if (type === "organizer-non-technical-slider") {
+      organizerNonTechnicalSlider.scrollLeft += 250;
     } else {
     }
   };
@@ -518,11 +847,67 @@ const App = () => {
             />
           </div>
         </div>
+      </div>
+      <div
+        id="organizers-technical"
+        className="flex flex-col py-10 sm:px-6  text-white  "
+      >
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl wide-text">ORGANIZERS</h1>
-          <div className="flex flex-row justify-around w-full my-10">
-            NAMES OF ORGANIZERS GOES HERE!
+          <h1 className="text-4xl wide-text font-semibold">ORGANIZERS</h1>
+          <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
+            TECHNICAL
+          </p>
+        </div>
+        <div className="flex mx-2 gap-4 items-center">
+          <img
+            src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
+            className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
+            alt=""
+            onClick={() => slideLeft("organizer-technical-slider")}
+          />
+          <div
+            id="organizer-technical-slider"
+            className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+          >
+            {organizersTechnicalMap}
           </div>
+          <img
+            src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
+            className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
+            alt=""
+            onClick={() => slideRight("organizer-technical-slider")}
+          />
+        </div>
+      </div>
+      <div
+        id="organizers-non-technical"
+        className="flex flex-col py-10 sm:px-6  text-white  "
+      >
+        <div className="flex flex-col items-center justify-center">
+          <h1 className="text-4xl wide-text font-semibold">ORGANIZERS</h1>
+          <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
+            NON-TECHNICAL
+          </p>
+        </div>
+        <div className="flex mx-2 gap-4 items-center">
+          <img
+            src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
+            className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
+            alt=""
+            onClick={() => slideLeft("organizer-non-technical-slider")}
+          />
+          <div
+            id="organizer-non-technical-slider"
+            className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+          >
+            {organizersNonTechnicalMap}
+          </div>
+          <img
+            src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
+            className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
+            alt=""
+            onClick={() => slideRight("organizer-non-technical-slider")}
+          />
         </div>
       </div>
     </div>
