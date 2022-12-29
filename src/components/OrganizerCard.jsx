@@ -25,7 +25,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
                 minHeight: "24rem",
                 maxHeight: "24rem",
             }}
-            className="organizer-card bg-orange-900 bg-opacity-50  snap-center border-4 border-orange-400 text-center mt-4 cursor-default "
+            className="organizer-card bg-[#3e1709] snap-center border-4 border-orange-400 text-center mt-4 cursor-default "
 
         >
             <div className="box-organizers top left"></div>
