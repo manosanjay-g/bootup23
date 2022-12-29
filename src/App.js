@@ -243,21 +243,25 @@ const App = () => {
   //Event Card Mapping End
 
   // Slider Methods Start
-  const slideLeftTechnical = () => {
-    const slider = document.getElementById("technical-slider");
-    slider.scrollLeft -= 250;
+  const slideLeft = (type) => {
+    const technicalSlider = document.getElementById("technical-slider");
+    const nonTechnicalSlider = document.getElementById("non-technical-slider");
+    if (type === "technical-slider") {
+      technicalSlider.scrollLeft -= 250;
+    } else if (type === "non-technical-slider") {
+      nonTechnicalSlider.scrollLeft -= 250;
+    } else {
+    }
   };
-  const slideRightTechnical = () => {
-    const slider = document.getElementById("technical-slider");
-    slider.scrollLeft = slider.scrollLeft + 250;
-  };
-  const slideLeftNonTechnical = () => {
-    const slider = document.getElementById("non-technical-slider");
-    slider.scrollLeft -= 250;
-  };
-  const slideRightNonTechnical = () => {
-    const slider = document.getElementById("non-technical-slider");
-    slider.scrollLeft = slider.scrollLeft + 250;
+  const slideRight = (type) => {
+    const technicalSlider = document.getElementById("technical-slider");
+    const nonTechnicalSlider = document.getElementById("non-technical-slider");
+    if (type === "technical-slider") {
+      technicalSlider.scrollLeft += 250;
+    } else if (type === "non-technical-slider") {
+      nonTechnicalSlider.scrollLeft += 250;
+    } else {
+    }
   };
   //Slider Methods End
 
@@ -440,7 +444,7 @@ const App = () => {
             src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
             className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
             alt=""
-            onClick={slideLeftTechnical}
+            onClick={() => slideLeft("technical-slider")}
           />
           <div
             id="technical-slider"
@@ -452,7 +456,7 @@ const App = () => {
             src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
             className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
             alt=""
-            onClick={slideRightTechnical}
+            onClick={() => slideRight("technical-slider")}
           />
         </div>
       </div>
@@ -474,7 +478,7 @@ const App = () => {
             src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
             className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
             alt=""
-            onClick={slideLeftNonTechnical}
+            onClick={() => slideLeft("non-technical-slider")}
           />
           <div
             id="non-technical-slider"
@@ -486,7 +490,7 @@ const App = () => {
             src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
             className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
             alt=""
-            onClick={slideRightNonTechnical}
+            onClick={() => slideRight("non-technical-slider")}
           />
         </div>
       </div>
