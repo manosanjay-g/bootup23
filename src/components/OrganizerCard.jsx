@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 const OrganizerCard = ({ name, event, image, index }) => {
     const uppercaseName = name.toUpperCase();
-    const uppercaseEvent = event.toUpperCase();
+    const uppercaseEvent = event !== "iCatching" ? event.toUpperCase() : "iCATCHING";
 
     const id = "organizer-card-" + index;
     const imageAnimate = {
