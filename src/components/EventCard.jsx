@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom';
 const EventCard = ({ name, info, icon, index, short_description }) => {
     const uppercaseName = name !== "iCatching" ? name.toUpperCase() : "iCATCHING";
     const uppercaseInfo = info.toUpperCase();
-
+    const navigate = useNavigate();
     const flipCard = () => {
         console.log(id);
         const eventCard = document.getElementById(id);
@@ -58,7 +59,7 @@ const EventCard = ({ name, info, icon, index, short_description }) => {
                     <motion.p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest">{uppercaseInfo}</motion.p>
                 </motion.div>
                 <motion.img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={iconAnimate} alt="event-img" src={icon} className="w-20 my-2 self-center " />
-                <button className="ignore-btn self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
+                <button onClick={() => navigate("/event-details")} className="ignore-btn self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
                     MORE INFO
                 </button>
 

@@ -2,6 +2,8 @@ import ParticlesBackground from "./components/ParticlesBackground";
 import { useState } from "react";
 import Home from "./views/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MiniGame from "./views/MiniGame";
+import EventDetails from "./views/EventDetails";
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   setTimeout(() => {
@@ -65,7 +67,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<>Hello</>} />
+        <Route path="/event-details" element={<EventDetails />} />
+        <Route path="/mini-game" element={<MiniGame />} />
       </Routes>
     </BrowserRouter>
   );

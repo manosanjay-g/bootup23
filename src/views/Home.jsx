@@ -8,7 +8,6 @@ const Home = () => {
     };
 
     const navigate = useNavigate();
-
     const technicalEvents = [
         {
             name: "Silicon Valley",
@@ -692,13 +691,22 @@ const Home = () => {
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
                 </div>
-                <button
-                    id="explore-button"
-                    onClick={goToTechnical}
-                    className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4"
-                >
-                    EXPLORE
-                </button>
+                <div className="flex flex-row gap-2">
+                    <button
+                        id="explore-button"
+                        onClick={goToTechnical}
+                        className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4"
+                    >
+                        EXPLORE
+                    </button>
+                    <button
+                        id="explore-button"
+                        onClick={() => navigate("/mini-game")}
+                        className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4"
+                    >
+                        MINI GAME
+                    </button>
+                </div>
             </div>
             <div
                 id="events-technical"
