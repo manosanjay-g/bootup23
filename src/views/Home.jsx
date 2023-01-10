@@ -1,13 +1,13 @@
 import ParticlesBackground from "../components/ParticlesBackground";
 import EventCard from "../components/EventCard";
 import OrganizerCard from "../components/OrganizerCard";
-import { useNavigate } from "react-router-dom";
+
 const Home = () => {
     const goToTechnical = () => {
         window.location.href = "#events-technical";
     };
 
-    const navigate = useNavigate();
+    
 
     const technicalEvents = [
         {
