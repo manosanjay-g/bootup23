@@ -1,6 +1,6 @@
 import ParticlesBackground from "../components/ParticlesBackground";
 import OrganizerCard from "../components/OrganizerCard";
-import './textGlitch.css';
+
 const EventDetails = () => {
     return (
         <>
@@ -8,14 +8,9 @@ const EventDetails = () => {
         <div id="event-details" className="m-10">
             <ParticlesBackground /> 
             <div className="text-center" id="event-description">
-                {/* Title Glitch Effect */}
-                <div class="content">
-                    <h2 class="text" data-text="Silicon Valley">
-                        Silicon Valley
-                    </h2>
-                </div>
-                {/* <h2 className="font-bold text-white my-4 font-semibold text-7xl wide-text">Silicon Valley</h2> */}
-                <p className="text-white text-lg mx-60 justify-center mt-10 mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+               
+                 <h2 className="font-bold text-white my-4 font-semibold text-7xl wide-text">Silicon Valley</h2> 
+                <p className="text-white text-lg mx-60 justify-center mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>    
             <div className="text-center" id="event-rules">
                 <h2 className="font-bold text-white my-4 font-semibold wide-text text-3xl mb-5">Rules</h2>
