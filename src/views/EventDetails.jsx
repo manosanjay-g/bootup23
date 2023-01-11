@@ -29,14 +29,19 @@ const EventDetails = () => {
             
             <h2 className="font-bold text-white my-4 font-semibold wide-text text-3xl mb-5 text-center">Event Organizers</h2>
             <div id="event-organizers" className="flex flex-row flex-nowrap space-x-10 justify-center">
+                <div className="hover:scale-110 transition duration-300">
                 <OrganizerCard
                     name="John"
                     event="Silicon Valley"
                     />
-                    <OrganizerCard
+                </div>
+                <div className="hover:scale-110 transition duration-300">
+                <OrganizerCard
                     name="John"
                     event="Silicon Valley"
                     />
+                    </div>                
+                    
             </div>
         </div>
     </>
