@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom';
-const EventCard = ({ name, info, icon, index, short_description }) => {
+const EventCard = ({ name, info, icon, index, description, short_description, rules, type, eligibility, organizers, link }) => {
     const uppercaseName = name !== "iCatching" ? name.toUpperCase() : "iCATCHING";
     const uppercaseInfo = info.toUpperCase();
     const navigate = useNavigate();
@@ -13,14 +13,6 @@ const EventCard = ({ name, info, icon, index, short_description }) => {
             eventCard.classList.add('flip-card');
         }
     }
-    // const goToRoute = () => {
-    //     const eventCard = document.getElementById(id);
-    //     if (eventCard.classList.contains('flip-card')) {
-    //         eventCard.classList.remove('flip-card');
-    //     }
-    //     window.location.href = "https://www.google.com";
-
-    // }
     const id = "event-card-" + index;
     const iconAnimate = {
         hidden: { opacity: 0, x: -100 },
@@ -59,7 +51,7 @@ const EventCard = ({ name, info, icon, index, short_description }) => {
                     <motion.p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest">{uppercaseInfo}</motion.p>
                 </motion.div>
                 <motion.img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={iconAnimate} alt="event-img" src={icon} className="w-20 my-2 self-center " />
-                <button onClick={() => navigate("/event-details")} className="ignore-btn self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
+                <button onClick={() => navigate("/event-details", { state: { name: name, info: info, type: type, eligibility: eligibility, description: description, rules: rules, organizers: organizers, link: link } })} className="ignore-btn self-center border-solid border-2 mt-5 border-blue-400 px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
                     MORE INFO
                 </button>
 
