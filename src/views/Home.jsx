@@ -11,7 +11,7 @@ const Home = () => {
             info: "Project Expo",
             icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
             route: "/silicon-valley",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -28,7 +28,7 @@ const Home = () => {
             info: "Paper Presentation",
             icon: "https://img.icons8.com/windows/96/ffffff/presentation-screen.png",
             route: "/the-revolution",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -45,7 +45,7 @@ const Home = () => {
             info: "Bug Hunting",
             icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
             route: "/404-not-found",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -62,7 +62,7 @@ const Home = () => {
             info: "Web Development",
             icon: "https://img.icons8.com/ios/100/ffffff/web.png",
             route: "/icatching",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -79,7 +79,7 @@ const Home = () => {
             info: "Code Relay",
             icon: "https://img.icons8.com/ios/100/ffffff/keyboard.png",
             route: "/halt-and-catch-fire",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -96,7 +96,7 @@ const Home = () => {
             info: "Capture the flag",
             icon: "https://img.icons8.com/ios/100/ffffff/flag--v1.png",
             route: "/the-perfect-exploit",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -113,7 +113,7 @@ const Home = () => {
             info: "Interview",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/briefcase.png",
             route: "/the-office",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -130,7 +130,7 @@ const Home = () => {
             info: "PC Assembling",
             icon: "https://img.icons8.com/ios/100/ffffff/workstation.png",
             route: "/machine-impossible",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -147,7 +147,7 @@ const Home = () => {
             info: "RPA",
             icon: "https://img.icons8.com/material-rounded/96/ffffff/bot.png",
             route: "/ex-machina",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -164,7 +164,7 @@ const Home = () => {
             info: "Drone Event",
             icon: "https://img.icons8.com/material-rounded/96/ffffff/drone.png",
             route: "/fly-high",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -183,7 +183,7 @@ const Home = () => {
             info: "Rant Talk",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/voice-recognition-scan.png",
             route: "/vanmam",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -200,7 +200,7 @@ const Home = () => {
             info: "(Valorant)",
             icon: "https://img.icons8.com/ios/100/ffffff/valorant.png",
             route: "/ready-player-one-valorant",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -217,7 +217,7 @@ const Home = () => {
             info: "(BGMI)",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/pubg.png",
             route: "/ready-player-one-bgmi",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -234,7 +234,7 @@ const Home = () => {
             info: "Presidential Campaign",
             icon: "https://img.icons8.com/external-others-pike-picture/100/ffffff/external-President-democracy-others-pike-picture-3.png",
             route: "/oru-naal-president",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -251,7 +251,7 @@ const Home = () => {
             info: "Fandom Quiz",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
             route: "/fandom-quiz",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -268,7 +268,7 @@ const Home = () => {
             info: "Audio Dubbing",
             icon: "https://img.icons8.com/material-sharp/96/ffffff/micro.png",
             route: "/naduvula-konjam-audiova-kaanom",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -285,7 +285,7 @@ const Home = () => {
             info: "Football",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
             route: "/tiki-taka",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -302,7 +302,7 @@ const Home = () => {
             info: "Box Cricket",
             icon: "https://img.icons8.com/ios/100/ffffff/cricket.png",
             route: "/master-the-blaster",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -319,7 +319,7 @@ const Home = () => {
             info: "Photograph",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
             route: "/kodak",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
@@ -336,7 +336,7 @@ const Home = () => {
             info: "Exclusive to WOMEN",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/woman-head.png",
             route: "/she-boss",
-            description: "",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: ["Rule 1", "Rule 2"],
