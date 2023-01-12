@@ -1,4 +1,3 @@
-import ParticlesBackground from "../components/ParticlesBackground";
 import EventCard from "../components/EventCard";
 import OrganizerCard from "../components/OrganizerCard";
 const Home = () => {
@@ -552,8 +551,7 @@ const Home = () => {
     //Faculty Coordinators Card Mapping End
 
     return (
-        <div>
-            <ParticlesBackground />
+        <div className="bg-black">
 
             <div
                 id="landing"

@@ -1,11 +1,9 @@
-import ParticlesBackground from "../components/ParticlesBackground";
 import OrganizerCard from "../components/OrganizerCard";
 import { useLocation } from 'react-router-dom'
 const EventDetails = () => {
     const { state } = useLocation()
     return (
-        <div id="event-details" className="flex flex-col items-center py-7 px-4">
-            <ParticlesBackground />
+        <div id="event-details" className="flex flex-col items-center py-7 px-4 bg-black">
             <div
                 className="flex flex-col "
                 id="event-description"

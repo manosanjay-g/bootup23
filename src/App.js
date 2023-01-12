@@ -1,4 +1,3 @@
-import ParticlesBackground from "./components/ParticlesBackground";
 import { useState } from "react";
 import Home from "./views/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -10,8 +9,7 @@ const App = () => {
     setLoading(false);
   }, 4000);
   return isLoading === true ? (
-    <div className="flex justify-center stretch-to-screen ">
-      <ParticlesBackground />
+    <div className="flex justify-center stretch-to-screen bg-black ">
       <div className="flex flex-row items-center">
         <svg
           width="190"
