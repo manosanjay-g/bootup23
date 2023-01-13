@@ -51,7 +51,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Jeevitha C",
+                    event: "The Revolution",
+                    image: "",
+                },
+                {
+                    name: "Jeevamutharasi S",
+                    event: "The Revolution",
                     image: "",
                 },
             ],
@@ -71,7 +77,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Vijay A",
+                    event: "404 Not Found",
+                    image: "",
+                },
+                {
+                    name: "Zafar Sadik H D",
+                    event: "404 Not Found",
                     image: "",
                 },
             ],
@@ -91,7 +103,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Akhila Vignesh",
+                    event: "iCatching",
+                    image: "",
+                },
+                {
+                    name: "Jayapriyaa RG",
+                    event: "iCatching",
                     image: "",
                 },
             ],
@@ -111,7 +129,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Jeevana V",
+                    event: "Halt and Catch Fire",
+                    image: "",
+                },
+                {
+                    name: "Harish Kumar S",
+                    event: "Halt and Catch Fire",
                     image: "",
                 },
             ],
@@ -131,7 +155,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Abuthahir A",
+                    event: "The Perfect Exploit",
+                    image: "",
+                },
+                {
+                    name: "Krithic Kumar U B",
+                    event: "The Perfect Exploit",
                     image: "",
                 },
             ],
@@ -151,7 +181,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Rohit M",
+                    event: "The Office",
+                    image: "",
+                },
+                {
+                    name: "Sriviveknath S R",
+                    event: "The Office",
                     image: "",
                 },
             ],
@@ -171,7 +207,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Abhijit PV",
+                    event: "Machine Impossible",
+                    image: "",
+                },
+                {
+                    name: "Charan V",
+                    event: "Machine Impossible",
                     image: "",
                 },
             ],
@@ -191,7 +233,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Sriviveknath S R",
+                    event: "Ex Machina",
+                    image: "",
+                },
+                {
+                    name: "Sujan G",
+                    event: "Ex Machina",
                     image: "",
                 },
             ],
@@ -211,7 +259,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Jagadeep N",
+                    event: "Fly High",
+                    image: "",
+                },
+                {
+                    name: "Varun Rishwandh S",
+                    event: "Fly High",
                     image: "",
                 },
             ],
@@ -233,7 +287,23 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Mohanapriya R",
+                    event: "#Vanmam",
+                    image: "",
+                },
+                {
+                    name: "Pootheswari J",
+                    event: "#Vanmam",
+                    image: "",
+                },
+                {
+                    name: "Pavithra S",
+                    event: "#Vanmam",
+                    image: "",
+                },
+                {
+                    name: "Mierudhula Sa",
+                    event: "#Vanmam",
                     image: "",
                 },
             ],
@@ -253,7 +323,23 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Dhanush Aravind A",
+                    event: "Ready Player One",
+                    image: "",
+                },
+                {
+                    name: "Adesh Sai A",
+                    event: "Ready Player One",
+                    image: "",
+                },
+                {
+                    name: "Udhayachandhiran",
+                    event: "Ready Player One",
+                    image: "",
+                },
+                {
+                    name: "Venkatesan R S",
+                    event: "Ready Player One",
                     image: "",
                 },
             ],
@@ -273,7 +359,13 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Sudarchanan MS",
+                    event: "Ready Player One",
+                    image: "",
+                },
+                {
+                    name: "Varun S",
+                    event: "Ready Player One",
                     image: "",
                 },
             ],
@@ -293,7 +385,18 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Anagha Nambiar",
+                    event: "Oru Naal President",
+                    image: "",
+                },
+                {
+                    name: "Deepthi P",
+                    event: "Oru Naal President",
+                    image: "",
+                },
+                {
+                    name: "Nandita Sajeev",
+                    event: "Oru Naal President",
                     image: "",
                 },
             ],
@@ -313,7 +416,23 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Anjana D",
+                    event: "Fandom Wars",
+                    image: "",
+                },
+                {
+                    name: "Deepika R",
+                    event: "Fandom Wars",
+                    image: "",
+                },
+                {
+                    name: "Dhanalakshmi R",
+                    event: "Fandom Wars",
+                    image: "",
+                },
+                {
+                    name: "Kesheka E",
+                    event: "Fandom Wars",
                     image: "",
                 },
             ],
@@ -333,7 +452,18 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Aruna S",
+                    event: "Naduvula Konjam Audio-va Kaanom",
+                    image: "",
+                },
+                {
+                    name: "Deepasree R",
+                    event: "Naduvula Konjam Audio-va Kaanom",
+                    image: "",
+                },
+                {
+                    name: "Geethanjali M",
+                    event: "Naduvula Konjam Audio-va Kaanom",
                     image: "",
                 },
             ],
@@ -353,7 +483,28 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Harish S",
+                    event: "Tiki-Taka",
+                    image: "",
+                },
+                {
+                    name: "Lakshmi Prasath S",
+                    event: "Tiki-Taka",
+                    image: "",
+                },
+                {
+                    name: "Krishna Vamsee",
+                    event: "Tiki-Taka",
+                    image: "",
+                },
+                {
+                    name: "Jabez Samuel W",
+                    event: "Tiki-Taka",
+                    image: "",
+                },
+                {
+                    name: "Kevin Austin",
+                    event: "Tiki-Taka",
                     image: "",
                 },
             ],
@@ -373,7 +524,28 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Sabarish Abishek",
+                    event: "Master the Blaster",
+                    image: "",
+                },
+                {
+                    name: "Riyazuddin",
+                    event: "Master the Blaster",
+                    image: "",
+                },
+                {
+                    name: "Sabarish VU",
+                    event: "Master the Blaster",
+                    image: "",
+                },
+                {
+                    name: "Sasidharan S",
+                    event: "Master the Blaster",
+                    image: "",
+                },
+                {
+                    name: "Santhosh R",
+                    event: "Master the Blaster",
                     image: "",
                 },
             ],
@@ -393,7 +565,18 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Sharveshwaran R",
+                    event: "Kodak",
+                    image: "",
+                },
+                {
+                    name: "Shwetha M",
+                    event: "Kodak",
+                    image: "",
+                },
+                {
+                    name: "Santoshkumar PA",
+                    event: "Kodak",
                     image: "",
                 },
             ],
@@ -413,7 +596,18 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "John",
+                    name: "Varsha P",
+                    event: "She Boss!",
+                    image: "",
+                },
+                {
+                    name: "Urjha MB",
+                    event: "She Boss!",
+                    image: "",
+                },
+                {
+                    name: "Pooja V",
+                    event: "She Boss!",
                     image: "",
                 },
             ],
