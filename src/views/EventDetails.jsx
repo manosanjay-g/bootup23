@@ -18,7 +18,7 @@ const EventDetails = () => {
                 id="event-description"
             >
                 <h2 className="text-white font-bold text-center text-4xl tracking-widest">
-                    {state.name.toUpperCase()}
+                    {state.name === 'iCatching' ? "iCATCHING" : state.name.toUpperCase()}
                 </h2>
                 <div className="my-4 text-center">
                     <p className="text-white font-semibold text-lg  justify-center  tracking-widest">
