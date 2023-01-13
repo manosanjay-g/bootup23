@@ -2,13 +2,15 @@ import { useState } from "react";
 import Home from "./views/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EventDetails from "./views/EventDetails";
+import ParticlesBackground from "./components/ParticlesBackground";
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
   }, 4000);
   return isLoading === true ? (
-    <div className="flex justify-center stretch-to-screen bg-black ">
+    <div className="flex justify-center stretch-to-screen">
+      <ParticlesBackground />
       <div className="flex flex-row items-center">
         <svg
           width="190"

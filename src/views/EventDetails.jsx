@@ -1,9 +1,18 @@
 import OrganizerCard from "../components/OrganizerCard";
 import { useLocation } from 'react-router-dom'
+import { motion } from "framer-motion";
+import { useEffect } from 'react'
 const EventDetails = () => {
     const { state } = useLocation()
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
-        <div id="event-details" className="flex flex-col items-center py-7 px-4 bg-black">
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1 } }}
+            exit={{ opacity: 0 }}
+            id="event-details" className="flex flex-col items-center py-7 px-4 bg-black">
             <div
                 className="flex flex-col "
                 id="event-description"
@@ -47,12 +56,12 @@ const EventDetails = () => {
                     RULES
                 </p>
                 <ul
-                    className=" text-lg text-center  list-inside text-white my-2"
+                    className=" text-lg text-center list-inside list-decimal text-white my-2"
                     id="event-rules-list"
                 >
                     {
                         state.rules.map((e, index) => {
-                            return <li key={e + index}>{e}</li>
+                            return <li className="my-8 " key={e + index}>{e}</li>
                         })
                     }
                 </ul>
@@ -84,7 +93,7 @@ const EventDetails = () => {
                     })}
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

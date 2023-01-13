@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: black;
 }
 ::-webkit-scrollbar {
   -webkit-appearance: none;
@@ -133,4 +134,8 @@ body {
   left: 0;
   right: 0;
   backface-visibility: hidden;
+}
+
+#event-details {
+  white-space: pre-line;
 }
