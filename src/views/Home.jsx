@@ -1,13 +1,11 @@
-import ParticlesBackground from "../components/ParticlesBackground";
 import EventCard from "../components/EventCard";
 import OrganizerCard from "../components/OrganizerCard";
-
+import ParticlesBackground from "../components/ParticlesBackground";
+import { motion } from "framer-motion";
 const Home = () => {
     const goToTechnical = () => {
         window.location.href = "#events-technical";
     };
-
-    
 
     const technicalEvents = [
         {
@@ -15,100 +13,209 @@ const Home = () => {
             info: "Project Expo",
             icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
             route: "/silicon-valley",
-            description: "",
+            description:
+                "Can you think out of the box and come up with innovative solutions? This is the right event for you techie, yes you!\n\nThis event includes a hands-on workshop where you will learn all the necessary skills to participate in the contest.",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: [
+                "Teams must consist of a minimum of 2 participants and a maximum of 3 participants.",
+                "All team members must be from the same year.",
+            ],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "Surya V",
+                    event: "Silicon Valley",
+                    image: "",
+                },
+                {
+                    name: "Chinna Sakthi V",
+                    event: "Silicon Valley",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "The Revolution",
             info: "Paper Presentation",
             icon: "https://img.icons8.com/windows/96/ffffff/presentation-screen.png",
             route: "/the-revolution",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "404 Not Found",
             info: "Bug Hunting",
             icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
             route: "/404-not-found",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "iCatching",
             info: "Web Development",
             icon: "https://img.icons8.com/ios/100/ffffff/web.png",
             route: "/icatching",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Halt and Catch Fire",
             info: "Code Relay",
             icon: "https://img.icons8.com/ios/100/ffffff/keyboard.png",
             route: "/halt-and-catch-fire",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "The Perfect Exploit",
             info: "Capture the flag",
             icon: "https://img.icons8.com/ios/100/ffffff/flag--v1.png",
             route: "/the-perfect-exploit",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "The Office",
             info: "Interview",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/briefcase.png",
             route: "/the-office",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Machine Impossible",
             info: "PC Assembling",
             icon: "https://img.icons8.com/ios/100/ffffff/workstation.png",
             route: "/machine-impossible",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Ex Machina",
             info: "RPA",
             icon: "https://img.icons8.com/material-rounded/96/ffffff/bot.png",
             route: "/ex-machina",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Fly High",
             info: "Drone Event",
             icon: "https://img.icons8.com/material-rounded/96/ffffff/drone.png",
             route: "/fly-high",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
     ];
     const nonTechnicalEvents = [
@@ -117,104 +224,204 @@ const Home = () => {
             info: "Rant Talk",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/voice-recognition-scan.png",
             route: "/vanmam",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Ready Player One",
             info: "(Valorant)",
             icon: "https://img.icons8.com/ios/100/ffffff/valorant.png",
             route: "/ready-player-one-valorant",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Ready Player One",
             info: "(BGMI)",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/pubg.png",
             route: "/ready-player-one-bgmi",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Oru Naal President",
             info: "Presidential Campaign",
             icon: "https://img.icons8.com/external-others-pike-picture/100/ffffff/external-President-democracy-others-pike-picture-3.png",
             route: "/oru-naal-president",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Fandom Wars",
             info: "Fandom Quiz",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
             route: "/fandom-quiz",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Naduvula Konjam Audio-va Kaanom",
             info: "Audio Dubbing",
             icon: "https://img.icons8.com/material-sharp/96/ffffff/micro.png",
             route: "/naduvula-konjam-audiova-kaanom",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Tiki-Taka",
             info: "Football",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
             route: "/tiki-taka",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Master the Blaster",
             info: "Box Cricket",
             icon: "https://img.icons8.com/ios/100/ffffff/cricket.png",
             route: "/master-the-blaster",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "Kodak",
             info: "Photograph",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
             route: "/kodak",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
         {
             name: "She Boss!",
             info: "Exclusive to WOMEN",
             icon: "https://img.icons8.com/ios-filled/100/ffffff/woman-head.png",
             route: "/she-boss",
-            description: "",
+            description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: [],
+            rules: ["Rule 1", "Rule 2"],
+            type: "Team Event",
+            eligibility: "Open to all departments",
+            organizers: [
+                {
+                    name: "John",
+                    image: "",
+                },
+            ],
+            link: "",
         },
     ];
 
-    const organizersTechnical = [
+    const facultyCoordinators = [
         {
             name: "Surya V",
             event: "Silicon Valley",
@@ -316,188 +523,7 @@ const Home = () => {
             image: "",
         },
     ];
-    const organizersNonTechnical = [
-        {
-            name: "Mohanapriya R",
-            event: "#Vanmam",
-            image: "",
-        },
-        {
-            name: "Pootheswari J",
-            event: "#Vanmam",
-            image: "",
-        },
-        {
-            name: "Pavithra S",
-            event: "#Vanmam",
-            image: "",
-        },
-        {
-            name: "Mierudhula Sa",
-            event: "#Vanmam",
-            image: "",
-        },
-        {
-            name: "Dhanush Aravind A",
-            event: "Ready Player One (VALORANT)",
-            image: "",
-        },
-        {
-            name: "Udhayachandhiran",
-            event: "Ready Player One (VALORANT)",
-            image: "",
-        },
-        {
-            name: "Venkatesan R S",
-            event: "Ready Player One (VALORANT)",
-            image: "",
-        },
-        {
-            name: "Adesh Sai A",
-            event: "Ready Player One (VALORANT)",
-            image: "",
-        },
-        {
-            name: "Sudarchanan MS",
-            event: "Ready Player One (BGMI)",
-            image: "",
-        },
-        {
-            name: "Varun S",
-            event: "Ready Player One (BGMI)",
-            image: "",
-        },
-        {
-            name: "Anagha Nambiar",
-            event: "Oru Naal President",
-            image: "",
-        },
-        {
-            name: "Deepthi P",
-            event: "Oru Naal President",
-            image: "",
-        },
-        {
-            name: "Nandita Sajeev",
-            event: "Oru Naal President",
-            image: "",
-        },
-        {
-            name: "Anjana D",
-            event: "Fandom Wars",
-            image: "",
-        },
-        {
-            name: "Deepika R",
-            event: "Fandom Wars",
-            image: "",
-        },
-        {
-            name: "Dhanalakshmi R",
-            event: "Fandom Wars",
-            image: "",
-        },
-        {
-            name: "Kesheka E",
-            event: "Fandom Wars",
-            image: "",
-        },
-        {
-            name: "Aruna S",
-            event: "Naduvula Konjam Audio-va Kaanom",
-            image: "",
-        },
-        {
-            name: "Deepasree R",
-            event: "Naduvula Konjam Audio-va Kaanom",
-            image: "",
-        },
-        {
-            name: "Geethanjali M",
-            event: "Naduvula Konjam Audio-va Kaanom",
-            image: "",
-        },
-        {
-            name: "Harish S",
-            event: "Tiki-Taka",
-            image: "",
-        },
-        {
-            name: "Lakshmi Prasath S",
-            event: "Tiki-Taka",
-            image: "",
-        },
-        {
-            name: "Krishna Vamsee",
-            event: "Tiki-Taka",
-            image: "",
-        },
-        {
-            name: "Jabez Samuel W",
-            event: "Tiki-Taka",
-            image: "",
-        },
-        {
-            name: "Kevin Austin",
-            event: "Tiki-Taka",
-            image: "",
-        },
-        {
-            name: "Sabarish Abishek",
-            event: "Master The Blaster",
-            image: "",
-        },
-        {
-            name: "Riyazuddin",
-            event: "Master The Blaster",
-            image: "",
-        },
-        {
-            name: "Sabarish VU",
-            event: "Master The Blaster",
-            image: "",
-        },
-        {
-            name: "Sasidharan S",
-            event: "Master The Blaster",
-            image: "",
-        },
-        {
-            name: "Santhosh R",
-            event: "Master The Blaster",
-            image: "",
-        },
-        {
-            name: "Sharveshwaran R",
-            event: "Kodak",
-            image: "",
-        },
-        {
-            name: "Shwetha M",
-            event: "Kodak",
-            image: "",
-        },
-        {
-            name: "Santoshkumar PA",
-            event: "Kodak",
-            image: "",
-        },
-        {
-            name: "Varsha P",
-            event: "She Boss!",
-            image: "",
-        },
-        {
-            name: "Urjha MB",
-            event: "She Boss!",
-            image: "",
-        },
-        {
-            name: "Pooja V",
-            event: "She Boss!",
-            image: "",
-        },
-    ];
+
     //Event Card Mapping Start
     const technicalEventsMap = technicalEvents.map((e, index) => {
         return (
@@ -507,7 +533,13 @@ const Home = () => {
                 icon={e.icon}
                 index={index + "-t"}
                 key={index}
+                description={e.description}
                 short_description={e.short_description}
+                rules={e.rules}
+                eligibility={e.eligibility}
+                link={e.link}
+                organizers={e.organizers}
+                type={e.type}
             />
         );
     });
@@ -519,7 +551,13 @@ const Home = () => {
                 icon={e.icon}
                 index={index + "-nt"}
                 key={index}
+                description={e.description}
                 short_description={e.short_description}
+                rules={e.rules}
+                eligibility={e.eligibility}
+                link={e.link}
+                organizers={e.organizers}
+                type={e.type}
             />
         );
     });
@@ -568,8 +606,8 @@ const Home = () => {
     };
     //Slider Methods End
 
-    //Organizer Card Mapping Start
-    const organizersTechnicalMap = organizersTechnical.map((e, index) => {
+    //Faculty Coordinators Card Mapping Start
+    const FacultyCoordinatorsMap = facultyCoordinators.map((e, index) => {
         return (
             <OrganizerCard
                 event={e.event}
@@ -580,29 +618,27 @@ const Home = () => {
             />
         );
     });
-    const organizersNonTechnicalMap = organizersNonTechnical.map((e, index) => {
-        return (
-            <OrganizerCard
-                event={e.event}
-                name={e.name}
-                image={e.image}
-                index={index + "-nt"}
-                key={index}
-            />
-        );
-    });
-    //Organizer Card Mapping End
+
+    //Faculty Coordinators Card Mapping End
 
     return (
-        <div>
+        <motion.div
+            className=""
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1 } }}
+            exit={{ opacity: 0 }}
+        >
             <ParticlesBackground />
-
             <div
                 id="landing"
                 className="flex flex-col items-center py-7  text-white stretch-to-screen  justify-between"
             >
                 <div className="flex flex-row justify-center">
-                    <img src={require("../assets/REC.png")} className="h-15 w-40" alt="" />
+                    <img
+                        src={require("../assets/REC.png")}
+                        className="h-15 w-40"
+                        alt=""
+                    />
                 </div>
                 <div
                     id="logo-and-line"
@@ -692,20 +728,22 @@ const Home = () => {
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
                 </div>
-                <button
-                    id="explore-button"
-                    onClick={goToTechnical}
-                    className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4"
-                >
-                    EXPLORE
-                </button>
+                <div className="flex flex-row gap-2">
+                    <button
+                        id="explore-button"
+                        onClick={goToTechnical}
+                        className="border-solid border-2 wide-text border-white px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 my-4"
+                    >
+                        EXPLORE
+                    </button>
+                </div>
             </div>
             <div
                 id="events-technical"
                 className="flex flex-col py-10 sm:px-6  text-white  "
             >
                 <div className="flex flex-col  items-center justify-center">
-                    <h1 className="text-4xl font-semibold wide-text">EVENTS</h1>
+                    <h1 className="text-4xl font-semibold tracking-widest">EVENTS</h1>
                     <p className="text-gray-400 my-2 font-semibold text-xl wide-text">
                         TECHNICAL
                     </p>
@@ -739,7 +777,7 @@ const Home = () => {
                 className="flex flex-col py-10 sm:px-6  text-white  "
             >
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-4xl wide-text font-semibold">EVENTS</h1>
+                    <h1 className="text-4xl tracking-widest font-semibold">EVENTS</h1>
                     <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
                         NON-TECHNICAL
                     </p>
@@ -773,7 +811,7 @@ const Home = () => {
                 className="flex flex-col py-10  text-white "
             >
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-4xl wide-text">SPONSERS</h1>
+                    <h1 className="text-4xl  font-semibold tracking-widest">SPONSERS</h1>
                     <div className="flex flex-col items-center md:flex-row md:justify-around w-full my-10 flex-wrap">
                         <img
                             src={require("../assets/csiCert.png")}
@@ -798,9 +836,11 @@ const Home = () => {
                 className="flex flex-col py-10 sm:px-6  text-white  "
             >
                 <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-4xl wide-text font-semibold">ORGANIZERS</h1>
-                    <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
-                        TECHNICAL
+                    <h1 className="text-4xl  font-semibold text-center tracking-widest">
+                        FACULTY COORDINATORS
+                    </h1>
+                    <p className="text-gray-400 my-4 text-lg text-center font-medium">
+                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
                     </p>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
@@ -814,7 +854,7 @@ const Home = () => {
                         id="organizer-technical-slider"
                         className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
-                        {organizersTechnicalMap}
+                        {FacultyCoordinatorsMap}
                     </div>
                     <img
                         src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
@@ -824,39 +864,8 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <div
-                id="organizers-non-technical"
-                className="flex flex-col py-10 sm:px-6  text-white  "
-            >
-                <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-4xl wide-text font-semibold">ORGANIZERS</h1>
-                    <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
-                        NON-TECHNICAL
-                    </p>
-                </div>
-                <div className="flex mx-2 gap-4 items-center">
-                    <img
-                        src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
-                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
-                        alt=""
-                        onClick={() => slideLeft("organizer-non-technical-slider")}
-                    />
-                    <div
-                        id="organizer-non-technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
-                    >
-                        {organizersNonTechnicalMap}
-                    </div>
-                    <img
-                        src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
-                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
-                        alt=""
-                        onClick={() => slideRight("organizer-non-technical-slider")}
-                    />
-                </div>
-            </div>
-        </div>
-    )
-}
+        </motion.div>
+    );
+};
 
 export default Home;
