@@ -768,13 +768,13 @@ const Home = () => {
             "organizer-non-technical-slider"
         );
         if (type === "technical-slider") {
-            technicalSlider.scrollLeft -= 250;
+            technicalSlider.scrollLeft -= 500;
         } else if (type === "non-technical-slider") {
-            nonTechnicalSlider.scrollLeft -= 250;
+            nonTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-technical-slider") {
-            organizerTechnicalSlider.scrollLeft -= 250;
+            organizerTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-non-technical-slider") {
-            organizerNonTechnicalSlider.scrollLeft -= 250;
+            organizerNonTechnicalSlider.scrollLeft -= 500;
         } else {
         }
     };
@@ -788,13 +788,13 @@ const Home = () => {
             "organizer-non-technical-slider"
         );
         if (type === "technical-slider") {
-            technicalSlider.scrollLeft += 250;
+            technicalSlider.scrollLeft += 500;
         } else if (type === "non-technical-slider") {
-            nonTechnicalSlider.scrollLeft += 250;
+            nonTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-technical-slider") {
-            organizerTechnicalSlider.scrollLeft += 250;
+            organizerTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-non-technical-slider") {
-            organizerNonTechnicalSlider.scrollLeft += 250;
+            organizerNonTechnicalSlider.scrollLeft += 500;
         } else {
         }
     };
@@ -922,7 +922,7 @@ const Home = () => {
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
                 </div>
-                <div className="flex flex-row gap-2">
+                <div className="flex flex-row gap-2 animate-bounce">
                     <button
                         id="explore-button"
                         onClick={goToTechnical}
