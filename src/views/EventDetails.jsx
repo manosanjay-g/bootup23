@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
+import "./light.css";
 const EventDetails = () => {
     const { state } = useLocation()
     useEffect(() => {
@@ -13,16 +14,19 @@ const EventDetails = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1 } }}
             exit={{ opacity: 0 }}
-            id="event-details" className="flex flex-col items-center py-7 px-4 bg-black">
+            id="event-details" className="flex flex-col py-7 px-4 bg-black">
             <div
-                className="flex flex-col "
+                className="flex flex-col text-left pl-40 "
                 id="event-description"
-            >
-                <h2 className="text-white font-bold text-center text-4xl tracking-widest">
+            >   
+                <div class="light text-5xl mb-7" data-text={state.name.toUpperCase()}>
+                    <h1>{state.name.toUpperCase()}</h1>
+                </div>
+                {/* <h2 className="text-white text-left font-bold  text-4xl tracking-widest">
                     {state.name.toUpperCase()}
-                </h2>
-                <div className="my-4 text-center">
-                    <p className="text-white font-semibold text-lg  justify-center  tracking-widest">
+                </h2> */}
+                <div className="my-4 ">
+                    <p className="text-white mb-2 font-semibold text-2xl  justify-center  tracking-widest">
                         {state.info.toUpperCase()}
                     </p>
                     <p className="text-gray-500 font-semibold text-lg  justify-center ">
@@ -31,38 +35,38 @@ const EventDetails = () => {
                 </div>
             </div>
             <div
-                className="flex flex-col items-center text-center my-7"
+                className="flex flex-col text-left pl-40 my-7"
                 id="event-description"
             >
-                <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+                <p className="text-white mb-2 font-semibold  justify-center text-2xl  tracking-widest">
                     ELIGIBILITY
                 </p>
-                <p className="text-gray-500 font-semibold text-lg  justify-center">
+                <p className="text-gray-500 font-semibold text-xl text-left ">
                     {state.eligibility.toUpperCase()}
                 </p>
             </div>
             <div
-                className="flex flex-col items-center text-center my-7"
+                className="flex flex-col text-left pl-40 mt-7"
                 id="event-description"
             >
-                <p className="text-white font-semibold  justify-center text-2xl mb-4 tracking-widest">
+                <p className="text-white font-semibold  justify-center text-2xl mb-2 tracking-widest">
                     DESCRIPTION
                 </p>
-                <p className="text-white text-lg md:w-3/4 justify-center leading-8">
+                <p className="text-white text-xl md:w-3/4 justify-center leading-8">
                     {state.description}
                 </p>
             </div>
-            <div className="text-center my-7" id="event-rules">
+            <div className="text-left pl-40 mt-12 pd-" id="event-rules">
                 <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                     RULES
                 </p>
                 <ul
-                    className=" text-lg text-center list-inside list-decimal text-white my-2"
+                    className=" text-lg text-left list-inside list-decimal text-white my-2"
                     id="event-rules-list"
                 >
                     {
                         state.rules.map((e, index) => {
-                            return <li className="my-8 " key={e + index}>{e}</li>
+                            return <li className="my-5 text-xl " key={e + index}>{e}</li>
                         })
                     }
                 </ul>

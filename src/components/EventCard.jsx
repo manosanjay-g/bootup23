@@ -36,7 +36,7 @@ const EventCard = ({ name, info, icon, index, description, short_description, ru
                 maxHeight: "24rem",
             }}
             onClick={flipCard}
-            className="event-card card-both bg-gray-900  snap-center border-4 border-blue-400 text-center mt-4 cursor-default "
+            className="event-card card-both bg-gray-900  snap-center border-4 border-blue-400 text-center mt-4 cursor-default"
 
         >
             <div className="box top left"></div>
