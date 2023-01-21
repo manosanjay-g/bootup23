@@ -1,5 +1,6 @@
 import EventCard from "../components/EventCard";
 import OrganizerCard from "../components/OrganizerCard";
+import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 const Home = () => {
@@ -1058,6 +1059,7 @@ const Home = () => {
                     />
                 </div>
             </div>
+            <Footer/>
         </motion.div>
     );
 };

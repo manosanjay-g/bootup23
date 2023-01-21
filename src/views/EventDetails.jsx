@@ -1,4 +1,5 @@
 import OrganizerCard from "../components/OrganizerCard";
+import Footer from "../components/Footer";
 import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
@@ -93,6 +94,7 @@ const EventDetails = () => {
                     })}
                 </div>
             </div>
+            <Footer/>
         </motion.div>
     );
 };
