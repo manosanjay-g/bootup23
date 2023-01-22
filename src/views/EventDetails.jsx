@@ -17,7 +17,7 @@ const EventDetails = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 1 } }}
                 exit={{ opacity: 0 }}
-                id="event-details" className="flex flex-col pt-7 ">
+                id="event-details" className="flex flex-col pt-7 bg-black bg-opacity-50">
                 <div
                     className="flex flex-col text-left px-5 md:px-12 "
                     id="event-description"
