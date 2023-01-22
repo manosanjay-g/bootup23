@@ -7,7 +7,17 @@
   src: url("./assets/fonts/Raleway-Medium.ttf");
 } */
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/opensans/OpenSans-Light.ttf"),
+    url("assets/fonts/opensans/OpenSans-Regular.ttf"),
+    url("assets/fonts/opensans/OpenSans-Medium.ttf"),
+    url("assets/fonts/opensans/OpenSans-SemiBold.ttf"),
+    url("assets/fonts/opensans/OpenSans-Bold.ttf"),
+    url("assets/fonts/opensans/OpenSans-ExtraBold.ttf");
+}
 html {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
