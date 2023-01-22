@@ -53,7 +53,7 @@ const ParticlesBackground = () => {
                         value: "#ffffff",
                     },
                     links: {
-                        enable: false,
+                        enable: true,
                     },
                     collisions: {
                         enable: false,
@@ -71,15 +71,15 @@ const ParticlesBackground = () => {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 900,
                         },
                         value: 40,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.2,
                     },
                     shape: {
-                        type: "triangle",
+                        type: "square",
                     },
                     size: {
                         value: { min: 1, max: 5 },
