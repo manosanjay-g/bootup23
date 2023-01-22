@@ -5,7 +5,7 @@ const Footer = () => {
     //const location = useLocation();
     return (
         <div id="footer" className="flex flex-col md:flex-row w-full p-7 bg-zinc-900 md:justify-start">
-            <p className="text-white text-3xl  text-center md:self-center">Bootup'23</p>
+            <p className="text-white text-3xl my-4 font-semibold text-center ">Bootup'23</p>
             <div id="footer-items" className="flex flex-col my-4 gap-y-6 md:flex-row md:justify-evenly md:w-full">
                 <div className="footer-item-links">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">Links</p>
