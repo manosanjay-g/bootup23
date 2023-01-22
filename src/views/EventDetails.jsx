@@ -74,7 +74,7 @@ const EventDetails = () => {
                         }
                     </ul>
                 </div>
-                <div className="flex justify-center animate-bounce ">
+                <div className="flex justify-center animate-bounce mt-5">
                     <a
                         href="https://www.google.com"
                         className="relative inline-flex items-center justify-start px-5 md:px-12 py-3 overflow-hidden font-bold group"

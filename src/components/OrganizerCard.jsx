@@ -40,7 +40,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
                     <motion.h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-pre-wrap ">{uppercaseName}</motion.h2>
                     <motion.p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</motion.p>
                 </motion.div>
-                <motion.img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="event-img" src={image} className="w-20 my-2 self-center " />
+                <motion.img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="organizer-img" src={image} className="w-20 my-2 self-center " />
                 <div></div>
             </div>
         </div>
