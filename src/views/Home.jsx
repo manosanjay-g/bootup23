@@ -1,5 +1,6 @@
 import EventCard from "../components/EventCard";
 import OrganizerCard from "../components/OrganizerCard";
+import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
             icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
             route: "/silicon-valley",
             description:
-                "Can you think out of the box and come up with innovative solutions? This is the right event for you techie, yes you!\n\nThis event includes a hands-on workshop where you will learn all the necessary skills to participate in the contest.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semp",
             short_description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             rules: [
@@ -768,13 +769,13 @@ const Home = () => {
             "organizer-non-technical-slider"
         );
         if (type === "technical-slider") {
-            technicalSlider.scrollLeft -= 250;
+            technicalSlider.scrollLeft -= 500;
         } else if (type === "non-technical-slider") {
-            nonTechnicalSlider.scrollLeft -= 250;
+            nonTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-technical-slider") {
-            organizerTechnicalSlider.scrollLeft -= 250;
+            organizerTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-non-technical-slider") {
-            organizerNonTechnicalSlider.scrollLeft -= 250;
+            organizerNonTechnicalSlider.scrollLeft -= 500;
         } else {
         }
     };
@@ -788,13 +789,13 @@ const Home = () => {
             "organizer-non-technical-slider"
         );
         if (type === "technical-slider") {
-            technicalSlider.scrollLeft += 250;
+            technicalSlider.scrollLeft += 500;
         } else if (type === "non-technical-slider") {
-            nonTechnicalSlider.scrollLeft += 250;
+            nonTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-technical-slider") {
-            organizerTechnicalSlider.scrollLeft += 250;
+            organizerTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-non-technical-slider") {
-            organizerNonTechnicalSlider.scrollLeft += 250;
+            organizerNonTechnicalSlider.scrollLeft += 500;
         } else {
         }
     };
@@ -922,7 +923,22 @@ const Home = () => {
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
                 </div>
-                <div className="flex flex-row gap-2">
+                <div className="flex justify-center animate-bounce ">
+                <a
+                    id="explore-button"
+                    href={goToTechnical}
+                    onClick={goToTechnical}
+                    className="relative cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
+                >
+                    <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
+                    <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
+                    <span className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900">
+                        Register Now
+                    </span>
+                    <span className="absolute inset-0 border-2 border-white"></span>
+                </a>
+            </div>
+                {/* <div className="flex flex-row gap-2 animate-bounce">
                     <button
                         id="explore-button"
                         onClick={goToTechnical}
@@ -930,7 +946,7 @@ const Home = () => {
                     >
                         EXPLORE
                     </button>
-                </div>
+                </div> */}
             </div>
             <div
                 id="events-technical"
@@ -1058,6 +1074,7 @@ const Home = () => {
                     />
                 </div>
             </div>
+            <Footer/>
         </motion.div>
     );
 };
