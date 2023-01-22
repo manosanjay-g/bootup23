@@ -40,19 +40,19 @@ const Footer = () => {
                     </p>
                     <div className="h-1 w-14 bg-blue-400 mb-5"></div>
                     <p className="text-white text-lg flex flex-row gap-x-2 items-center my-3">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="w-5 h-5 text-red-400"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="feather feather-mail"
-                        >
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
+                        <svg className="w-5 h-5" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                            <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Rounded" transform="translate(-884.000000, -1486.000000)">
+                                    <g id="Content" transform="translate(100.000000, 1428.000000)">
+                                        <g id="-Round-/-Content-/-mail" transform="translate(782.000000, 54.000000)">
+                                            <g transform="translate(0.000000, 0.000000)">
+                                                <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                                                <path d="M20,4 L4,4 C2.9,4 2,4.9 2,6 L2,18 C2,19.1 2.9,20 4,20 L20,20 C21.1,20 22,19.1 22,18 L22,6 C22,4.9 21.1,4 20,4 Z M19.6,8.25 L13.06,12.34 C12.41,12.75 11.59,12.75 10.94,12.34 L4.4,8.25 C4.15,8.09 4,7.82 4,7.53 C4,6.86 4.73,6.46 5.3,6.81 L12,11 L18.7,6.81 C19.27,6.46 20,6.86 20,7.53 C20,7.82 19.85,8.09 19.6,8.25 Z" id="🔹Icon-Color" fill="#eb4c4c"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
                         </svg>
                         <a href="mailto:bootup23@rajalakshmi.edu.in">
                             bootup@rajalakshmi.edu.in
