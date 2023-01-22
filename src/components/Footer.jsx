@@ -23,8 +23,12 @@ const Footer = () => {
                 <div className="footer-item-contacts">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">Contacts</p>
                     <div className='h-1 w-14 bg-blue-400 mb-5'></div>
-                    <p className="text-white text-lg"><a href="mailto:bootup23@rajalakshmi.edu.in">bootup23@rajalakshmi.edu.in</a></p>
+                    <p className="text-white text-lg"><a href="mailto:bootup23@rajalakshmi.edu.in">bootup@rajalakshmi.edu.in</a></p>
                     <p className="text-white text-lg">+91 9876543210</p>
+                    <div id="instagram" className='flex flex-row align-center hover:cursor-pointer' onClick={() => window.open("https://instagram.com/bootup.rec", '_blank')}>
+                        <img src="https://img.icons8.com/color/32/instagram-new--v1.png" alt="bootup instagram page"/>
+                        <p className='text-lg'>Instagram </p> 
+                    </div>
                 </div>
             </div>
 
