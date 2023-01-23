@@ -31,7 +31,8 @@ body {
   position: absolute;
   width: 0.7em;
   height: 0.7em;
-  background: rgb(96 165 250);
+  background: #2e3660c4;
+  /* background: rgb(96 165 250); */
 }
 .box-organizers {
   position: absolute;

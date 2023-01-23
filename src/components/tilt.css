@@ -1,0 +1,12 @@
+Tilt {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.front-card {
+    transform: translateZ(50px);
+}
+
+.box {
+    background-color: rgb(201, 46, 46);
+}

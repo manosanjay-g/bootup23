@@ -1,9 +1,30 @@
 import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
+import './tilt.css';
+function Tilt(props) {
+    const { options, ...rest } = props;
+    const tilt = useRef(null);
+  
+    useEffect(() => {
+      VanillaTilt.init(tilt.current, options);
+    }, [options]);
+  
+    return <div ref={tilt} {...rest} />;
+  }
+
 const EventCard = ({ name, info, icon, index, description, short_description, rules, type, eligibility, organizers, link }) => {
     const uppercaseName = name !== "iCatching" ? name.toUpperCase() : "iCATCHING";
     const uppercaseInfo = info.toUpperCase();
     const navigate = useNavigate();
+
+    const options = {
+        scale: 1.05,
+        speed: 5000,
+        max: 15,
+      };
+
     const flipCard = () => {
         console.log(id);
         const eventCard = document.getElementById(id);
@@ -24,7 +45,7 @@ const EventCard = ({ name, info, icon, index, description, short_description, ru
     }
 
     return (
-        <div
+        <Tilt options={options} 
             id={id}
             style={{
                 position: "relative",
@@ -36,8 +57,8 @@ const EventCard = ({ name, info, icon, index, description, short_description, ru
                 maxHeight: "24rem",
             }}
             onClick={flipCard}
-            className="event-card card-both bg-gray-900  snap-center border-4 border-blue-400 text-center mt-4 cursor-default"
-
+            className="event-card card-both bg-gray-900 box snap-center border-4 border-blue-400 text-center mt-4 cursor-default"
+            data-tilt
         >
             <div className="box top left"></div>
             <div className="box top right"></div>
@@ -61,7 +82,7 @@ const EventCard = ({ name, info, icon, index, description, short_description, ru
             >
                 <p className="text-gray-300 font-semibold break-normal decoration-slice whitespace-pre-wrap ">{short_description}</p>
             </div>
-        </div>
+        </Tilt>
     )
 }
 
