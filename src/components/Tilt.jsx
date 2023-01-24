@@ -1,5 +1,6 @@
 import VanillaTilt from 'vanilla-tilt';
-import './tilt.css';
+import React, { useEffect, useRef } from 'react';
+
 function Tilt(props) {
     const { options, ...rest } = props;
     const tilt = useRef(null);
@@ -10,3 +11,5 @@ function Tilt(props) {
   
     return <div ref={tilt} {...rest} />;
   }
+
+export default Tilt;
