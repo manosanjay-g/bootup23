@@ -58,28 +58,52 @@
   
 }
 
-.box:nth-child(4n-1):before,
-.box:nth-child(4n-1):after
+.box:nth-child(5n-4):before,
+.box:nth-child(5n-4):after
 {
-  background: linear-gradient(315deg, #ffbc00, #ff0058)
+  /* background: linear-gradient(315deg, #ffbc00, #ff0058) */
+  background :linear-gradient( 109.8deg,  rgba(62,5,116,1) -5.2%, rgba(41,14,151,1) -5.2%, rgba(216,68,148,1) 103.3% );
 }
 
-.box:nth-child(4n-2):before,
-.box:nth-child(4n-2):after
+.box:nth-child(5n-3):before,
+.box:nth-child(5n-3):after
 {
-  background: linear-gradient(315deg, #03a9f4, #ff0058)
+  /* background: linear-gradient(315deg, #03a9f4, #ff0058) 
+  background: linear-gradient(to right, #8e2de2, #4a00e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+  background: #603813;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+  background: linear-gradient(to right, #e6dada, #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+  background: linear-gradient(to bottom, #df9d3b, #130912); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, #8a2222, #d43928); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+
+
+
 }
 
-.box:nth-child(4n-3):before,
-.box:nth-child(4n-3):after
+.box:nth-child(5n-2):before,
+.box:nth-child(5n-2):after
 {
-  background: linear-gradient(315deg, #4dff03, #00d0ff)
+  /* background: linear-gradient(315deg, #4dff03, #00d0ff) */
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
 }
 
-.box:nth-child(4n):before,
-.box:nth-child(4n):after
+.box:nth-child(5n-1):before,
+.box:nth-child(5n-1):after
 {
-  background: linear-gradient(315deg, #f7ff03, #2600ff)
+  /* background: linear-gradient(315deg, #f7ff03, #2600ff) */
+  background: linear-gradient(to right, #c31432, #240b36); 
+
+}
+.box:nth-child(5n):before,
+.box:nth-child(5n):after
+{
+  /* background: linear-gradient(315deg, #f7ff03, #2600ff) */
+  background: linear-gradient(to right, #536976, #292e49); 
+
+
 }
 
 .box span
@@ -106,7 +130,7 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   opacity: 0;
-  transition: 0.1s;  
+  transition: 0.9s;  
   animation: animate 2s ease-in-out infinite;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08)
 }
@@ -132,7 +156,7 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   opacity: 0;
-  transition: 0.5s;
+  transition: 1.3s;
   animation: animate 2s ease-in-out infinite;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
   animation-delay: -1s;

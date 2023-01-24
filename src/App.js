@@ -7,7 +7,7 @@ const App = () => {
   const [isLoading, setLoading] = useState(true);
   setTimeout(() => {
     setLoading(false);
-  }, 4000);
+  }, 2500);
   return isLoading === true ? (
     <div className="flex justify-center stretch-to-screen">
       <ParticlesBackground />
