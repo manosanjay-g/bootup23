@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+/* import { motion } from 'framer-motion' */
 import { useNavigate } from 'react-router-dom';
 import './GlassCard.css';
 const EventCard = ({ name, info, icon, index, description, short_description, rules, type, eligibility, organizers, link }) => {

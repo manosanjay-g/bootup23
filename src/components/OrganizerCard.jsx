@@ -1,4 +1,8 @@
 import { motion } from 'framer-motion'
+import './OrganizerCard.css';
+import './tilt.css';
+import Tilt from './Tilt';
+
 const OrganizerCard = ({ name, event, image, index }) => {
     const uppercaseName = name.toUpperCase();
     const uppercaseEvent = event !== "iCatching" ? event.toUpperCase() : "iCATCHING";
@@ -13,7 +17,27 @@ const OrganizerCard = ({ name, event, image, index }) => {
         visible: { opacity: 1, y: 0, transition: { duration: 0.6, staggerChildren: 0.2 } },
     }
 
+    const options = {
+        scale: 1.05,
+        speed: 5000,
+        max: 15,
+      };
+
     return (
+        <Tilt options={options} 
+            id={id}
+            style={{
+                position: "relative",
+                width: "16rem",
+                minWidth: "16rem",
+                maxWidth: "16rem",
+                height: "24rem",
+                minHeight: "24rem",
+                maxHeight: "24rem",
+            }}
+            className=""
+            data-tilt
+        >
         <div
             id={id}
             style={{
@@ -25,7 +49,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
                 minHeight: "24rem",
                 maxHeight: "24rem",
             }}
-            className="organizer-card bg-[#3e1709] snap-center border-4 border-orange-400 text-center mt-4 cursor-default "
+            className="organizer-card bg-[#3e1709] snap-center border-4 border-orange-400 text-center mt-4 cursor-default org-container"
 
         >
             <div className="box-organizers top left"></div>
@@ -33,7 +57,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
             <div className="box-organizers bottom left"></div>
             <div className="box-organizers bottom right"></div>
             <div
-                className="front-card flex flex-col items-center justify-between py-6 px-6"
+                className="front-card flex flex-col items-center justify-between py-6 px-6 gradient"
             >
 
                 <motion.div viewport={{ once: true, amount: 0.2 }} initial="hidden" whileInView="visible" variants={textAnimate} className="mb-4 place-self-center">
@@ -44,6 +68,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
                 <div></div>
             </div>
         </div>
+        </Tilt>
     )
 }
 

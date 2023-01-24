@@ -1,0 +1,8 @@
+.org-container {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
+.gradient {
+    transform: translateZ(150px);
+}
