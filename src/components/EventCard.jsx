@@ -97,7 +97,7 @@ const EventCard = ({ name, info, icon, index, description, short_description, ru
                     <p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest">{uppercaseInfo}</p>
                 </div>
                 <img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={iconAnimate} alt="event-img" src={icon} className="w-20 my-2 self-center " />
-                <button onClick={() => navigate("/event-details", { state: { name: name, info: info, type: type, eligibility: eligibility, description: description, rules: rules, organizers: organizers, link: link } })} className="ignore-btn self-center border-solid border-2 mt-5 border-white-400 rounded-lg px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-blue-400 ">
+                <button onClick={() => navigate("/event-details", { state: { name: name, info: info, type: type, eligibility: eligibility, description: description, rules: rules, organizers: organizers, link: link } })} className="ignore-btn self-center border-solid border-2 mt-5 border-white-400 rounded-lg px-4 py-2 w-fit tracking-widest transition duration-700  hover:bg-white hover:text-black">
                     MORE INFO
                 </button>
 

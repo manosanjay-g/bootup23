@@ -999,7 +999,7 @@ const Home = () => {
                     />
                     <div
                         id="non-technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
                         {nonTechnicalEventsMap}
                     </div>
