@@ -37,11 +37,12 @@ body {
   text-indent: 0.35em;
 }
 
-.box {
+.boxx {
   position: absolute;
   width: 0.7em;
   height: 0.7em;
-  background: rgb(96 165 250);
+  background: #2e3660c4;
+  /* background: rgb(96 165 250); */
 }
 .box-organizers {
   position: absolute;
@@ -108,9 +109,15 @@ body {
 @media only screen and (min-width: 992px) {
   #technical-slider {
     overflow-x: scroll;
+    -webkit-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
   }
   #non-technical-slider {
     overflow-x: scroll;
+    -webkit-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
   }
 }
 

@@ -54,7 +54,7 @@ const Footer = () => {
                                 </g>
                             </g>
                         </svg>
-                        <a href="mailto:bootup23@rajalakshmi.edu.in">
+                        <a href="mailto:bootup@rajalakshmi.edu.in">
                             bootup@rajalakshmi.edu.in
                         </a>
                     </p>
@@ -102,8 +102,8 @@ const Footer = () => {
                             </g>
                         </svg>
                         +91 9876543210
-                    </p>
-                    <p
+                    </p>       
+                    <p 
                         class=" flex flex-row gap-x-2 items-center my-3"
                     >
                         <svg

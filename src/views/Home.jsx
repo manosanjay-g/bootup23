@@ -1,8 +1,9 @@
-import EventCard from "../components/EventCard";
-import OrganizerCard from "../components/OrganizerCard";
+import EventCard from "../components/EventCard/EventCard";
+import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
+import Countdown from '../components/Countdown/Countdown';
 const Home = () => {
     const goToTechnical = () => {
         window.location.href = "#events-technical";
@@ -923,19 +924,25 @@ const Home = () => {
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
                 </div>
+                <div id="countdown-timer">
+                    <p className="font-semibold wide-text text-center text-xl">
+                        BOOTING IN
+                    </p>
+                    <Countdown></Countdown>
+                </div>
                 <div className="flex justify-center animate-bounce ">
                     <a
                         id="explore-button"
                         href={goToTechnical}
                         onClick={goToTechnical}
-                        className="relative cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
+                        className="rounded-md relative cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
                     >
-                        <span className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
-                        <span className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
-                        <span className="relative w-full text-left text-white tracking-widest transition-colors duration-200 ease-in-out group-hover:text-gray-900">
+                        <span className="rounded-lg w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
+                        <span className="rounded-lg absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
+                        <span className="rounded-lg relative w-full text-left text-white tracking-widest transition-colors duration-200 ease-in-out group-hover:text-gray-900">
                             EXPLORE
                         </span>
-                        <span className="absolute inset-0 border-2 border-white"></span>
+                        <span className="rounded-lg absolute inset-0 border-2 border-white"></span>
                     </a>
                 </div>
                 {/* <div className="flex flex-row gap-2 animate-bounce">
@@ -957,9 +964,6 @@ const Home = () => {
                     <p className="text-gray-400 my-2 font-semibold text-xl wide-text">
                         TECHNICAL
                     </p>
-                    <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">
-                        CLICK TO FLIP!
-                    </p>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
@@ -970,7 +974,7 @@ const Home = () => {
                     />
                     <div
                         id="technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x"
                     >
                         {technicalEventsMap}
                     </div>
@@ -991,9 +995,7 @@ const Home = () => {
                     <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
                         NON-TECHNICAL
                     </p>
-                    <p className="text-gray-400 my-2 font-semibold text-md  tracking-wide">
-                        CLICK TO FLIP!
-                    </p>
+
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
@@ -1004,7 +1006,7 @@ const Home = () => {
                     />
                     <div
                         id="non-technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x"
                     >
                         {nonTechnicalEventsMap}
                     </div>
@@ -1062,7 +1064,7 @@ const Home = () => {
                     />
                     <div
                         id="organizer-technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
                         {FacultyCoordinatorsMap}
                     </div>
