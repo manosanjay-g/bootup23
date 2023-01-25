@@ -23,7 +23,7 @@ const EventDetails = () => {
                     id="event-description"
                 >
                     <div class="light text-5xl mb-3" data-text={state.name.toUpperCase()}>
-                        <h1>{state.name.toUpperCase()}</h1>
+                        <h1>{state.name === "iCatching" ? "iCATCHING" : state.name.toUpperCase()}</h1>
                     </div>
                     {/* <h2 className="text-white text-left font-bold  text-4xl tracking-widest">
                     {state.name.toUpperCase()}
@@ -110,7 +110,7 @@ const EventDetails = () => {
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         ORGANIZERS
                     </p>
-                    <div className="flex flex-row flex-wrap justify-center gap-6 mt-4">
+                    <div className="flex flex-row flex-wrap justify-center gap-10 mt-4">
                         {state.organizers.map((e, index) => {
                             return <OrganizerCard event={state.name} image={e.image} index={index} name={e.name} key={index + e.name} />
                         })}

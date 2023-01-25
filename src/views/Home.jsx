@@ -925,10 +925,10 @@ const Home = () => {
                     </p>
                 </div>
                 <div id="countdown-timer">
-                <p className="font-semibold wide-text text-center text-xl">
-                        Booting In ...
-                </p>
-                <Countdown></Countdown>
+                    <p className="font-semibold wide-text text-center text-xl">
+                        BOOTING IN
+                    </p>
+                    <Countdown></Countdown>
                 </div>
                 <div className="flex justify-center animate-bounce ">
                     <a
