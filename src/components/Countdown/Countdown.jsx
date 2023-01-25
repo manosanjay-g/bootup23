@@ -44,7 +44,7 @@ function Countdown() {
   });
 
   return (
-    <div className="Countdown">
+    <div className="Countdown mx-4">
       <Clock
         timerDays={timerDays}
         timerHours={timerHours}
