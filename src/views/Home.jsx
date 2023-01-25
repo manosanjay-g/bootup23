@@ -974,7 +974,7 @@ const Home = () => {
                     />
                     <div
                         id="technical-slider"
-                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x"
                     >
                         {technicalEventsMap}
                     </div>
@@ -1006,7 +1006,7 @@ const Home = () => {
                     />
                     <div
                         id="non-technical-slider"
-                        className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                        className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x"
                     >
                         {nonTechnicalEventsMap}
                     </div>
