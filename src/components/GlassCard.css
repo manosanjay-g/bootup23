@@ -17,6 +17,42 @@
   transition: 0.5s;
 }
 
+@keyframes cardbg {
+  0%{
+    filter: blur(5px) brightness(1);
+  }
+  10%{
+      filter: blur(5px) brightness(0.9);
+  }
+  20%{
+      filter: blur(5px) brightness(0.8);
+  }
+  30%{
+      filter: blur(5px) brightness(0.7);
+  }
+  40%{
+      filter: blur(5px) brightness(0.6);
+  }
+  50%{
+      filter: blur(5px) brightness(0.5);
+  }
+  60%{
+      filter: blur(5px) brightness(0.6);
+  }
+  70%{
+      filter: blur(5px) brightness(0.7);
+  }
+  80%{
+      filter: blur(5px) brightness(0.8);
+  }
+  90%{
+      filter: blur(5px) brightness(0.9);
+  }
+  100%{ 
+      filter: blur(5px) brightness(1);
+  }
+}
+
 .box::before {
   content: " ";
   position: absolute;
@@ -29,6 +65,7 @@
   border-radius: 8px;
   transform: skewX(10deg);
   transition: 0.5s;
+  animation: cardbg 2s ease-in-out infinite;
 }
 
 .box::after {
@@ -186,6 +223,7 @@ background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, F
 
 .box:hover .content {
   /* left: -25px; */
+  transition: 0.9s;
   padding: 60px 40px;
 }
 
