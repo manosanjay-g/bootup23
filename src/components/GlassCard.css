@@ -19,37 +19,37 @@
 
 @keyframes cardbg {
   0%{
-    filter: blur(5px) brightness(1);
+    filter: blur(0) brightness(1);
   }
   10%{
-      filter: blur(5px) brightness(0.9);
+      filter: blur(0) brightness(0.9);
   }
   20%{
-      filter: blur(5px) brightness(0.8);
+      filter: blur(0) brightness(0.8);
   }
   30%{
-      filter: blur(5px) brightness(0.7);
+      filter: blur(0) brightness(0.7);
   }
   40%{
-      filter: blur(5px) brightness(0.6);
+      filter: blur(0) brightness(0.6);
   }
   50%{
-      filter: blur(5px) brightness(0.5);
+      filter: blur(0) brightness(0.5);
   }
   60%{
-      filter: blur(5px) brightness(0.6);
+      filter: blur(0) brightness(0.6);
   }
   70%{
-      filter: blur(5px) brightness(0.7);
+      filter: blur(0) brightness(0.7);
   }
   80%{
-      filter: blur(5px) brightness(0.8);
+      filter: blur(0) brightness(0.8);
   }
   90%{
-      filter: blur(5px) brightness(0.9);
+      filter: blur(0) brightness(0.9);
   }
   100%{ 
-      filter: blur(5px) brightness(1);
+      filter: blur(0) brightness(1);
   }
 }
 
@@ -161,7 +161,7 @@ background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, F
   opacity: 0;
   transition: 0.9s;
   animation: animate 2s ease-in-out infinite;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.08);
 }
 
 .box:hover span::before {
@@ -185,7 +185,7 @@ background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, F
   opacity: 0;
   transition: 1.3s;
   animation: animate 2s ease-in-out infinite;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.08);
   animation-delay: -1s;
 }
 
@@ -214,16 +214,17 @@ background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, F
   padding: 20px 40px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
   transform: 0.5s;
   color: #fff;
+  transition: 1.5s;
 }
 
 .box:hover .content {
-  /* left: -25px; */
-  transition: 0.9s;
+  /* left: -20; */
+  transition: 1.5s;
   padding: 60px 40px;
 }
 
@@ -248,11 +249,11 @@ background: linear-gradient(to right, #503e34, #532d0a); /* W3C, IE 10+/ Edge, F
   border-radius: 4px;
   text-decoration: none;
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 .box .content a:hover {
   background: #ffcf4d;
   border: 1px solid rgba(255, 0, 88, 0.4);
-  box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+  box-shadow: 0 1px 10 rgba(1, 1, 1, 0.2);
 }
