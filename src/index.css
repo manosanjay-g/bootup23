@@ -7,7 +7,17 @@
   src: url("./assets/fonts/Raleway-Medium.ttf");
 } */
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/opensans/OpenSans-Light.ttf"),
+    url("assets/fonts/opensans/OpenSans-Regular.ttf"),
+    url("assets/fonts/opensans/OpenSans-Medium.ttf"),
+    url("assets/fonts/opensans/OpenSans-SemiBold.ttf"),
+    url("assets/fonts/opensans/OpenSans-Bold.ttf"),
+    url("assets/fonts/opensans/OpenSans-ExtraBold.ttf");
+}
 html {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -27,7 +37,7 @@ body {
   text-indent: 0.35em;
 }
 
-.box {
+.boxx {
   position: absolute;
   width: 0.7em;
   height: 0.7em;
@@ -99,9 +109,15 @@ body {
 @media only screen and (min-width: 992px) {
   #technical-slider {
     overflow-x: scroll;
+    -webkit-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
   }
   #non-technical-slider {
     overflow-x: scroll;
+    -webkit-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -1px 1px 26px 2px rgba(0, 0, 0, 0.75);
   }
 }
 
