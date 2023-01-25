@@ -1,5 +1,5 @@
-import EventCard from "../components/EventCard";
-import OrganizerCard from "../components/OrganizerCard";
+import EventCard from "../components/EventCard/EventCard";
+import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
