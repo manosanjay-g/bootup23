@@ -24,20 +24,7 @@ const OrganizerCard = ({ name, event, image, index }) => {
       };
 
     return (
-        <Tilt options={options} 
-            id={id}
-            style={{
-                position: "relative",
-                width: "16rem",
-                minWidth: "16rem",
-                maxWidth: "16rem",
-                height: "24rem",
-                minHeight: "24rem",
-                maxHeight: "24rem",
-            }}
-            className=""
-            data-tilt
-        >
+        <Tilt options={options} >
         <div
             id={id}
             style={{
