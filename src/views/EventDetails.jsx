@@ -1,4 +1,4 @@
-import OrganizerCard from "../components/OrganizerCard";
+import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
 import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
