@@ -3,6 +3,7 @@ import OrganizerCard from "../components/OrganizerCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
+import Countdown from '../components/Countdown/Countdown';
 const Home = () => {
     const goToTechnical = () => {
         window.location.href = "#events-technical";
@@ -922,6 +923,12 @@ const Home = () => {
                     <p className="font-semibold wide-text text-md  px-2">
                         DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
                     </p>
+                </div>
+                <div id="countdown-timer">
+                <p className="font-semibold wide-text text-center text-xl">
+                        Booting In ...
+                </p>
+                <Countdown></Countdown>
                 </div>
                 <div className="flex justify-center animate-bounce ">
                     <a
