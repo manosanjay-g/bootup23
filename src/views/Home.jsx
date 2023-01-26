@@ -3,10 +3,15 @@ import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
+import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     const goToTechnical = () => {
         window.location.href = "#events-technical";
+        
     };
 
     const technicalEvents = [
@@ -16,15 +21,21 @@ const Home = () => {
             icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
             route: "/silicon-valley",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semp",
+                "Silicon Valley is an arena to showcase the participants’ skills by putting their projects up for the world to gaze at. Participants can present their projects from any domain with a working model, be it software or hardware and the best projects will be rewarded in cash.",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Offline Event",
             rules: [
-                "Teams must consist of a minimum of 2 participants and a maximum of 3 participants.",
-                "All team members must be from the same year.",
+                "Theme of the event is Innovation/Startup.",
+                "A working model must be shown.",
+                "The product will be judged based on the concept, novelty, presentation, applicability, benefits to society, and demonstration.",
+                "The participants are required to present their project with a presentation.",
+                "This is followed by the final demonstration of the end product. Scores are awarded based on the presentation of the team and the working model.",
+                "Results will be published at the end of the presentation session. The team that scored the maximum points will be awarded.",
+                "The Panel decision is final.",
             ],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+            roundDescriptions: [],
+            type: "Number of participants: 1 - 3",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Surya V",
@@ -45,12 +56,20 @@ const Home = () => {
             icon: "https://img.icons8.com/windows/96/ffffff/presentation-screen.png",
             route: "/the-revolution",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "For all the academics out there, this is a competition to show your prowess. Meet like-minded thinkers and debate cutting-edge technology. Students can present their own work or any openly available literature.",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                 "The final presentation content headings will be shared with the respective team leaders 5-6 days before the competition.",
+                 "Any team will be subject to disqualification if the work is found to be plagiarised",
+                 "The decision of the panel is final.",
+                ],
+            roundDescriptions: [
+                "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
+                "1. Each team will be given a timeframe of around 10-12 minutes for their overall presentation followed by the questionnaire session by the panel."
+            ],
+            type: "Team Event (1-3)",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Jeevitha C",
@@ -67,16 +86,24 @@ const Home = () => {
         },
         {
             name: "404 Not Found",
-            info: "Bug Hunting",
+            info: "Code Debugging",
             icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
             route: "/404-not-found",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "Internet access will not be provided.", 
+                "In case of a tie, the fastest person to debug and execute the program is deemed the winner.",
+                "The decision of the panel is final.",
+            ],
+            roundDescriptions: [
+                "1. This is pen-paper round.\n\n2. A time limit of 20 minutes is provided for debugging.",
+                "1. A set of programs will be provided with errors in them.\n\n2. Participants are required to execute the program successfully."
+            ],
+            type: "Individual Event",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Vijay A",
@@ -99,8 +126,9 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Offline Event",
             rules: ["Rule 1", "Rule 2"],
+            roundDescriptions: [],
             type: "Team Event",
             eligibility: "Open to all departments",
             organizers: [
@@ -125,10 +153,19 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "The relay order of the teammates will be collected prior and it cannot be changed once the round begins.", 
+                "Only one round will be conducted for all the teams. If the question is answered before the stipulated time then the next team member can utilize the saved time for answering the next question and so on. Each question must be answered by only one teammate. ",
+                "Team members cannot help each other while solving the questions.",
+                "Malpractices will not be entertained and if the same is found then the corresponding team will be disqualified. The whole event will be organized in an auto-proctored environment.",
+                "If a teammate is unable to complete the given question within 30 mins then the corresponding status of that question will be considered for evaluation and the next team member can proceed further.",
+                "The winners will be announced at the end of the event and the selection criteria will be based on the time they have taken to complete all the programs.",
+                "The decision taken by the panel will be final.",
+            ],
+            roundDescriptions: [],
+            type: "Team Event (Exactly 3)",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Jeevana V",
@@ -151,10 +188,20 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Online Event",
+            rules: [
+                "* This event will be conducted on Feb 11, 2023 *",
+                "* Registrations for this event will be closed on Feb 9, 2023 *",
+                "The capture the flag event will be hosted on the Tryhackme Platform. The event will be private, only the registered participants can join the room to solve these challenges.", 
+                "The problem solving mode for this CTF is Jeopardy.",
+                "The first three players that solve a challenge get rewarded with extra points. The other players solving the challenges will be given an average of points mentioned in the challenges.",
+                "Challenge Categories are: \nWeb, Forensics, Cryptography, Mobile Security, Binary Exploitation, Reverse Engineering, OSINT, Miscellaneous Challenges, Pwn",
+                "Flag Format: \"BOOT_UP{W3lc0m3s_y0u}\"",
+                "Winners will be selected based on points obtained at the end of the event.",
+            ],
+            roundDescriptions: [],
+            type: "Individual Event",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Abuthahir A",
@@ -177,10 +224,18 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "Internet access will not be provided.",
+                "Participants indulging in malpractice will be subject to disqualification.", 
+                "The Panel decision is final."
+            ],
+            roundDescriptions: [
+                "1. This is a pen-paper round. \n\n2. The participants would be given a set of aptitude and technical-based questions(DSA, OOPS).\n\n3. The duration of this round is 30 minutes.\n\n4. The highest scoring participants will be moved on to the final round.",
+                "1. The final round will be conducted as a one-on-one interview where the participants will be asked technical questions as well as some general questions to test their knowledge and ability.\n\n2. The participants will be judged based on their technical skills, spontaneity, fluency, and clarity of their answers."
+            ],
+            type: "Individual Event",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Rohit M",
@@ -203,10 +258,18 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "Internet access is not allowed.",
+                "Participants indulging in malpractice will be subject to disqualification.", 
+                "The Panel decision is final."
+            ],
+            roundDescriptions: [
+                "1. This will be a pen-paper round.\n\n2. The participants with the highest scores will move on to the next round.\n\n3. The duration of this event is 30 minutes.",
+                "1. The participants will be provided with the parts they need to build the PC, and they will attempt to build a complete functioning PC.\n\n2. Participants should work only with the components provided for them and are not permitted to use any other components in their build.\n\n3. The duration of this event is 60 minutes."
+            ],
+            type: "Individual Event",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Abhijit PV",
@@ -229,10 +292,19 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "The participants must bring their own laptops with UiPath installed.", 
+                "The problem statement will be provided at the time of the event.",
+                "Participants have to address tasks given to them and create automation for the problem given.",
+                "Evaluation of the result is based on the efficiency of the solution.",
+                "The time taken to build the solution is considered a parameter for tie-breakers.",
+                "Participants indulging in malpractice will be subject to disqualification.", 
+                "The Panel decision is final."
+            ],
+            roundDescriptions: [],
+            type: "Individual Event",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Sriviveknath S R",
@@ -255,8 +327,9 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Offline Event",
             rules: ["Rule 1", "Rule 2"],
+            roundDescriptions: [],
             type: "Team Event",
             eligibility: "Open to all departments",
             organizers: [
@@ -266,7 +339,12 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Varun Rishwandh S",
+                    name: "Nesigan M L",
+                    event: "Fly High",
+                    image: "",
+                },
+                {
+                    name: "Raghavi V",
                     event: "Fly High",
                     image: "",
                 },
@@ -283,10 +361,18 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "Participants will be provided with a picture of a celebrity, animal, meme & so on and are asked to rant about it.",
+                "For example, participants are shown an image such as an image of 2 small dogs and they are asked to hate or rant about that image",
+                "Time limit of 2-3 minutes will be provided to each participants.",
+                "Usage of profanity is discouraged",
+                "Usage of both tamil and english is allowed.",
+                "The participant with the most logical, comical and fluent speech is declared the winner.",
+            ],
+            roundDescriptions: [],
+            type: "Individual Event",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Mohanapriya R",
@@ -319,8 +405,9 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Offline Event",
             rules: ["Rule 1", "Rule 2"],
+            roundDescriptions: [],
             type: "Team Event",
             eligibility: "Open to all departments",
             organizers: [
@@ -355,8 +442,9 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Offline Event",
             rules: ["Rule 1", "Rule 2"],
+            roundDescriptions: [],
             type: "Team Event",
             eligibility: "Open to all departments",
             organizers: [
@@ -381,10 +469,19 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "The theme of this event is based on ‘Pop Culture’ (Eg: Chandler, Yogi Babu, Elon Musk, and people not in politics).",
+                "Every participant will be given a personality and 30 seconds to prepare, following which they need to let the judges know why they should be selected as president.",
+                "Usage of profanity is discouraged",
+                "Usage of both tamil and english is allowed.",
+                "Time limit of 2-3 minutes will be provided to each participants.",
+                "The Panel will score the participant's performances based on reasoning, fluency, and the participant's ability to grab the attention of the audience.",
+                "The Panel's decision is final.",
+            ],
+            roundDescriptions: [],
+            type: "Individual Event",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Anagha Nambiar",
@@ -412,10 +509,18 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "The domain for this event includes popular television series both new & old, movies and other pop culture references.", 
+                "Internet access is not allowed.",
+                "The Panel decision is final."
+            ],
+            roundDescriptions: [
+                "1. This is a pen-paper round.\n\n2. Each team will be provided with a set of 20 questions and are asked to complete it within the stipulated time.\n\n3. The teams with the highest scores will move on to the final round.",
+                "1. This is a buzzer round.\n\n2. A time limit of 30 seconds is provided to answer a question, the team who hit the buzzer has to answer within 5 seconds of pressing it."
+            ],
+            type: "Team Event (1-2)",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Anjana D",
@@ -448,10 +553,20 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
+                "Offline Event",
+            rules: [
+                "This event is based on ‘Tamil and English Movie Scenes’.", 
+                "Each participate will be provided with a muted video clip of around 1 minute in duration.",
+                "The video will be played once or maximum twice to the participants.",
+                "The participants will be given 60 seconds to prepare",
+                "Participants should dub for a muted video that will be played for them. The motive is to bring humor with the background vocals for the muted boring video clip.",
+                "Usage of profanity is discouraged",
+                "The participants will be judged based on their creativity, spontaneity, humor, and consistency.",
+                "The Panel's decision is final.",
+            ],
+            roundDescriptions: [],
             type: "Team Event",
-            eligibility: "Open to all departments",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Aruna S",
@@ -473,16 +588,27 @@ const Home = () => {
         },
         {
             name: "Tiki-Taka",
-            info: "Football",
+            info: "Futsal",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
             route: "/tiki-taka",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
+            rules: [
+                "Maximum of 8 people in a team is allowed.", 
+                "5 players are allowed on the pitch at anytime and the rest are substitutes.",
+                "The timings of the event will be 5+5 minutes, and a break of 1 minute will be given.",
+                "College ID cards are required for verification.",
+                "Goalkeeper gloves, shin pads, and full stockings are required.",
+                "A knockout system will be followed.",
+                "Teams must report before their matches.",
+                "Any kind of intentional physical contact or use of foul language on the pitch will lead to disqualification from the event",
+                "The referee's decision is final.",
+            ],
+            roundDescriptions: [],
+            type: "Team Event (5 + 3 substitutes)",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Harish S",
@@ -520,9 +646,21 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
+                "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
+            rules: [
+                "The team must consist of 5 players.",
+                "A total of 16 teams can participate in this event.", 
+                "Team allocation will be done on the basis of First Come First Basis",
+                "The registrations will be closed once 16 teams have registered.",
+                "Every match is a knockout match.",
+                "Every innings will be for 5 overs.",
+                "Timings for each match will be for 30 minutes (maximum).",
+                "Every team should bring their own bat.",
+                "The ball type is a Tennis ball (Mercury +).",
+                "Umpires decision will be final.",
+            ],
+            roundDescriptions: [],
+            type: "Team Event (Exactly 5)",
             eligibility: "Open to all departments",
             organizers: [
                 {
@@ -561,10 +699,23 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "First Round is Online & Final round is Offline",
+            rules: [
+                "Participants can use any kind of device to capture pictures.", 
+                "The photograph must be original and no watermark of any kind should be on the photograph.",
+                "Participants can submit color or black-and-white photography.",
+                "The photograph must be of the highest resolution possible.",
+                "The photograph that has been digitally altered beyond standard optimization (dust removal, cropping, color, contrast, etc.) will be disqualified.",
+                "For final round submission, both macro photography submission and event photography submissions are required.",
+                "Photographs should be submitted in JPEG and PNG format; other formats are not valid and will be disqualified.",
+                "The Panel's decision is final.",
+            ],
+            roundDescriptions: [
+                "1. This is a selection round.\n\n2. The theme will be pet animals or vehicles. Participants can select any one theme and submit a picture they have shot recently.\n\n3. The finals will be taking place on Feb 13 and the shortlisted participants will be informed prior to the event.",
+                "1. This will be conducted offline in the college premises.\n\n2. Participants are encouraged to stroll around the campus and capture the magic of the symposium.\n\n3. The participants are asked to submit two photos based on the theme of macro photography and a minimum of 10 photos of other events conducted in BOOT UP 23."
+            ],
+            type: "Individual Event",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Sharveshwaran R",
@@ -592,10 +743,19 @@ const Home = () => {
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
-            rules: ["Rule 1", "Rule 2"],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+                "Offline Event",
+            rules: [
+                "This event is exclusively for women.",
+                "There is no specific theme. Any kind of project tackling real-life problems is accepted.", 
+                "The participants will be given 5 minutes to pitch their product to the panel.",
+                "The participants are required to come prepared with a PPT for the event.",
+                "The pitch must represent a clear representation of the problem being solved and the market value along with the investment plans.",
+                "The pitches will be judged based on innovation, market viability and the monetary value of the product.",
+                "The Panel's decision is final."
+            ],
+            roundDescriptions: [],
+            type: "Team Event (1-2)",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Varsha P",
@@ -736,6 +896,7 @@ const Home = () => {
                 link={e.link}
                 organizers={e.organizers}
                 type={e.type}
+                roundDescription={e.roundDescriptions}
             />
         );
     });
@@ -754,6 +915,7 @@ const Home = () => {
                 link={e.link}
                 organizers={e.organizers}
                 type={e.type}
+                roundDescription={e.roundDescriptions}
             />
         );
     });

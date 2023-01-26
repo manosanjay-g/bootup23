@@ -1,8 +1,9 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 //import {useLocation} from 'react-router-dom';
 
 const Footer = () => {
-    //const location = useLocation();
+    const navigate = useNavigate();
     return (
         <div
             id="footer"
@@ -15,13 +16,13 @@ const Footer = () => {
                 id="footer-items"
                 className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0"
             >
-                {/* <div className="footer-item-links">
+                <div className="footer-item-links">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">Links</p>
                     <div className='h-1 w-14 bg-blue-400 mb-5'></div>
-                    <p className="text-white text-white text-lg"><a href="/">Home</a></p>
-                    <p className="text-white text-lg"><a href="/">Contact Us</a></p>
-                    <p className="text-white text-lg"><a href="/">Organizers</a></p>
-                </div> */}
+                    <p onClick={() => navigate("/")} className="cursor-pointer text-white text-lg">Home</p>
+                    {/* <p className="text-white text-lg"><a href="/">Contact Us</a></p> */}
+                    <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Coordinators</p>
+                </div>
                 <div className="footer-item-events">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">
                         Events
@@ -102,8 +103,8 @@ const Footer = () => {
                             </g>
                         </svg>
                         +91 9876543210
-                    </p>       
-                    <p 
+                    </p>
+                    <p
                         class=" flex flex-row gap-x-2 items-center my-3"
                     >
                         <svg

@@ -35,18 +35,10 @@ const EventDetails = () => {
                         <p className="text-gray-500 font-semibold text-lg  justify-center ">
                             {state.type.toUpperCase()}
                         </p>
+                        <p className="text-gray-500 font-semibold text-lg  justify-center ">
+                            {state.short_description.toUpperCase()}
+                        </p>
                     </div>
-                </div>
-                <div
-                    className="flex flex-col  text-left px-5 md:pl-20 my-7"
-                    id="event-description"
-                >
-                    <p className="text-white mb-2 font-semibold  justify-center text-2xl  tracking-widest">
-                        ELIGIBILITY
-                    </p>
-                    <p className="text-gray-500 font-semibold text-xl text-left ">
-                        {state.eligibility.toUpperCase()}
-                    </p>
                 </div>
                 <div
                     className="flex flex-col text-left px-5 md:pl-20 mt-7"
@@ -55,9 +47,33 @@ const EventDetails = () => {
                     <p className="text-white font-semibold  justify-center text-2xl mb-2 tracking-widest">
                         DESCRIPTION
                     </p>
-                    <p className="text-white text-xl md:w-3/4 justify-center leading-8">
+                    <p className="text-white text-xl md:w-3/4 text-justify justify-center leading-8">
                         {state.description}
                     </p>
+                </div>
+                <div
+                    className="flex flex-col  text-left px-5 md:pl-20 mt-7"
+                    id="event-description"
+                >
+                    <p className="text-white mb-2 font-semibold  justify-center text-2xl  tracking-widest">
+                        NUMBER OF ROUNDS
+                    </p>
+                    <p className="text-gray-500 font-semibold text-xl text-left ">
+                        {state.eligibility.toUpperCase()}
+                    </p>
+                </div>
+                <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
+                {
+                    state.roundDescription.map((e, index) => {
+                        return <div>
+                            <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+                                ROUND {index+1}
+                            </p>
+                        <p className="my-5 text-xl text-white " key={e + index}>{e}</p>
+                        </div>
+                    })
+                }
+                        
                 </div>
                 <div className="text-left px-5 md:px-20 mt-12 pd-" id="event-rules">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
@@ -90,7 +106,7 @@ const EventDetails = () => {
                 <div className="flex justify-center animate-bounce">
                     <a
                         id="register-button"
-                        href="https://www.google.com"
+                        href="/promotions"
                         //onClick={goToTechnical}
                         className="relative rounded-md cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
                     >
