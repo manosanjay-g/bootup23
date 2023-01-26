@@ -3,10 +3,15 @@ import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
+import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     const goToTechnical = () => {
         window.location.href = "#events-technical";
+        
     };
 
     const technicalEvents = [
