@@ -1,12 +1,11 @@
 import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
 import Footer from "../components/Footer";
-import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
 import "./light.css";
 import ParticlesBackground from "../components/ParticlesBackground";
+
 const Promotions = () => {
-    const { state } = useLocation()
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
