@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import './OrganizerCard.css';
 import './tilt.css';
 import Tilt from './Tilt';
@@ -44,11 +43,12 @@ const OrganizerCard = ({ name, event, image, index }) => {
                     className="front-card flex flex-col items-center justify-between py-6 px-6 gradient bg-zinc-900 rounded-lg"
                 >
 
-                    <motion.div viewport={{ once: true, amount: 0.2 }} initial="hidden" whileInView="visible" variants={textAnimate} className="mb-4 place-self-center">
-                        <motion.h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-pre-wrap ">{uppercaseName}</motion.h2>
-                        <motion.p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</motion.p>
-                    </motion.div>
-                    <motion.img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="organizer-img" src={image} className="w-20 my-2 self-center " />
+                    <div viewport={{ once: true, amount: 0.2 }} initial="hidden" whileInView="visible" variants={textAnimate} className="mb-4 place-self-center">
+                        <h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-pre-wrap ">{uppercaseName}</h2>
+                        <p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</p>
+                    </div>
+                    <div></div>
+                    <img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="organizer-img" src="https://xsgames.co/randomusers/assets/avatars/male/74.jpg" className="h-48 w-48 object-cover rounded-md my-2 self-center " />
                     <div></div>
                 </div>
             </div>
