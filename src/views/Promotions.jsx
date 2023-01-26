@@ -120,28 +120,28 @@ const Promotions = () => {
                 animate={{ opacity: 1, transition: { duration: 1 } }}
                 exit={{ opacity: 0 }}
                 id="event-details" className="flex flex-col pt-7 bg-black bg-opacity-50">
-            <div class="light flex justify-center text-5xl mb-3" data-text="Co-Ordinators">
-                <h1>Co-Ordinators</h1>
-            </div>
-            <div className="flex flex-row flex-wrap justify-center gap-10 my-10">
-                {Coordinators.map((e, index) => {
-                    return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
-                })}
-            </div>
-            <div class="light flex justify-center text-5xl mb-3" data-text="Promotion Team">
-                <h1>Promotion Team</h1>
-            </div>
-            <div className="flex flex-row flex-wrap justify-center gap-10 my-10">
-                {Coordinators.map((e, index) => {
-                    return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
-                })}
-            </div>
-            <Footer />
+                <div class="light flex justify-center text-4xl mb-3" data-text="COORDINATORS">
+                    <h1>COORDINATORS</h1>
+                </div>
+                <div className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:gap-10 ">
+                    {Coordinators.map((e, index) => {
+                        return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
+                    })}
+                </div>
+                <div class="light flex justify-center text-3xl mb-3" data-text="PROMOTIONS TEAM">
+                    <h1>PROMOTIONS TEAM</h1>
+                </div>
+                <div className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:gap-10">
+                    {Coordinators.map((e, index) => {
+                        return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
+                    })}
+                </div>
+                <Footer />
             </motion.div>
-                
+
         </div>
 
-        
+
 
     );
 };
