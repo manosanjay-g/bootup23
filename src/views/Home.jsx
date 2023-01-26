@@ -11,7 +11,7 @@ const Home = () => {
     }, [])
     const goToTechnical = () => {
         window.location.href = "#events-technical";
-        
+
     };
 
     const technicalEvents = [
@@ -60,10 +60,10 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                 "The final presentation content headings will be shared with the respective team leaders 5-6 days before the competition.",
-                 "Any team will be subject to disqualification if the work is found to be plagiarised",
-                 "The decision of the panel is final.",
-                ],
+                "The final presentation content headings will be shared with the respective team leaders 5-6 days before the competition.",
+                "Any team will be subject to disqualification if the work is found to be plagiarised",
+                "The decision of the panel is final.",
+            ],
             roundDescriptions: [
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
                 "1. Each team will be given a timeframe of around 10-12 minutes for their overall presentation followed by the questionnaire session by the panel."
@@ -94,7 +94,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "Internet access will not be provided.", 
+                "Internet access will not be provided.",
                 "In case of a tie, the fastest person to debug and execute the program is deemed the winner.",
                 "The decision of the panel is final.",
             ],
@@ -155,7 +155,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "The relay order of the teammates will be collected prior and it cannot be changed once the round begins.", 
+                "The relay order of the teammates will be collected prior and it cannot be changed once the round begins.",
                 "Only one round will be conducted for all the teams. If the question is answered before the stipulated time then the next team member can utilize the saved time for answering the next question and so on. Each question must be answered by only one teammate. ",
                 "Team members cannot help each other while solving the questions.",
                 "Malpractices will not be entertained and if the same is found then the corresponding team will be disqualified. The whole event will be organized in an auto-proctored environment.",
@@ -192,7 +192,7 @@ const Home = () => {
             rules: [
                 "* This event will be conducted on Feb 11, 2023 *",
                 "* Registrations for this event will be closed on Feb 9, 2023 *",
-                "The capture the flag event will be hosted on the Tryhackme Platform. The event will be private, only the registered participants can join the room to solve these challenges.", 
+                "The capture the flag event will be hosted on the Tryhackme Platform. The event will be private, only the registered participants can join the room to solve these challenges.",
                 "The problem solving mode for this CTF is Jeopardy.",
                 "The first three players that solve a challenge get rewarded with extra points. The other players solving the challenges will be given an average of points mentioned in the challenges.",
                 "Challenge Categories are: \nWeb, Forensics, Cryptography, Mobile Security, Binary Exploitation, Reverse Engineering, OSINT, Miscellaneous Challenges, Pwn",
@@ -227,7 +227,7 @@ const Home = () => {
                 "Offline Event",
             rules: [
                 "Internet access will not be provided.",
-                "Participants indulging in malpractice will be subject to disqualification.", 
+                "Participants indulging in malpractice will be subject to disqualification.",
                 "The Panel decision is final."
             ],
             roundDescriptions: [
@@ -261,7 +261,7 @@ const Home = () => {
                 "Offline Event",
             rules: [
                 "Internet access is not allowed.",
-                "Participants indulging in malpractice will be subject to disqualification.", 
+                "Participants indulging in malpractice will be subject to disqualification.",
                 "The Panel decision is final."
             ],
             roundDescriptions: [
@@ -294,12 +294,12 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "The participants must bring their own laptops with UiPath installed.", 
+                "The participants must bring their own laptops with UiPath installed.",
                 "The problem statement will be provided at the time of the event.",
                 "Participants have to address tasks given to them and create automation for the problem given.",
                 "Evaluation of the result is based on the efficiency of the solution.",
                 "The time taken to build the solution is considered a parameter for tie-breakers.",
-                "Participants indulging in malpractice will be subject to disqualification.", 
+                "Participants indulging in malpractice will be subject to disqualification.",
                 "The Panel decision is final."
             ],
             roundDescriptions: [],
@@ -380,7 +380,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Pootheswari J",
+                    name: "Potheeswari J",
                     event: "#Vanmam",
                     image: "",
                 },
@@ -511,7 +511,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "The domain for this event includes popular television series both new & old, movies and other pop culture references.", 
+                "The domain for this event includes popular television series both new & old, movies and other pop culture references.",
                 "Internet access is not allowed.",
                 "The Panel decision is final."
             ],
@@ -555,7 +555,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "This event is based on ‘Tamil and English Movie Scenes’.", 
+                "This event is based on ‘Tamil and English Movie Scenes’.",
                 "Each participate will be provided with a muted video clip of around 1 minute in duration.",
                 "The video will be played once or maximum twice to the participants.",
                 "The participants will be given 60 seconds to prepare",
@@ -596,7 +596,7 @@ const Home = () => {
             short_description:
                 "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
             rules: [
-                "Maximum of 8 people in a team is allowed.", 
+                "Maximum of 8 people in a team is allowed.",
                 "5 players are allowed on the pitch at anytime and the rest are substitutes.",
                 "The timings of the event will be 5+5 minutes, and a break of 1 minute will be given.",
                 "College ID cards are required for verification.",
@@ -649,7 +649,7 @@ const Home = () => {
                 "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
             rules: [
                 "The team must consist of 5 players.",
-                "A total of 16 teams can participate in this event.", 
+                "A total of 16 teams can participate in this event.",
                 "Team allocation will be done on the basis of First Come First Basis",
                 "The registrations will be closed once 16 teams have registered.",
                 "Every match is a knockout match.",
@@ -701,7 +701,7 @@ const Home = () => {
             short_description:
                 "First Round is Online & Final round is Offline",
             rules: [
-                "Participants can use any kind of device to capture pictures.", 
+                "Participants can use any kind of device to capture pictures.",
                 "The photograph must be original and no watermark of any kind should be on the photograph.",
                 "Participants can submit color or black-and-white photography.",
                 "The photograph must be of the highest resolution possible.",
@@ -746,7 +746,7 @@ const Home = () => {
                 "Offline Event",
             rules: [
                 "This event is exclusively for women.",
-                "There is no specific theme. Any kind of project tackling real-life problems is accepted.", 
+                "There is no specific theme. Any kind of project tackling real-life problems is accepted.",
                 "The participants will be given 5 minutes to pitch their product to the panel.",
                 "The participants are required to come prepared with a PPT for the event.",
                 "The pitch must represent a clear representation of the problem being solved and the market value along with the investment plans.",
