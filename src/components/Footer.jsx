@@ -124,7 +124,7 @@ const Footer = () => {
                             className="text-white">Instagram</a >
                     </p>
                     <div className="flex flex-row gap-x-1 my-3">
-                        <img src="https://img.icons8.com/fluency/24/null/google-maps-new.png"/>
+                        <img src="https://img.icons8.com/fluency/24/null/google-maps-new.png" alt="Map Icon"/>
                         <a className="text-white" href="https://goo.gl/maps/VAdKNh5zVXvckz7p7">Google Maps</a>
                     </div>
                 </div>
