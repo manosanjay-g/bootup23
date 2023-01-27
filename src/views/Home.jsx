@@ -1363,7 +1363,7 @@ const Home = () => {
                         STUDENT COORDINATORS
                     </h1>
                     <p className="text-gray-400 my-4 text-lg text-center font-medium">
-                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT STUDENTS
+                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
                     </p>
 
                 </div>
@@ -1394,10 +1394,10 @@ const Home = () => {
             >
                 <div className="flex flex-col items-center justify-center">
                     <h1 className="text-4xl  font-semibold text-center tracking-widest">
-                        PROMOTIONS TEAM
+                        PROMOTIONS
                     </h1>
                     <p className="text-gray-400 my-4 text-lg text-center font-medium">
-                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT STUDENTS
+                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
                     </p>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
