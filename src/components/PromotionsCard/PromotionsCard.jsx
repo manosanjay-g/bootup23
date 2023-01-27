@@ -19,6 +19,7 @@ const PromotionsCard = ({ name, team, image, index }) => {
         scale: 1.05,
         speed: 5000,
         max: 15,
+        gyroscope: false,
     };
 
     return (
