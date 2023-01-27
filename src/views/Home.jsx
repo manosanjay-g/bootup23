@@ -1362,6 +1362,9 @@ const Home = () => {
                     <h1 className="text-4xl  font-semibold text-center tracking-widest">
                         STUDENT COORDINATORS
                     </h1>
+                    <p className="text-gray-400 my-4 text-lg text-center font-medium">
+                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT STUDENTS
+                    </p>
 
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
@@ -1393,6 +1396,9 @@ const Home = () => {
                     <h1 className="text-4xl  font-semibold text-center tracking-widest">
                         PROMOTIONS TEAM
                     </h1>
+                    <p className="text-gray-400 my-4 text-lg text-center font-medium">
+                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT STUDENTS
+                    </p>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
