@@ -1,4 +1,4 @@
-import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
+import FacultyCard from "../components/FacultyCard/FacultyCard";
 import Footer from "../components/Footer";
 import { useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
@@ -63,17 +63,17 @@ const EventDetails = () => {
                     </p>
                 </div>
                 <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
-                {
-                    state.roundDescription.map((e, index) => {
-                        return <div>
-                            <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
-                                ROUND {index+1}
-                            </p>
-                        <p className="my-5 text-xl text-white " key={e + index}>{e}</p>
-                        </div>
-                    })
-                }
-                        
+                    {
+                        state.roundDescription.map((e, index) => {
+                            return <div>
+                                <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+                                    ROUND {index + 1}
+                                </p>
+                                <p className="my-5 text-xl text-white " key={e + index}>{e}</p>
+                            </div>
+                        })
+                    }
+
                 </div>
                 <div className="text-left px-5 md:px-20 mt-12 pd-" id="event-rules">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
@@ -128,7 +128,7 @@ const EventDetails = () => {
                     </p>
                     <div className="flex flex-row flex-wrap justify-center gap-10 mt-4">
                         {state.organizers.map((e, index) => {
-                            return <OrganizerCard event={state.name} image={e.image} index={index} name={e.name} key={index + e.name} />
+                            return <FacultyCard event={state.name} image={e.image} index={index} name={e.name} key={index + e.name} />
                         })}
                     </div>
                 </div>

@@ -1,10 +1,12 @@
 import EventCard from "../components/EventCard/EventCard";
-import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
+import FacultyCard from "../components/FacultyCard/FacultyCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
+import StudentCard from "../components/StudentCard /StudentCard";
+import PromotionsCard from "../components/PromotionsCard/PromotionsCard";
 const Home = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -879,6 +881,111 @@ const Home = () => {
             image: "",
         },
     ];
+    const studentCoordinators = [
+        {
+            name: "Varun Rishwandh",
+            role: "<role>",
+            image: "",
+        },
+        {
+            name: "Daadreyaa",
+            role: "<role>",
+            image: "",
+        },
+        {
+            name: "Thuhin Khanna",
+            role: "<role>",
+            image: "",
+        },
+        {
+            name: "Suraj",
+            role: "<role>",
+            image: "",
+        },
+
+        {
+            name: "Sriviveknath",
+            role: "<role>",
+            image: "",
+        },
+    ];
+    const promotionsTeam = [
+        {
+            name: "Mano Sanjay",
+            team: "Website Team",
+            image: "",
+        },
+        {
+            name: "Keshav",
+            team: "Website Team",
+            image: "",
+        },
+        {
+            name: "Subash",
+            team: "Website Team",
+            image: "",
+        },
+        {
+            name: "Suriya Prakash",
+            team: "Website Team",
+            image: "",
+        },
+        {
+            name: "Supriya",
+            team: "Social Media Team",
+            image: "",
+        },
+        {
+            name: "Muqaddam Aaqil Sheriff",
+            team: "Social Media Team",
+            image: "",
+        },
+        {
+            name: "Kamalakshi ",
+            team: "Social Media Team",
+            image: "",
+        },
+        {
+            name: "Monish ",
+            team: "Design Team",
+            image: "",
+        },
+        {
+            name: "Praveen",
+            team: "Design Team",
+            image: "",
+        },
+        {
+            name: "Abirami",
+            team: "Design Team",
+            image: "",
+        },
+        {
+            name: "Chandini Devi",
+            team: "Design Team",
+            image: "",
+        },
+        {
+            name: "Vijayakumar ",
+            team: "Video Team",
+            image: "",
+        },
+        {
+            name: "Rohit Gangadhar ",
+            team: "Video Team",
+            image: "",
+        },
+        {
+            name: "Rifhath Aslam ",
+            team: "Video Team",
+            image: "",
+        },
+        {
+            name: "Sai Nishit ",
+            team: "Video Team",
+            image: "",
+        },
+    ];
 
     //Event Card Mapping Start
     const technicalEventsMap = technicalEvents.map((e, index) => {
@@ -967,8 +1074,30 @@ const Home = () => {
     //Faculty Coordinators Card Mapping Start
     const FacultyCoordinatorsMap = facultyCoordinators.map((e, index) => {
         return (
-            <OrganizerCard
+            <FacultyCard
                 event={e.event}
+                name={e.name}
+                image={e.image}
+                index={index + "-t"}
+                key={index}
+            />
+        );
+    });
+    const StudentCoordinatorsMap = studentCoordinators.map((e, index) => {
+        return (
+            <StudentCard
+                role={e.role}
+                name={e.name}
+                image={e.image}
+                index={index + "-t"}
+                key={index}
+            />
+        );
+    });
+    const PromotionsTeamMap = promotionsTeam.map((e, index) => {
+        return (
+            <PromotionsCard
+                team={e.team}
                 name={e.name}
                 image={e.image}
                 index={index + "-t"}
@@ -1206,7 +1335,68 @@ const Home = () => {
                 </div>
             </div>
             <div
-                id="organizers-technical"
+                id="student-coordinators"
+                className="flex flex-col py-10 sm:px-6  text-white  "
+            >
+                <div className="flex flex-col items-center justify-center">
+                    <h1 className="text-4xl  font-semibold text-center tracking-widest">
+                        STUDENT COORDINATORS
+                    </h1>
+
+                </div>
+                <div className="flex mx-2 gap-4 items-center">
+                    <img
+                        src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
+                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
+                        alt=""
+                        onClick={() => slideLeft("organizer-technical-slider")}
+                    />
+                    <div
+                        id="organizer-technical-slider"
+                        className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                    >
+                        {StudentCoordinatorsMap}
+                    </div>
+                    <img
+                        src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
+                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
+                        alt=""
+                        onClick={() => slideRight("organizer-technical-slider")}
+                    />
+                </div>
+            </div>
+            <div
+                id="promotions-team"
+                className="flex flex-col py-10 sm:px-6  text-white  "
+            >
+                <div className="flex flex-col items-center justify-center">
+                    <h1 className="text-4xl  font-semibold text-center tracking-widest">
+                        PROMOTIONS TEAM
+                    </h1>
+                </div>
+                <div className="flex mx-2 gap-4 items-center">
+                    <img
+                        src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
+                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
+                        alt=""
+                        onClick={() => slideLeft("organizer-technical-slider")}
+                    />
+                    <div
+                        id="organizer-technical-slider"
+                        className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
+                    >
+                        {PromotionsTeamMap}
+                    </div>
+                    <img
+                        src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
+                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
+                        alt=""
+                        onClick={() => slideRight("organizer-technical-slider")}
+                    />
+                </div>
+            </div>
+            <div
+                id="faculty-coordinators"
                 className="flex flex-col py-10 sm:px-6  text-white  "
             >
                 <div className="flex flex-col items-center justify-center">
@@ -1238,6 +1428,7 @@ const Home = () => {
                     />
                 </div>
             </div>
+
             <Footer />
         </motion.div>
     );

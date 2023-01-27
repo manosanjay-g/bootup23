@@ -1,4 +1,4 @@
-import OrganizerCard from "../components/OrganizerCard/OrganizerCard";
+import FacultyCard from "../components/FacultyCard/FacultyCard";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
@@ -125,7 +125,7 @@ const Promotions = () => {
                 </div>
                 <div className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:gap-10 ">
                     {Coordinators.map((e, index) => {
-                        return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
+                        return <FacultyCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
                     })}
                 </div>
                 <div class="light flex justify-center text-3xl mb-3" data-text="PROMOTIONS TEAM">
@@ -133,7 +133,7 @@ const Promotions = () => {
                 </div>
                 <div className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:gap-10">
                     {Coordinators.map((e, index) => {
-                        return <OrganizerCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
+                        return <FacultyCard event={e.event} image={e.image} index={index} name={e.name} key={index + e.name} />
                     })}
                 </div>
                 <Footer />
