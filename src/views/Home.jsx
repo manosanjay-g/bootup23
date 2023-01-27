@@ -5,7 +5,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
-import StudentCard from "../components/StudentCard /StudentCard";
+import StudentCard from "../components/StudentCard/StudentCard";
 import PromotionsCard from "../components/PromotionsCard/PromotionsCard";
 const Home = () => {
     useEffect(() => {
@@ -884,7 +884,7 @@ const Home = () => {
     const studentCoordinators = [
         {
             name: "Varun Rishwandh",
-            role: "<role>",
+            role: "<role>1",
             image: "",
         },
         {
