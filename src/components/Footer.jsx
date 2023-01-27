@@ -22,6 +22,9 @@ const Footer = () => {
                     <p onClick={() => navigate("/")} className="cursor-pointer text-white text-lg">Home</p>
                     {/* <p className="text-white text-lg"><a href="/">Contact Us</a></p> */}
                     <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Coordinators</p>
+
+                
+                    <a href="https://goo.gl/maps/4rMFZ3nzHKFNLddV8" className="cursor-pointer text-white text-lg" target="_blank">Location</a>
                 </div>
                 <div className="footer-item-events">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">
