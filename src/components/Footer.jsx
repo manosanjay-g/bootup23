@@ -9,7 +9,7 @@ const Footer = () => {
             id="footer"
             className="flex flex-col lg:flex-row w-full p-7 bg-zinc-900 md:justify-start"
         >
-            {/* <div className="flex flex-col items-center lg:items-start mb-4">
+            <div className="flex flex-col items-center lg:items-start mb-4">
                 <p className="text-white text-3xl mb-4 font-semibold text-center lg:text-left ">
                     BOOTUP'23
                 </p>
@@ -20,21 +20,7 @@ const Footer = () => {
                         Rajalakshmi Nagar Thandalam, Chennai - 602 105.
                     </span>
                 </p>
-            </div> */}
-            <div 
-            className="flex flex-col md:w-1/6 pl-9">
-            <p className="text-white text-3xl mb-4 font-semibold text-left ">
-                BOOTUP'23
-            </p>
-            <p className="text-white text-left text-xl">
-                Thuhin Khanna S
-            </p>
-            <p className="text-white text-left text-md mb-5">
-                Rajalakshmi Engineering College,<br />
-                Rajalakshmi Nagar Thandalam,<br />
-                Chennai - 602 105<br />
-            </p>
-          </div>
+            </div>
 
             <div
                 id="footer-items"
