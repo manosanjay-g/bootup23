@@ -31,7 +31,6 @@ const Footer = () => {
                     <div className='h-1 w-14 bg-blue-400 mb-5'></div>
                     <p onClick={() => navigate("/")} className="cursor-pointer text-white text-lg">Home</p>
                     {/* <p className="text-white text-lg"><a href="/">Contact Us</a></p> */}
-                    <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Coordinators</p>
                 </div>
                 <div className="footer-item-events">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">
