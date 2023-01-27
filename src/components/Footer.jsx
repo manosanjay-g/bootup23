@@ -102,7 +102,7 @@ const Footer = () => {
                                 </g>
                             </g>
                         </svg>
-                        +91 9876543210
+                        <a href="tel:9876543210">+91 9876543210</a>
                     </p>
                     <p
                         class=" flex flex-row gap-x-2 items-center my-3"
