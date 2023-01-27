@@ -1038,6 +1038,9 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
+        const studentCoordinatorSlider = document.getElementById("student-coordinators-slider")
+        const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
+        const promotionsTeamSlider = document.getElementById("promotions-team-slider")
         if (type === "technical-slider") {
             technicalSlider.scrollLeft -= 500;
         } else if (type === "non-technical-slider") {
@@ -1046,7 +1049,14 @@ const Home = () => {
             organizerTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-non-technical-slider") {
             organizerNonTechnicalSlider.scrollLeft -= 500;
-        } else {
+        } else if (type === "student-coordinators-slider") {
+            studentCoordinatorSlider.scrollLeft -= 500;
+        } else if (type === "faculty-coordinators-slider") {
+            facultyCoordinatorSlider.scrollLeft -= 500;
+        } else if (type === "promotions-team-slider") {
+            promotionsTeamSlider.scrollLeft -= 500;
+        }
+        else {
         }
     };
     const slideRight = (type) => {
@@ -1058,6 +1068,9 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
+        const studentCoordinatorSlider = document.getElementById("student-coordinators-slider")
+        const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
+        const promotionsTeamSlider = document.getElementById("promotions-team-slider")
         if (type === "technical-slider") {
             technicalSlider.scrollLeft += 500;
         } else if (type === "non-technical-slider") {
@@ -1066,7 +1079,14 @@ const Home = () => {
             organizerTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-non-technical-slider") {
             organizerNonTechnicalSlider.scrollLeft += 500;
-        } else {
+        } else if (type === "student-coordinators-slider") {
+            studentCoordinatorSlider.scrollLeft += 500;
+        } else if (type === "faculty-coordinators-slider") {
+            facultyCoordinatorSlider.scrollLeft += 500;
+        } else if (type === "promotions-team-slider") {
+            promotionsTeamSlider.scrollLeft += 500;
+        }
+        else {
         }
     };
     //Slider Methods End
@@ -1349,10 +1369,10 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
                         alt=""
-                        onClick={() => slideLeft("organizer-technical-slider")}
+                        onClick={() => slideLeft("student-coordinators-slider")}
                     />
                     <div
-                        id="organizer-technical-slider"
+                        id="student-coordinators-slider"
                         className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
                         {StudentCoordinatorsMap}
@@ -1361,7 +1381,7 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
                         alt=""
-                        onClick={() => slideRight("organizer-technical-slider")}
+                        onClick={() => slideRight("student-coordinators-slider")}
                     />
                 </div>
             </div>
@@ -1379,10 +1399,10 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
                         alt=""
-                        onClick={() => slideLeft("organizer-technical-slider")}
+                        onClick={() => slideLeft("promotions-team-slider")}
                     />
                     <div
-                        id="organizer-technical-slider"
+                        id="promotions-team-slider"
                         className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
                         {PromotionsTeamMap}
@@ -1391,7 +1411,7 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
                         alt=""
-                        onClick={() => slideRight("organizer-technical-slider")}
+                        onClick={() => slideRight("promotions-team-slider")}
                     />
                 </div>
             </div>
@@ -1412,10 +1432,10 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
                         alt=""
-                        onClick={() => slideLeft("organizer-technical-slider")}
+                        onClick={() => slideLeft("faculty-coordinators-slider")}
                     />
                     <div
-                        id="organizer-technical-slider"
+                        id="faculty-coordinators-slider"
                         className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
                         {FacultyCoordinatorsMap}
@@ -1424,7 +1444,7 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
                         alt=""
-                        onClick={() => slideRight("organizer-technical-slider")}
+                        onClick={() => slideRight("faculty-coordinators-slider")}
                     />
                 </div>
             </div>
