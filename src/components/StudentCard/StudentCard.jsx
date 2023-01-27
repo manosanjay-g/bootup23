@@ -36,7 +36,7 @@ const StudentCard = ({ name, role, image, index }) => {
                     minHeight: "24rem",
                     maxHeight: "24rem",
                 }}
-                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-green-500 text-center mt-4 cursor-default org-container"
+                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-blue-400 text-center mt-4 cursor-default student-container"
 
             >
 
