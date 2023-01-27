@@ -123,6 +123,10 @@ const Footer = () => {
                             href="https://instagram.com/bootup.rec"
                             className="text-white">Instagram</a >
                     </p>
+                    <div className="flex flex-row gap-x-1 my-3">
+                        <img src="https://img.icons8.com/fluency/24/null/google-maps-new.png"/>
+                        <a className="text-white" href="https://goo.gl/maps/VAdKNh5zVXvckz7p7">Google Maps</a>
+                    </div>
                 </div>
             </div>
         </div>
