@@ -121,7 +121,7 @@ const EventDetails = () => {
 
                 <div
                     id="organizers-technical"
-                    className="flex flex-col py-10 sm:px-6 mt-10 text-center text-white  "
+                    className="flex flex-col py-10 sm:px-6 mt-10 text-center text-white"
                 >
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         ORGANIZERS

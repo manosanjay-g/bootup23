@@ -7,6 +7,7 @@ import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
 import StudentCard from "../components/StudentCard/StudentCard";
 import PromotionsCard from "../components/PromotionsCard/PromotionsCard";
+import '../components/arrow.css'
 const Home = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -408,19 +409,18 @@ const Home = () => {
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
             short_description:
                 "Offline Event",
-            rules: 
-            [   
-                
-                "Players should play on their main account.",
-                "A knockout system will be followed",
-                "Maps will be decided by community vote.",
-                "Any instance of cheating will result in an immediate removal from the tournament.",
-            
-            
-            
-            "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
-            "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
-            ],
+            rules:
+                [
+                    "Players should play on their main account.",
+                    "A knockout system will be followed",
+                    "Maps will be decided by community vote.",
+                    "Any instance of cheating will result in an immediate removal from the tournament.",
+
+
+
+                    "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
+                    "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
+                ],
             roundDescriptions: [],
             type: "Team Event (Exactly 5)",
             eligibility: "4 Rounds",
@@ -458,12 +458,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "Each team should take a screenshot and submit the result(Ranking).", 
-                "Hackers will not be allowed",
-                "Players should play on their main account.",
-                "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
-                "The player should play in only one team",
-
+                "Each team should take a screenshot and submit the result(Ranking).", "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
 
             ],
             roundDescriptions: [],
@@ -1295,6 +1290,14 @@ const Home = () => {
                     <p className="text-gray-400 my-2 font-semibold text-xl wide-text">
                         TECHNICAL
                     </p>
+                    <div className="flex flex-row justify-center items-center mt-5 md:hidden">
+                        <p className="text-gray-400 my-2 font-semibold text-xl wide-text">
+                            SWIPE
+                        </p>
+                        <div className="arrows-container items-end ">
+                            <div className="arrow arrow-one w-5 h-5 "></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
@@ -1326,7 +1329,14 @@ const Home = () => {
                     <p className="text-gray-400 my-2 text-xl wide-text font-semibold">
                         NON-TECHNICAL
                     </p>
-
+                    <div className="flex flex-row justify-center items-center mt-5 md:hidden">
+                        <p className="text-gray-400 my-2 font-semibold text-xl wide-text">
+                            SWIPE
+                        </p>
+                        <div className="arrows-container items-end ">
+                            <div className="arrow arrow-one w-5 h-5 "></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
