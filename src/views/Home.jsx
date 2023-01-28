@@ -110,12 +110,12 @@ const Home = () => {
                 {
                     name: "Vijay A",
                     event: "404 Not Found",
-                    image: "",
+                    image: "404_not_found/vijay_a",
                 },
                 {
                     name: "Zafar Sadik H D",
                     event: "404 Not Found",
-                    image: "",
+                    image: "404_not_found/Zafar.jpg",
                 },
             ],
             link: "",
@@ -484,12 +484,12 @@ const Home = () => {
                 {
                     name: "Varun S",
                     event: "Ready Player One",
-                    image: "",
+                    image: "bgmi/BGMI_VARUN",
                 },
                 {
                     name: "Sriram TK",
                     event: "Ready Player One",
-                    image: "",
+                    image: "bgmi/BGMI_SRIRAM",
                 },
                 {
                     name: "Sriramakrishnan B",
@@ -849,22 +849,22 @@ const Home = () => {
         {
             name: "Mano Sanjay",
             team: "Website Team",
-            image: "",
+            image: "promotions/Website_ManoSanjay",
         },
         {
             name: "Keshav",
             team: "Website Team",
-            image: "",
+            image: "promotions/Website_keshav",
         },
         {
             name: "Subash",
             team: "Website Team",
-            image: "",
+            image: "promotions/Website_SubhashB",
         },
         {
             name: "Suriya Prakash",
             team: "Website Team",
-            image: "",
+            image: "promotions/Website_SuriyaPrakash",
         },
         {
             name: "Supriya",
