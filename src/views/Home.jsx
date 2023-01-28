@@ -832,7 +832,7 @@ const Home = () => {
             image: "promotions/Website_keshav.jpg",
         },
         {
-            name: "Subash",
+            name: "Subhash",
             team: "Website Team",
             image: "promotions/Website_SubhashB.jpg",
         },
