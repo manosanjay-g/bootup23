@@ -626,12 +626,12 @@ const Home = () => {
             link: "",
         },
         {
-            name: "Cup Mukkiyam Bigiley ",
+            name: "Tiki-Taka ",
             info: "Futsal",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
             route: "/tiki-taka",
             description:
-                "Unleash your inner football star in our ultimate Cup Mukkiyam Bigiley tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Cup Mukkiyam Bigiley? Sign up now and let the games begin!",
+                "Unleash your inner football star in our ultimate Tiki-Taka tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Tiki-Taka? Sign up now and let the games begin!",
             short_description:
                 "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
             rules: [
