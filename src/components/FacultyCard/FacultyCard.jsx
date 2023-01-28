@@ -44,7 +44,7 @@ const FacultyCard = ({ name, event, image, index }) => {
                 >
 
                     <div viewport={{ once: true, amount: 0.2 }} initial="hidden" whileInView="visible" variants={textAnimate} className="mb-4 place-self-center">
-                        <h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice  ">{uppercaseName}</h2>
+                        <h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-normal ">{uppercaseName}</h2>
                         <p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</p>
                     </div>
                     <div></div>
