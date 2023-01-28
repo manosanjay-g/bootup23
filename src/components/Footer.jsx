@@ -9,19 +9,19 @@ const Footer = () => {
             id="footer"
             className="flex flex-col lg:flex-row w-full p-7 bg-zinc-900 md:justify-start"
         >
-            <div className="flex flex-col items-center lg:items-start mb-4">
-                <p className="text-white text-3xl mb-4 font-semibold text-center lg:text-left ">
-                    BOOTUP'23
-                </p>
-                <p className="flex flex-col text-center lg:text-left text-white text-md mb-4">
-                    <span className="font-semibold">Thuhin Khanna S,</span>
-                    <span className="mt-1">
-                        Rajalakshmi Engineering College,
-                        Rajalakshmi Nagar Thandalam, Chennai - 602 105.
-                    </span>
-                </p>
-            </div>
-
+          <div className="flex flex-col justify-start items-start">
+          <p className="text-white text-3xl mb-4 font-semibold text-center ">
+                BOOTUP'23
+            </p>
+            <p className="text-white text-left text-md mb-4 text-center ">
+                Thuhin Khanna R<br/>
+                <span>
+                Rajalakshmi Engineering College,
+                Rajalakshmi Nagar Thandalam, Chennai - 602 105.
+                </span>
+            </p>
+          </div>
+            
             <div
                 id="footer-items"
                 className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0"

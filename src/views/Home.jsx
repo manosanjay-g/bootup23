@@ -37,7 +37,7 @@ const Home = () => {
                 "The Panel decision is final.",
             ],
             roundDescriptions: [],
-            type: "Number of participants: 1 - 3",
+            type: "Team Event (1-3 members)",
             eligibility: "1 Round",
             organizers: [
                 {
@@ -71,7 +71,7 @@ const Home = () => {
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
                 "1. Each team will be given a timeframe of around 10-12 minutes for their overall presentation followed by the questionnaire session by the panel."
             ],
-            type: "Team Event (1-3)",
+            type: "Team Event (1-3 members)",
             eligibility: "2 Rounds",
             organizers: [
                 {
@@ -130,10 +130,17 @@ const Home = () => {
                 "Calling all web design enthusiasts! Are you ready to put your HTML and CSS skills to the test? Join our exciting website replication competition and showcase your ability to recreate a visually stunning and responsive website design. Push the boundaries of what is possible with HTML and CSS. Don't miss out on this opportunity to flex your design muscles and come out on top as the ultimate web design champion.",
             short_description:
                 "Offline Event",
-            rules: ["Rule 1", "Rule 2"],
+            rules: [
+                "Participants must bring their own laptops.", 
+                "The topics will be provided on the day of the event.",
+                "The team is expected to develop a creative front-end for the web application.",
+                "The duration of the event is 90 minutes.",
+                "The most creative and innovative solutions will be rewarded.",
+                "The Panel's decision is final."
+            ],
             roundDescriptions: [],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+            type: "Team Event (2-4 members)",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Akhila Vignesh",
@@ -167,7 +174,7 @@ const Home = () => {
                 "The decision taken by the panel will be final.",
             ],
             roundDescriptions: [],
-            type: "Team Event (Exactly 3)",
+            type: "Team Event (Exactly 3 members)",
             eligibility: "1 Round",
             organizers: [
                 {
@@ -408,22 +415,22 @@ const Home = () => {
             description:
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
             short_description:
-                "Offline Event",
+                "Offline Event\n\n* Entry Fee : Rs. 50 per person *",
             rules:
                 [
                     "Players should play on their main account.",
                     "A knockout system will be followed",
                     "Maps will be decided by community vote.",
                     "Any instance of cheating will result in an immediate removal from the tournament.",
-
-
-
                     "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
                     "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
                 ],
-            roundDescriptions: [],
-            type: "Team Event (Exactly 5)",
-            eligibility: "4 Rounds",
+            roundDescriptions: [
+                "1. This is an online round.\n\n2. Players winning both the matches will advance to the next round.",
+                "1. This is an offline round.\n\n2. PCs will be provided for this round of matches."
+            ],
+            type: "Team Event (Exactly 5 members + Substitutes as needed)",
+            eligibility: "2 Rounds",
             organizers: [
                 {
                     name: "Dhanush Aravind A",
@@ -454,16 +461,21 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/pubg.png",
             route: "/ready-player-one-bgmi",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of BGMI(Battlegrounds Mobile India) with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!,",
             short_description:
-                "Offline Event",
+                "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
             rules: [
-                "Each team should take a screenshot and submit the result(Ranking).", "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
+                "Players should play on their main account.",
+                "Maximum duration of a match is 40 minutes",
+                "Each team should take a screenshot and submit the result(Ranking).",
+                "Any instance of cheating will result in an immediate removal from the tournament.",
+                "Trash talking during/after the game is not encouraged and will result in immediate disqualification.",
+                "Prizes are based on the number of teams.",
 
             ],
             roundDescriptions: [],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+            type: "Team Event (1-4 members)",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Sudarchanan MS",
@@ -475,6 +487,17 @@ const Home = () => {
                     event: "Ready Player One",
                     image: "",
                 },
+                {
+                    name: "Sriram TK",
+                    event: "Ready Player One",
+                    image: "",
+                },
+                {
+                    name: "Sriramakrishnan B",
+                    event: "Ready Player One",
+                    image: "",
+                },    
+
             ],
             link: "",
         },
@@ -536,7 +559,7 @@ const Home = () => {
                 "1. This is a pen-paper round.\n\n2. Each team will be provided with a set of 20 questions and are asked to complete it within the stipulated time.\n\n3. The teams with the highest scores will move on to the final round.",
                 "1. This is a buzzer round.\n\n2. A time limit of 30 seconds is provided to answer a question, the team who hit the buzzer has to answer within 5 seconds of pressing it."
             ],
-            type: "Team Event (1-2)",
+            type: "Team Event (1 - 2 members)",
             eligibility: "2 Rounds",
             organizers: [
                 {
@@ -582,7 +605,7 @@ const Home = () => {
                 "The Panel's decision is final.",
             ],
             roundDescriptions: [],
-            type: "Team Event",
+            type: "Individual Event",
             eligibility: "1 Round",
             organizers: [
                 {
@@ -624,8 +647,8 @@ const Home = () => {
                 "The referee's decision is final.",
             ],
             roundDescriptions: [],
-            type: "Team Event (5 + 3 substitutes)",
-            eligibility: "1 Round",
+            type: "Team Event (5 players + 3 substitutes)",
+            eligibility: "Knockout",
             organizers: [
                 {
                     name: "Harish S",
@@ -677,7 +700,7 @@ const Home = () => {
                 "Umpires decision will be final.",
             ],
             roundDescriptions: [],
-            type: "Team Event (Exactly 5)",
+            type: "Team Event (Exactly 5 players)",
             eligibility: "Open to all departments",
             organizers: [
                 {
@@ -771,7 +794,7 @@ const Home = () => {
                 "The Panel's decision is final."
             ],
             roundDescriptions: [],
-            type: "Team Event (1-2)",
+            type: "Team Event (1 - 2 members)",
             eligibility: "1 Round",
             organizers: [
                 {

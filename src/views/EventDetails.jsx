@@ -32,10 +32,10 @@ const EventDetails = () => {
                         <p className="text-white mb-2 font-semibold text-2xl  justify-center  tracking-widest">
                             {state.info.toUpperCase()}
                         </p>
-                        <p className="text-gray-500 font-semibold text-lg  justify-center ">
+                        <p className="text-gray-400 font-semibold text-lg  justify-center ">
                             {state.type.toUpperCase()}
                         </p>
-                        <p className="text-gray-500 font-semibold text-lg  justify-center ">
+                        <p className="text-gray-400 font-semibold text-lg  justify-center ">
                             {state.short_description.toUpperCase()}
                         </p>
                     </div>
@@ -58,7 +58,7 @@ const EventDetails = () => {
                     <p className="text-white mb-2 font-semibold  justify-center text-2xl  tracking-widest">
                         NUMBER OF ROUNDS
                     </p>
-                    <p className="text-gray-500 font-semibold text-xl text-left ">
+                    <p className="text-gray-400 font-semibold text-xl text-left ">
                         {state.eligibility.toUpperCase()}
                     </p>
                 </div>
