@@ -849,7 +849,7 @@ const Home = () => {
         {
             name: "Monish ",
             team: "Design Team",
-            image: "",
+            image: "promotions/Design team - Monish.jpg",
         },
 
         {
@@ -861,6 +861,21 @@ const Home = () => {
             name: "Chandini Devi",
             team: "Design Team",
             image: "",
+        },
+        {
+            name: "Supriya",
+            team: "Social Media Team",
+            image: "promotions/socialmedia_supriya.jpeg",
+        },
+        {
+            name: "Muqaddam Aaqil Sheriff",
+            team: "Social Media Team",
+            image: "promotions/Socialmedia_Aaqil.jpeg",
+        },
+        {
+            name: "Kamalakshi ",
+            team: "Social Media Team",
+            image: "promotions/SocialMedia_Kamalakshi.jpg",
         },
         {
             name: "Vijayakumar ",
@@ -882,21 +897,7 @@ const Home = () => {
             team: "Video Team",
             image: "",
         },
-        {
-            name: "Supriya",
-            team: "Social Media Team",
-            image: "",
-        },
-        {
-            name: "Muqaddam Aaqil Sheriff",
-            team: "Social Media Team",
-            image: "",
-        },
-        {
-            name: "Kamalakshi ",
-            team: "Social Media Team",
-            image: "",
-        },
+
     ];
 
     //Event Card Mapping Start
