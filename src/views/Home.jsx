@@ -374,22 +374,22 @@ const Home = () => {
                 {
                     name: "Mohanapriya R",
                     event: "#Vanmam",
-                    image: "",
+                    image: "Vanmam/Vanmam_",
                 },
                 {
                     name: "Potheeswari J",
                     event: "#Vanmam",
-                    image: "",
+                    image: "Vanmam/Vanmam_Potheeswari J.jpg",
                 },
                 {
                     name: "Pavithra S",
                     event: "#Vanmam",
-                    image: "",
+                    image: "Vanmam/Vanmam_Pavithra S.jpeg",
                 },
                 {
                     name: "Mierudhula Sa",
                     event: "#Vanmam",
-                    image: "",
+                    image: "Vanmam/Vanmam_Mierudhula Sa.jpg",
                 },
             ],
             link: "",
@@ -468,12 +468,12 @@ const Home = () => {
                 {
                     name: "Varun S",
                     event: "Ready Player One",
-                    image: "bgmi/BGMI_VARUN",
+                    image: "bgmi/BGMI_VARUN.jpg",
                 },
                 {
                     name: "Sriram TK",
                     event: "Ready Player One",
-                    image: "bgmi/BGMI_SRIRAM",
+                    image: "bgmi/BGMI_SRIRAM.jpg",
                 },
                 {
                     name: "Sriramakrishnan B",
@@ -507,17 +507,17 @@ const Home = () => {
                 {
                     name: "Anagha Nambiar",
                     event: "Oru Naal President",
-                    image: "",
+                    image: "Oru Naal President/OruNaalPresident_AnaghaNambiar.jpg",
                 },
                 {
                     name: "Deepthi P",
                     event: "Oru Naal President",
-                    image: "",
+                    image: "Oru Naal President/Deepthi_P.jpeg",
                 },
                 {
                     name: "Nandita Sajeev",
                     event: "Oru Naal President",
-                    image: "",
+                    image: "Oru Naal President/Nandita_Sajeev.jpg",
                 },
             ],
             link: "",
@@ -545,22 +545,22 @@ const Home = () => {
                 {
                     name: "Anjana D",
                     event: "Fandom Wars",
-                    image: "",
+                    image: "Fandom wars/Fandomwars_Anjana.JPG",
                 },
                 {
                     name: "Deepika R",
                     event: "Fandom Wars",
-                    image: "",
+                    image: "Fandom wars/Fandomwars_Deepika.jpg",
                 },
                 {
                     name: "Dhanalakshmi R",
                     event: "Fandom Wars",
-                    image: "",
+                    image: "Fandom wars/FandomWars-Dhanalakshmi.jpeg",
                 },
                 {
                     name: "Kesheka E",
                     event: "Fandom Wars",
-                    image: "",
+                    image: "Fandom wars/FandomWars-E Kesheka.jpg",
                 },
             ],
             link: "",
@@ -590,17 +590,17 @@ const Home = () => {
                 {
                     name: "Aruna S",
                     event: "Naduvula Konjam Audio-va Kaanom",
-                    image: "",
+                    image: "NaduvulaKonjamAudiovaKanom/",
                 },
                 {
                     name: "Deepasree R",
                     event: "Naduvula Konjam Audio-va Kaanom",
-                    image: "",
+                    image: "NaduvulaKonjamAudiovaKanom/IMG_20220306_141201.jpg",
                 },
                 {
                     name: "Geethanjali M",
                     event: "Naduvula Konjam Audio-va Kaanom",
-                    image: "",
+                    image: "NaduvulaKonjamAudiovaKanom/NaduvulaKonjamAudiovaKanom-Geethanjali.jpeg",
                 },
             ],
             link: "",
@@ -631,27 +631,27 @@ const Home = () => {
                 {
                     name: "Harish S",
                     event: "Tiki-Taka",
-                    image: "",
+                    image: "tiki-taka/Harish.jpg",
                 },
                 {
                     name: "Lakshmi Prasath S",
                     event: "Tiki-Taka",
-                    image: "",
+                    image: "tiki-taka/.jpg",
                 },
                 {
                     name: "Krishna Vamsee",
                     event: "Tiki-Taka",
-                    image: "",
+                    image: "tiki-taka/KrishnaVamsee.png",
                 },
                 {
                     name: "Jabez Samuel W",
                     event: "Tiki-Taka",
-                    image: "",
+                    image: "tiki-taka/JabezSamuel.jpg",
                 },
                 {
                     name: "Kevin Austin",
                     event: "Tiki-Taka",
-                    image: "",
+                    image: "tiki-taka/Kevin.jpg",
                 },
             ],
             link: "",
@@ -683,27 +683,27 @@ const Home = () => {
                 {
                     name: "Sabarish Abishek",
                     event: "Master the Blaster",
-                    image: "",
+                    image: "Master The Blaster/Master the Blaster - Sabarish Abishek W R.jpg",
                 },
                 {
                     name: "Riyazuddin",
                     event: "Master the Blaster",
-                    image: "",
+                    image: "Master The Blaster/Master the Blaster - Riyazuddin R.jpg",
                 },
                 {
                     name: "Sabarish VU",
                     event: "Master the Blaster",
-                    image: "",
-                },
-                {
-                    name: "Sasidharan S",
-                    event: "Master the Blaster",
-                    image: "",
+                    image: "Master The Blaster/Master the Blaster - Sabarish V U.jpg",
                 },
                 {
                     name: "Santhosh R",
                     event: "Master the Blaster",
-                    image: "",
+                    image: "Master The Blaster/Master the Blaster - Santhosh R.jpg",
+                },
+                {
+                    name: "Sasidharan S",
+                    event: "Master the Blaster",
+                    image: "Master The Blaster/Master the blaster-Sasidharan S.jpg",
                 },
             ],
             link: "",
@@ -736,17 +736,17 @@ const Home = () => {
                 {
                     name: "Sharveshwaran R",
                     event: "Kodak",
-                    image: "",
+                    image: "Kodak/Kodak_Santoshkumar.jpg",
                 },
                 {
                     name: "Shwetha M",
                     event: "Kodak",
-                    image: "",
+                    image: "Kodak/Kodak_Sharveshwaran.jpg",
                 },
                 {
                     name: "Santoshkumar PA",
                     event: "Kodak",
-                    image: "",
+                    image: "Kodak/Kodak_Shwetha.jpg",
                 },
             ],
             link: "",
@@ -775,17 +775,17 @@ const Home = () => {
                 {
                     name: "Varsha P",
                     event: "She Boss!",
-                    image: "",
+                    image: "She Boss/She Boss-Varsha P.jpg",
                 },
                 {
                     name: "Urjha MB",
                     event: "She Boss!",
-                    image: "",
+                    image: "She Boss/She Boss-Urjha M B.jpg",
                 },
                 {
                     name: "Pooja V",
                     event: "She Boss!",
-                    image: "",
+                    image: "She Boss/She_boss_-_Pooja_V.jpg",
                 },
             ],
             link: "",
@@ -795,28 +795,28 @@ const Home = () => {
     const coordinators = [
         {
             name: "Varun Rishwandh",
-            role: "<role>1",
+            role: "Final Year",
             image: "OrgCom/OrgCom_Varun.jpg",
         },
         {
             name: "Daadreyaa",
-            role: "<role>",
+            role: "Final Year",
             image: "OrgCom/OrgCom_Daadreyaa.jpg",
         },
         {
             name: "Thuhin Khanna",
-            role: "<role>",
+            role: "Final Year",
             image: "OrgCom/OrgCom_ThuhinKhanna.jpg",
         },
         {
             name: "Suraj",
-            role: "<role>",
+            role: "Final Year",
             image: "OrgCom/OrgCom_Suraj.png",
         },
 
         {
             name: "Sriviveknath",
-            role: "<role>",
+            role: "Final Year",
             image: "OrgCom/OrgCom_Sriviveknath S R.jpg",
         },
     ];
