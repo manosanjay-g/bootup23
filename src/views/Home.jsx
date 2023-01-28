@@ -45,7 +45,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Chinna Sakthi V",
+                    name: "Chinna Sakthi",
                     event: "Silicon Valley",
                     image: "",
                 },
@@ -79,7 +79,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Jeevamutharasi S",
+                    name: "Jeevamutharasi",
                     event: "The Revolution",
                     image: "",
                 },
@@ -113,7 +113,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Zafar Sadik H D",
+                    name: "Zafar Sadik",
                     event: "404 Not Found",
                     image: "",
                 },
@@ -175,7 +175,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Harish Kumar S",
+                    name: "Harish Kumar",
                     event: "Halt and Catch Fire",
                     image: "",
                 },
@@ -211,7 +211,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Krithic Kumar U B",
+                    name: "Krithic Kumar",
                     event: "The Perfect Exploit",
                     image: "",
                 },
@@ -245,7 +245,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Sriviveknath S R",
+                    name: "Sriviveknath",
                     event: "The Office",
                     image: "",
                 },
@@ -309,7 +309,7 @@ const Home = () => {
             eligibility: "1 Round",
             organizers: [
                 {
-                    name: "Sriviveknath S R",
+                    name: "Sriviveknath",
                     event: "Ex Machina",
                     image: "",
                 },
@@ -451,7 +451,7 @@ const Home = () => {
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "Sudarchanan MS",
+                    name: "Sudarchanan",
                     event: "Ready Player One",
                     image: "",
                 },
@@ -535,7 +535,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Dhanalakshmi R",
+                    name: "Dhanalakshmi",
                     event: "Fandom Wars",
                     image: "",
                 },
@@ -628,7 +628,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Jabez Samuel W",
+                    name: "Jabez Samuel",
                     event: "Tiki-Taka",
                     image: "",
                 },
@@ -720,7 +720,7 @@ const Home = () => {
             eligibility: "2 Rounds",
             organizers: [
                 {
-                    name: "Sharveshwaran R",
+                    name: "Sharveshwaran",
                     event: "Kodak",
                     image: "",
                 },
@@ -730,7 +730,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Santoshkumar PA",
+                    name: "Santoshkumar",
                     event: "Kodak",
                     image: "",
                 },
