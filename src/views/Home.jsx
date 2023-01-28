@@ -5,7 +5,6 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
 import { useEffect } from 'react'
 import Countdown from '../components/Countdown/Countdown';
-import StudentCard from "../components/StudentCard/StudentCard";
 import PromotionsCard from "../components/PromotionsCard/PromotionsCard";
 import '../components/arrow.css'
 const Home = () => {
@@ -131,7 +130,7 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "Participants must bring their own laptops.", 
+                "Participants must bring their own laptops.",
                 "The topics will be provided on the day of the event.",
                 "The team is expected to develop a creative front-end for the web application.",
                 "The duration of the event is 90 minutes.",
@@ -496,7 +495,7 @@ const Home = () => {
                     name: "Sriramakrishnan B",
                     event: "Ready Player One",
                     image: "",
-                },    
+                },
 
             ],
             link: "",
@@ -817,109 +816,8 @@ const Home = () => {
         },
     ];
 
-    const facultyCoordinators = [
-        {
-            name: "Surya V",
-            event: "Silicon Valley",
-            image: "",
-        },
-        {
-            name: "Chinna Sakthi V",
-            event: "Silicon Valley",
-            image: "",
-        },
-        {
-            name: "Jeevitha C",
-            event: "The Revolution",
-            image: "",
-        },
-        {
-            name: "Jeevamutharasi S",
-            event: "The Revolution",
-            image: "",
-        },
-        {
-            name: "Vijay A",
-            event: "404 Not Found",
-            image: "",
-        },
-        {
-            name: "Zafar Sadik H D",
-            event: "404 Not Found",
-            image: "",
-        },
-        {
-            name: "Akhila Vignesh",
-            event: "iCatching",
-            image: "",
-        },
-        {
-            name: "Jayapriyaa RG",
-            event: "iCatching",
-            image: "",
-        },
-        {
-            name: "Jeevana V",
-            event: "Halt and Catch Fire",
-            image: "",
-        },
-        {
-            name: "Harish Kumar S",
-            event: "Halt and Catch Fire",
-            image: "",
-        },
-        {
-            name: "Abuthahir A",
-            event: "The Perfect Exploit",
-            image: "",
-        },
-        {
-            name: "Krithic Kumar U B",
-            event: "The Perfect Exploit",
-            image: "",
-        },
-        {
-            name: "Rohit M",
-            event: "The Office",
-            image: "",
-        },
-        {
-            name: "Sriviveknath S R",
-            event: "The Office",
-            image: "",
-        },
-        {
-            name: "Abhijit PV",
-            event: "Machine Impossible",
-            image: "",
-        },
-        {
-            name: "Charan V",
-            event: "Machine Impossible",
-            image: "",
-        },
-        {
-            name: "Sriviveknath S R",
-            event: "Ex Machina",
-            image: "",
-        },
-        {
-            name: "Sujan G",
-            event: "Ex Machina",
-            image: "",
-        },
-        {
-            name: "Jagadeep N",
-            event: "Fly High",
-            image: "",
-        },
-        {
-            name: "Varun Rishwandh S",
-            event: "Fly High",
-            image: "",
-        },
-    ];
-    const studentCoordinators = [
+
+    const coordinators = [
         {
             name: "Varun Rishwandh",
             role: "<role>1",
@@ -1076,7 +974,7 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
-        const studentCoordinatorSlider = document.getElementById("student-coordinators-slider")
+        const coordinatorSlider = document.getElementById("coordinators-slider")
         const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
         const promotionsTeamSlider = document.getElementById("promotions-team-slider")
         if (type === "technical-slider") {
@@ -1087,8 +985,8 @@ const Home = () => {
             organizerTechnicalSlider.scrollLeft -= 500;
         } else if (type === "organizer-non-technical-slider") {
             organizerNonTechnicalSlider.scrollLeft -= 500;
-        } else if (type === "student-coordinators-slider") {
-            studentCoordinatorSlider.scrollLeft -= 500;
+        } else if (type === "coordinators-slider") {
+            coordinatorSlider.scrollLeft -= 500;
         } else if (type === "faculty-coordinators-slider") {
             facultyCoordinatorSlider.scrollLeft -= 500;
         } else if (type === "promotions-team-slider") {
@@ -1106,7 +1004,7 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
-        const studentCoordinatorSlider = document.getElementById("student-coordinators-slider")
+        const coordinatorSlider = document.getElementById("coordinators-slider")
         const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
         const promotionsTeamSlider = document.getElementById("promotions-team-slider")
         if (type === "technical-slider") {
@@ -1117,8 +1015,8 @@ const Home = () => {
             organizerTechnicalSlider.scrollLeft += 500;
         } else if (type === "organizer-non-technical-slider") {
             organizerNonTechnicalSlider.scrollLeft += 500;
-        } else if (type === "student-coordinators-slider") {
-            studentCoordinatorSlider.scrollLeft += 500;
+        } else if (type === "coordinators-slider") {
+            coordinatorSlider.scrollLeft += 500;
         } else if (type === "faculty-coordinators-slider") {
             facultyCoordinatorSlider.scrollLeft += 500;
         } else if (type === "promotions-team-slider") {
@@ -1129,22 +1027,10 @@ const Home = () => {
     };
     //Slider Methods End
 
-    //Faculty Coordinators Card Mapping Start
-    const FacultyCoordinatorsMap = facultyCoordinators.map((e, index) => {
+    const coordinatorsMap = coordinators.map((e, index) => {
         return (
             <FacultyCard
-                event={e.event}
-                name={e.name}
-                image={e.image}
-                index={index + "-t"}
-                key={index}
-            />
-        );
-    });
-    const StudentCoordinatorsMap = studentCoordinators.map((e, index) => {
-        return (
-            <StudentCard
-                role={e.role}
+                event={e.role}
                 name={e.name}
                 image={e.image}
                 index={index + "-t"}
@@ -1413,7 +1299,7 @@ const Home = () => {
             >
                 <div className="flex flex-col items-center justify-center">
                     <h1 className="text-4xl  font-semibold text-center tracking-widest">
-                        STUDENT COORDINATORS
+                        COORDINATORS
                     </h1>
                     <p className="text-gray-400 my-4 text-lg text-center font-medium">
                         COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
@@ -1425,19 +1311,19 @@ const Home = () => {
                         src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
                         alt=""
-                        onClick={() => slideLeft("student-coordinators-slider")}
+                        onClick={() => slideLeft("coordinators-slider")}
                     />
                     <div
-                        id="student-coordinators-slider"
+                        id="coordinators-slider"
                         className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
                     >
-                        {StudentCoordinatorsMap}
+                        {coordinatorsMap}
                     </div>
                     <img
                         src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
                         className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
                         alt=""
-                        onClick={() => slideRight("student-coordinators-slider")}
+                        onClick={() => slideRight("coordinators-slider")}
                     />
                 </div>
             </div>
@@ -1474,39 +1360,7 @@ const Home = () => {
                     />
                 </div>
             </div>
-            <div
-                id="faculty-coordinators"
-                className="flex flex-col py-10 sm:px-6  text-white  "
-            >
-                <div className="flex flex-col items-center justify-center">
-                    <h1 className="text-4xl  font-semibold text-center tracking-widest">
-                        FACULTY COORDINATORS
-                    </h1>
-                    <p className="text-gray-400 my-4 text-lg text-center font-medium">
-                        COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
-                    </p>
-                </div>
-                <div className="flex mx-2 gap-4 items-center">
-                    <img
-                        src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
-                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"
-                        alt=""
-                        onClick={() => slideLeft("faculty-coordinators-slider")}
-                    />
-                    <div
-                        id="faculty-coordinators-slider"
-                        className="flex px-4 overflow-x-scroll overflow-hidden gap-8 py-6 scroll scroll-smooth whitespace-nowrap md:snap-x"
-                    >
-                        {FacultyCoordinatorsMap}
-                    </div>
-                    <img
-                        src="https://img.icons8.com/ios/50/ffffff/right-squared--v1.png"
-                        className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer right-arrow"
-                        alt=""
-                        onClick={() => slideRight("faculty-coordinators-slider")}
-                    />
-                </div>
-            </div>
+
 
             <Footer />
         </motion.div>
