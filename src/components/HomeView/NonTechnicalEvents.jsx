@@ -1,5 +1,5 @@
 import EventCard from "../../components/EventCard/EventCard";
-
+import '../arrow.css'
 const NonTechnicalEvents = () => {
     const nonTechnicalEvents = [
         {

@@ -3,7 +3,6 @@ import Home from "./views/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import EventDetails from "./views/EventDetails";
 import ParticlesBackground from "./components/ParticlesBackground";
-import Promotions from "./views/Promotions";
 const App = () => {
   const [isLoading, setLoading] = useState(true);
   setTimeout(() => {
@@ -68,7 +67,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/event-details" element={<EventDetails />} />
-        <Route path="/promotions" element={<Promotions />} />
       </Routes>
     </BrowserRouter>
   );
