@@ -3,17 +3,16 @@ import FacultyCard from "../components/FacultyCard/FacultyCard";
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
-import { useEffect } from 'react'
-import Countdown from '../components/Countdown/Countdown';
+import { useEffect } from "react";
+import Countdown from "../components/Countdown/Countdown";
 import PromotionsCard from "../components/PromotionsCard/PromotionsCard";
-import '../components/arrow.css'
+import "../components/arrow.css";
 const Home = () => {
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+        window.scrollTo(0, 0);
+    }, []);
     const goToTechnical = () => {
         window.location.href = "#events-technical";
-
     };
 
     const technicalEvents = [
@@ -24,8 +23,7 @@ const Home = () => {
             route: "/silicon-valley",
             description:
                 "Want the world to gaze upon your project? Silicon Valley is the perfect platform to showcase your project, network with like-minded individuals, and gain valuable feedback on your projects.Participants will present their projects along with the working model and will be evaluated based on their presentation and the novelty of the project",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Theme of the event is Innovation/Startup.",
                 "A working model must be shown.",
@@ -59,8 +57,7 @@ const Home = () => {
             route: "/the-revolution",
             description:
                 "Ready to dive into the depths of technology and share your insights with the world? Whether you're a developer, engineer, or entrepreneur, Look no further than our upcoming paper presentation! This is your chance to showcase your hard work and share your latest findings with the world. With interactive discussions, and Q&A sessions this is an event you won't want to miss! Sign up now, and let the competition begin.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "The final presentation content headings will be shared with the respective team leaders 5-6 days before the competition.",
                 "Any team will be subject to disqualification if the work is found to be plagiarised",
@@ -68,7 +65,7 @@ const Home = () => {
             ],
             roundDescriptions: [
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
-                "1. Each team will be given a timeframe of around 10-12 minutes for their overall presentation followed by the questionnaire session by the panel."
+                "1. Each team will be given a timeframe of around 10-12 minutes for their overall presentation followed by the questionnaire session by the panel.",
             ],
             type: "Team Event (1-3 members)",
             eligibility: "2 Rounds",
@@ -93,8 +90,7 @@ const Home = () => {
             route: "/404-not-found",
             description:
                 "Are you ready to put your bug-hunting skills to the test? Join our exciting technological competition and discover hidden flaws in the code. Don't miss out on this opportunity to flex your problem-solving muscles and come out on top as the ultimate bug-finding champion. Sign up now and let the hunt begin!",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Internet access will not be provided.",
                 "In case of a tie, the fastest person to debug and execute the program is deemed the winner.",
@@ -102,7 +98,7 @@ const Home = () => {
             ],
             roundDescriptions: [
                 "1. This is pen-paper round.\n\n2. A time limit of 20 minutes is provided for debugging.",
-                "1. A set of programs will be provided with errors in them.\n\n2. Participants are required to execute the program successfully."
+                "1. A set of programs will be provided with errors in them.\n\n2. Participants are required to execute the program successfully.",
             ],
             type: "Individual Event",
             eligibility: "2 Rounds",
@@ -127,15 +123,14 @@ const Home = () => {
             route: "/icatching",
             description:
                 "Calling all web design enthusiasts! Are you ready to put your HTML and CSS skills to the test? Join our exciting website replication competition and showcase your ability to recreate a visually stunning and responsive website design. Push the boundaries of what is possible with HTML and CSS. Don't miss out on this opportunity to flex your design muscles and come out on top as the ultimate web design champion.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Participants must bring their own laptops.",
                 "The topics will be provided on the day of the event.",
                 "The team is expected to develop a creative front-end for the web application.",
                 "The duration of the event is 90 minutes.",
                 "The most creative and innovative solutions will be rewarded.",
-                "The Panel's decision is final."
+                "The Panel's decision is final.",
             ],
             roundDescriptions: [],
             type: "Team Event (2-4 members)",
@@ -161,8 +156,7 @@ const Home = () => {
             route: "/halt-and-catch-fire",
             description:
                 "With lightning-fast coding rounds one after another just like a relay, this competition is designed to test your skills and push you to the limit. Each team will be given a set of coding challenges that they must solve within a given time limit, and the team that completes the most challenges with the least errors will be declared the winner. Don't miss out on the chance to be a part of the action!",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "The relay order of the teammates will be collected prior and it cannot be changed once the round begins.",
                 "Only one round will be conducted for all the teams. If the question is answered before the stipulated time then the next team member can utilize the saved time for answering the next question and so on. Each question must be answered by only one teammate. ",
@@ -196,8 +190,7 @@ const Home = () => {
             route: "/the-perfect-exploit",
             description:
                 "Join the elite ranks of cyber warriors in our intense Capture the Flag hacking event! Assemble your team, sharpen your skills and put your cunning and expertise to the test as you race to capture flags and outsmart your opponents. With a variety of challenging vulnerabilities to exploit, this event is the ultimate test of your hacking abilities and strategy. Will you rise to the top and claim victory? Sign up now and let the games begin!",
-            short_description:
-                "Online Event",
+            short_description: "Online Event",
             rules: [
                 "* This event will be conducted on Feb 11, 2023 *",
                 "* Registrations for this event will be closed on Feb 9, 2023 *",
@@ -205,7 +198,7 @@ const Home = () => {
                 "The problem solving mode for this CTF is Jeopardy.",
                 "The first three players that solve a challenge get rewarded with extra points. The other players solving the challenges will be given an average of points mentioned in the challenges.",
                 "Challenge Categories are: \nWeb, Forensics, Cryptography, Mobile Security, Binary Exploitation, Reverse Engineering, OSINT, Miscellaneous Challenges, Pwn",
-                "Flag Format: \"BOOT_UP{W3lc0m3s_y0u}\"",
+                'Flag Format: "BOOT_UP{W3lc0m3s_y0u}"',
                 "Winners will be selected based on points obtained at the end of the event.",
             ],
             roundDescriptions: [],
@@ -232,16 +225,15 @@ const Home = () => {
             route: "/the-office",
             description:
                 "Get ready to ace your next job interview and take your career to new heights with our upcoming Mock Interview competition! This is your chance to showcase your skills, gain valuable feedback and take on the challenge of performing in a simulated real-world interview scenario. So, sharpen your skills, polish your resume and join us for an exciting and challenging competition.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Internet access will not be provided.",
                 "Participants indulging in malpractice will be subject to disqualification.",
-                "The Panel decision is final."
+                "The Panel decision is final.",
             ],
             roundDescriptions: [
                 "1. This is a pen-paper round. \n\n2. The participants would be given a set of aptitude and technical-based questions(DSA, OOPS).\n\n3. The duration of this round is 30 minutes.\n\n4. The highest scoring participants will be moved on to the final round.",
-                "1. The final round will be conducted as a one-on-one interview where the participants will be asked technical questions as well as some general questions to test their knowledge and ability.\n\n2. The participants will be judged based on their technical skills, spontaneity, fluency, and clarity of their answers."
+                "1. The final round will be conducted as a one-on-one interview where the participants will be asked technical questions as well as some general questions to test their knowledge and ability.\n\n2. The participants will be judged based on their technical skills, spontaneity, fluency, and clarity of their answers.",
             ],
             type: "Individual Event",
             eligibility: "2 Rounds",
@@ -266,16 +258,15 @@ const Home = () => {
             route: "/machine-impossible",
             description:
                 "Are you ready to flex your computer-building muscles and show off your technical prowess? This is your chance to showcase your abilities as a computer geek and prove that you know the ins and outs of a PC. With a pile of parts and a ticking clock, this competition will test your ability to assemble a PC from scratch and get it running.The participant who completes the assembly and gets the PC running the fastest will be declared the winner.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Internet access is not allowed.",
                 "Participants indulging in malpractice will be subject to disqualification.",
-                "The Panel decision is final."
+                "The Panel decision is final.",
             ],
             roundDescriptions: [
                 "1. This will be a pen-paper round.\n\n2. The participants with the highest scores will move on to the next round.\n\n3. The duration of this event is 30 minutes.",
-                "1. The participants will be provided with the parts they need to build the PC, and they will attempt to build a complete functioning PC.\n\n2. Participants should work only with the components provided for them and are not permitted to use any other components in their build.\n\n3. The duration of this event is 60 minutes."
+                "1. The participants will be provided with the parts they need to build the PC, and they will attempt to build a complete functioning PC.\n\n2. Participants should work only with the components provided for them and are not permitted to use any other components in their build.\n\n3. The duration of this event is 60 minutes.",
             ],
             type: "Individual Event",
             eligibility: "2 Rounds",
@@ -300,8 +291,7 @@ const Home = () => {
             route: "/ex-machina",
             description:
                 "Want to take automation to the next level? Come and showcase your skills in our upcoming UIPath competition! This is your chance to test your knowledge of automation and prove that you know exactly where to put the machine to maximize efficiency.Participants will be given a problem statement on the spot and will have 2 hours to solve the problem using UIPath. The team or individual whose submission has the least running time will be declared the winner.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "The participants must bring their own laptops with UiPath installed.",
                 "The problem statement will be provided at the time of the event.",
@@ -309,7 +299,7 @@ const Home = () => {
                 "Evaluation of the result is based on the efficiency of the solution.",
                 "The time taken to build the solution is considered a parameter for tie-breakers.",
                 "Participants indulging in malpractice will be subject to disqualification.",
-                "The Panel decision is final."
+                "The Panel decision is final.",
             ],
             roundDescriptions: [],
             type: "Individual Event",
@@ -335,8 +325,7 @@ const Home = () => {
             route: "/fly-high",
             description:
                 "Interested to take flight and unleash the potential of drones? This is your chance to prove that you have what it takes to realize the untapped potential of drones and take it to the next level.Participants will present their drone projects and ideas, which will be judged on the basis of feasibility, creativity, code standards, and innovation. Whether it's a drone that can perform aerial acrobatics, a drone that can navigate through obstacles, or a drone that can perform a specific task, we want to see it all!",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: ["Rule 1", "Rule 2"],
             roundDescriptions: [],
             type: "Team Event",
@@ -369,8 +358,7 @@ const Home = () => {
             route: "/vanmam",
             description:
                 "Ranting is like yoga, it is healthy but it is not everyones cup of tea. Vanmam presents a platform for the ranter in you to shine and show off your skills.               Participants will be given an image, which will be the main subject of the rant.  The participant will be evaluated on their logic, comedic skills, quick wit, and stage presence.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "Participants will be provided with a picture of a celebrity, animal, meme & so on and are asked to rant about it.",
                 "For example, participants are shown an image such as an image of 2 small dogs and they are asked to hate or rant about that image",
@@ -413,20 +401,18 @@ const Home = () => {
             route: "/ready-player-one-valorant",
             description:
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
-            short_description:
-                "Offline Event\n\n* Entry Fee : Rs. 50 per person *",
-            rules:
-                [
-                    "Players should play on their main account.",
-                    "A knockout system will be followed",
-                    "Maps will be decided by community vote.",
-                    "Any instance of cheating will result in an immediate removal from the tournament.",
-                    "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
-                    "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
-                ],
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 50 per person *",
+            rules: [
+                "Players should play on their main account.",
+                "A knockout system will be followed",
+                "Maps will be decided by community vote.",
+                "Any instance of cheating will result in an immediate removal from the tournament.",
+                "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
+                "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
+            ],
             roundDescriptions: [
                 "1. This is an online round.\n\n2. Players winning both the matches will advance to the next round.",
-                "1. This is an offline round.\n\n2. PCs will be provided for this round of matches."
+                "1. This is an offline round.\n\n2. PCs will be provided for this round of matches.",
             ],
             type: "Team Event (Exactly 5 members + Substitutes as needed)",
             eligibility: "2 Rounds",
@@ -461,8 +447,7 @@ const Home = () => {
             route: "/ready-player-one-bgmi",
             description:
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of BGMI(Battlegrounds Mobile India) with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!,",
-            short_description:
-                "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
             rules: [
                 "Players should play on their main account.",
                 "Maximum duration of a match is 40 minutes",
@@ -470,7 +455,6 @@ const Home = () => {
                 "Any instance of cheating will result in an immediate removal from the tournament.",
                 "Trash talking during/after the game is not encouraged and will result in immediate disqualification.",
                 "Prizes are based on the number of teams.",
-
             ],
             roundDescriptions: [],
             type: "Team Event (1-4 members)",
@@ -496,7 +480,6 @@ const Home = () => {
                     event: "Ready Player One",
                     image: "",
                 },
-
             ],
             link: "",
         },
@@ -506,9 +489,8 @@ const Home = () => {
             icon: "https://img.icons8.com/external-others-pike-picture/100/ffffff/external-President-democracy-others-pike-picture-3.png",
             route: "/oru-naal-president",
             description:
-                "\"When I become the President I will..\" is a statement we dont hear ofter. What would happen if your favourite pop culture idols campaign to be one? Can you convince the judges to vote for them?\n\nOru Naal President tingles the persuader in you while testing your comedic, reasoning and oratorical skills.\n\n Participants are given a character on the spot and are asked to explain why they(as the character) should be elected as the president of the country. The participant with the best reason, fluency and comical element to their speech is deemed the winner.",
-            short_description:
-                "Offline Event",
+                '"When I become the President I will.." is a statement we dont hear ofter. What would happen if your favourite pop culture idols campaign to be one? Can you convince the judges to vote for them?\n\nOru Naal President tingles the persuader in you while testing your comedic, reasoning and oratorical skills.\n\n Participants are given a character on the spot and are asked to explain why they(as the character) should be elected as the president of the country. The participant with the best reason, fluency and comical element to their speech is deemed the winner.',
+            short_description: "Offline Event",
             rules: [
                 "The theme of this event is based on ‘Pop Culture’ (Eg: Chandler, Yogi Babu, Elon Musk, and people not in politics).",
                 "Every participant will be given a personality and 30 seconds to prepare, following which they need to let the judges know why they should be selected as president.",
@@ -547,16 +529,15 @@ const Home = () => {
             route: "/fandom-quiz",
             description:
                 "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n                The first round is a kahoot quiz round. The time limit would be 20 minutes with around 15-20 questions.\n\n Top-scoring teams would be selected for the finals.\n\n                The second round is a buzzer round. The fastest team to score the highest points will be given the title of the ultimate fan.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "The domain for this event includes popular television series both new & old, movies and other pop culture references.",
                 "Internet access is not allowed.",
-                "The Panel decision is final."
+                "The Panel decision is final.",
             ],
             roundDescriptions: [
                 "1. This is a pen-paper round.\n\n2. Each team will be provided with a set of 20 questions and are asked to complete it within the stipulated time.\n\n3. The teams with the highest scores will move on to the final round.",
-                "1. This is a buzzer round.\n\n2. A time limit of 30 seconds is provided to answer a question, the team who hit the buzzer has to answer within 5 seconds of pressing it."
+                "1. This is a buzzer round.\n\n2. A time limit of 30 seconds is provided to answer a question, the team who hit the buzzer has to answer within 5 seconds of pressing it.",
             ],
             type: "Team Event (1 - 2 members)",
             eligibility: "2 Rounds",
@@ -591,8 +572,7 @@ const Home = () => {
             route: "/naduvula-konjam-audiova-kaanom",
             description:
                 "Step into the spotlight and let your dubbing talent shine in our uproarious Naduvula Konjam Audio-va Kaanom event! Gather your team, pick your scenes and get ready for a non-stop laughter ride as you lip-sync and dub over your favourite movies and TV shows. With a wide range of comical and challenging scenes to choose from, this event is the ultimate test of your dubbing skills and creativity. Will you be the one to steal the show? Sign up now and let the fun begin!",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "This event is based on ‘Tamil and English Movie Scenes’.",
                 "Each participate will be provided with a muted video clip of around 1 minute in duration.",
@@ -632,8 +612,7 @@ const Home = () => {
             route: "/tiki-taka",
             description:
                 "Unleash your inner football star in our ultimate Tiki-Taka tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Tiki-Taka? Sign up now and let the games begin!",
-            short_description:
-                "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
             rules: [
                 "Maximum of 8 people in a team is allowed.",
                 "5 players are allowed on the pitch at anytime and the rest are substitutes.",
@@ -684,8 +663,7 @@ const Home = () => {
             route: "/master-the-blaster",
             description:
                 "Ready, set, blast! Join our epic Master The Blaster Box Cricket tournament and showcase your skills as you lead your team to glory. With challenging opponents and thrilling matches, this event is the ultimate test of your cricketing talent and strategy. Will you reign supreme and lift the Master The Blaster trophy? Sign up now and let the games begin!",
-            short_description:
-                "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
             rules: [
                 "The team must consist of 5 players.",
                 "A total of 16 teams can participate in this event.",
@@ -737,8 +715,7 @@ const Home = () => {
             route: "/kodak",
             description:
                 "The art of capturing moments is called photography. With the whole campus as your subject capture the spirit of the day and wow us with your skills. This is your chance to showcase your talent and creativity in photography. The participants will submit their entries in the form of a presentation and the best pictures should be submitted in the forms provided. The submissions should be in the form of a slideshow and it will be evaluated on the basis of creativity, consistency and the general look and feel.",
-            short_description:
-                "First Round is Online & Final round is Offline",
+            short_description: "First Round is Online & Final round is Offline",
             rules: [
                 "Participants can use any kind of device to capture pictures.",
                 "The photograph must be original and no watermark of any kind should be on the photograph.",
@@ -751,7 +728,7 @@ const Home = () => {
             ],
             roundDescriptions: [
                 "1. This is a selection round.\n\n2. The theme will be pet animals or vehicles. Participants can select any one theme and submit a picture they have shot recently.\n\n3. The finals will be taking place on Feb 13 and the shortlisted participants will be informed prior to the event.",
-                "1. This will be conducted offline in the college premises.\n\n2. Participants are encouraged to stroll around the campus and capture the magic of the symposium.\n\n3. The participants are asked to submit two photos based on the theme of macro photography and a minimum of 10 photos of other events conducted in BOOT UP 23."
+                "1. This will be conducted offline in the college premises.\n\n2. Participants are encouraged to stroll around the campus and capture the magic of the symposium.\n\n3. The participants are asked to submit two photos based on the theme of macro photography and a minimum of 10 photos of other events conducted in BOOT UP 23.",
             ],
             type: "Individual Event",
             eligibility: "2 Rounds",
@@ -781,8 +758,7 @@ const Home = () => {
             route: "/she-boss",
             description:
                 "ATTENTION GIRLS !! It’s a callout to all the women entrepreneurs out there. She Boss! Is a womens only event conducted in the spirit of entrepreneurship and women empowerment. Be ready to pitch your product to the judges. Participants are expected to be ready with a product pitch of their own and give their pitch to the juries. The pitches will be judged based on innovation, market viability, fluency, confidence of the contestant and monetary value of the product.",
-            short_description:
-                "Offline Event",
+            short_description: "Offline Event",
             rules: [
                 "This event is exclusively for women.",
                 "There is no specific theme. Any kind of project tackling real-life problems is accepted.",
@@ -790,7 +766,7 @@ const Home = () => {
                 "The participants are required to come prepared with a PPT for the event.",
                 "The pitch must represent a clear representation of the problem being solved and the market value along with the investment plans.",
                 "The pitches will be judged based on innovation, market viability and the monetary value of the product.",
-                "The Panel's decision is final."
+                "The Panel's decision is final.",
             ],
             roundDescriptions: [],
             type: "Team Event (1 - 2 members)",
@@ -815,7 +791,6 @@ const Home = () => {
             link: "",
         },
     ];
-
 
     const coordinators = [
         {
@@ -867,30 +842,16 @@ const Home = () => {
             image: "promotions/Website_SuriyaPrakash.jpg",
         },
         {
-            name: "Supriya",
-            team: "Social Media Team",
-            image: "",
-        },
-        {
-            name: "Muqaddam Aaqil Sheriff",
-            team: "Social Media Team",
-            image: "",
-        },
-        {
-            name: "Kamalakshi ",
-            team: "Social Media Team",
-            image: "",
+            name: "Praveen",
+            team: "Design Team",
+            image: "promotions/Design_Praveen.jpg",
         },
         {
             name: "Monish ",
             team: "Design Team",
             image: "",
         },
-        {
-            name: "Praveen",
-            team: "Design Team",
-            image: "",
-        },
+
         {
             name: "Abirami",
             team: "Design Team",
@@ -919,6 +880,21 @@ const Home = () => {
         {
             name: "Sai Nishit ",
             team: "Video Team",
+            image: "",
+        },
+        {
+            name: "Supriya",
+            team: "Social Media Team",
+            image: "",
+        },
+        {
+            name: "Muqaddam Aaqil Sheriff",
+            team: "Social Media Team",
+            image: "",
+        },
+        {
+            name: "Kamalakshi ",
+            team: "Social Media Team",
             image: "",
         },
     ];
@@ -974,9 +950,13 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
-        const coordinatorSlider = document.getElementById("coordinators-slider")
-        const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
-        const promotionsTeamSlider = document.getElementById("promotions-team-slider")
+        const coordinatorSlider = document.getElementById("coordinators-slider");
+        const facultyCoordinatorSlider = document.getElementById(
+            "faculty-coordinators-slider"
+        );
+        const promotionsTeamSlider = document.getElementById(
+            "promotions-team-slider"
+        );
         if (type === "technical-slider") {
             technicalSlider.scrollLeft -= 500;
         } else if (type === "non-technical-slider") {
@@ -991,8 +971,7 @@ const Home = () => {
             facultyCoordinatorSlider.scrollLeft -= 500;
         } else if (type === "promotions-team-slider") {
             promotionsTeamSlider.scrollLeft -= 500;
-        }
-        else {
+        } else {
         }
     };
     const slideRight = (type) => {
@@ -1004,9 +983,13 @@ const Home = () => {
         const organizerNonTechnicalSlider = document.getElementById(
             "organizer-non-technical-slider"
         );
-        const coordinatorSlider = document.getElementById("coordinators-slider")
-        const facultyCoordinatorSlider = document.getElementById("faculty-coordinators-slider")
-        const promotionsTeamSlider = document.getElementById("promotions-team-slider")
+        const coordinatorSlider = document.getElementById("coordinators-slider");
+        const facultyCoordinatorSlider = document.getElementById(
+            "faculty-coordinators-slider"
+        );
+        const promotionsTeamSlider = document.getElementById(
+            "promotions-team-slider"
+        );
         if (type === "technical-slider") {
             technicalSlider.scrollLeft += 500;
         } else if (type === "non-technical-slider") {
@@ -1021,8 +1004,7 @@ const Home = () => {
             facultyCoordinatorSlider.scrollLeft += 500;
         } else if (type === "promotions-team-slider") {
             promotionsTeamSlider.scrollLeft += 500;
-        }
-        else {
+        } else {
         }
     };
     //Slider Methods End
@@ -1304,7 +1286,6 @@ const Home = () => {
                     <p className="text-gray-400 my-4 text-lg text-center font-medium">
                         COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
                     </p>
-
                 </div>
                 <div className="flex mx-2 gap-4 items-center">
                     <img
@@ -1360,7 +1341,6 @@ const Home = () => {
                     />
                 </div>
             </div>
-
 
             <Footer />
         </motion.div>
