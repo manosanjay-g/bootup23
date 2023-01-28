@@ -806,7 +806,7 @@ const Home = () => {
         {
             name: "Thuhin Khanna",
             role: "Final Year",
-            image: "OrgCom/OrgCom_ThuhinKhanna.jpg",
+            image: "OrgCom/OrgCom_ThuhinKhanna.png",
         },
         {
             name: "Suraj",
