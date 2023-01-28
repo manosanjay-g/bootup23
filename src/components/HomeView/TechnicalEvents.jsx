@@ -293,14 +293,14 @@ const TechnicalEvents = () => {
             eligibility: "1 Round",
             organizers: [
                 {
-                    name: "Sriviveknath S R",
+                    name: "Sriviveknath",
                     event: "Ex Machina",
-                    image: "",
+                    image: "Ex_Machina/ExMachina_Sriviveknath S R.jpg",
                 },
                 {
                     name: "Sujan G",
                     event: "Ex Machina",
-                    image: "",
+                    image: "Ex_Machina/ExMachina_Sujan_G.jpg",
                 },
             ],
             link: "",
