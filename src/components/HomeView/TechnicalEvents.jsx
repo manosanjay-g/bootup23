@@ -231,7 +231,7 @@ const TechnicalEvents = () => {
                     image: "the office/TheOffice_Rohit M.jpg",
                 },
                 {
-                    name: "Sriviveknath S R",
+                    name: "Sriviveknath",
                     event: "The Office",
                     image: "the office/TheOffice_Sriviveknath S R.jpg",
                 },
