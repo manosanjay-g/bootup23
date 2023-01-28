@@ -45,7 +45,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Chinna Sakthi",
+                    name: "Chinna Sakthi V",
                     event: "Silicon Valley",
                     image: "",
                 },
@@ -79,7 +79,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Jeevamutharasi",
+                    name: "Jeevamutharasi S",
                     event: "The Revolution",
                     image: "",
                 },
@@ -113,7 +113,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Zafar Sadik",
+                    name: "Zafar Sadik H D",
                     event: "404 Not Found",
                     image: "",
                 },
@@ -175,7 +175,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Harish Kumar",
+                    name: "Harish Kumar S",
                     event: "Halt and Catch Fire",
                     image: "",
                 },
@@ -211,7 +211,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Krithic Kumar",
+                    name: "Krithic Kumar U B",
                     event: "The Perfect Exploit",
                     image: "",
                 },
@@ -245,7 +245,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Sriviveknath",
+                    name: "Sriviveknath S R",
                     event: "The Office",
                     image: "",
                 },
@@ -309,7 +309,7 @@ const Home = () => {
             eligibility: "1 Round",
             organizers: [
                 {
-                    name: "Sriviveknath",
+                    name: "Sriviveknath S R",
                     event: "Ex Machina",
                     image: "",
                 },
@@ -408,10 +408,21 @@ const Home = () => {
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
             short_description:
                 "Offline Event",
-            rules: ["Rule 1", "Rule 2"],
+            rules: 
+            [
+                "Players should play on their main account.",
+                "A knockout system will be followed",
+                "Maps will be decided by community vote.",
+                "Any instance of cheating will result in an immediate removal from the tournament.",
+            
+            
+            
+            "Trash talking during/after the game is not encouraged,will result in immediate disqualification.",
+            "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
+            ],
             roundDescriptions: [],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+            type: "Team Event (Exactly 5)",
+            eligibility: "4 Rounds",
             organizers: [
                 {
                     name: "Dhanush Aravind A",
@@ -445,13 +456,16 @@ const Home = () => {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
             short_description:
                 "Offline Event",
-            rules: ["Rule 1", "Rule 2"],
+            rules: [
+                "Each team should take a screenshot and submit the result(Ranking).", "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
+                
+            ],
             roundDescriptions: [],
             type: "Team Event",
             eligibility: "Open to all departments",
             organizers: [
                 {
-                    name: "Sudarchanan",
+                    name: "Sudarchanan MS",
                     event: "Ready Player One",
                     image: "",
                 },
@@ -535,7 +549,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Dhanalakshmi",
+                    name: "Dhanalakshmi R",
                     event: "Fandom Wars",
                     image: "",
                 },
@@ -628,7 +642,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Jabez Samuel",
+                    name: "Jabez Samuel W",
                     event: "Tiki-Taka",
                     image: "",
                 },
@@ -720,7 +734,7 @@ const Home = () => {
             eligibility: "2 Rounds",
             organizers: [
                 {
-                    name: "Sharveshwaran",
+                    name: "Sharveshwaran R",
                     event: "Kodak",
                     image: "",
                 },
@@ -730,7 +744,7 @@ const Home = () => {
                     image: "",
                 },
                 {
-                    name: "Santoshkumar",
+                    name: "Santoshkumar PA",
                     event: "Kodak",
                     image: "",
                 },
