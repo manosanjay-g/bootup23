@@ -409,7 +409,8 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: 
-            [
+            [   
+                
                 "Players should play on their main account.",
                 "A knockout system will be followed",
                 "Maps will be decided by community vote.",
@@ -457,8 +458,13 @@ const Home = () => {
             short_description:
                 "Offline Event",
             rules: [
-                "Each team should take a screenshot and submit the result(Ranking).", "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
-                
+                "Each team should take a screenshot and submit the result(Ranking).", 
+                "Hackers will not be allowed",
+                "Players should play on their main account.",
+                "Participants will be disqualified if they indulge in malpracticing and will not be allowed to participate in other events",
+                "The player should play in only one team",
+
+
             ],
             roundDescriptions: [],
             type: "Team Event",
