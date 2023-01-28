@@ -35,7 +35,7 @@ const FacultyCard = ({ name, event, image, index }) => {
                     minHeight: "24rem",
                     maxHeight: "24rem",
                 }}
-                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-purple-400 text-center mt-4 cursor-default org-container"
+                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-purple-400 text-center mt-4 cursor-default org-container "
 
             >
 
@@ -44,7 +44,7 @@ const FacultyCard = ({ name, event, image, index }) => {
                 >
 
                     <div viewport={{ once: true, amount: 0.2 }} initial="hidden" whileInView="visible" variants={textAnimate} className="mb-4 place-self-center">
-                        <h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-pre-wrap ">{uppercaseName}</h2>
+                        <h2 variants={textAnimate} className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice  ">{uppercaseName}</h2>
                         <p variants={textAnimate} className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</p>
                     </div>
                     <div></div>
