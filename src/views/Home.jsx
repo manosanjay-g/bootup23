@@ -23,7 +23,7 @@ const Home = () => {
             icon: "https://img.icons8.com/windows/96/ffffff/profitable-idea.png",
             route: "/silicon-valley",
             description:
-                "Silicon Valley is an arena to showcase the participants’ skills by putting their projects up for the world to gaze at. Participants can present their projects from any domain with a working model, be it software or hardware and the best projects will be rewarded in cash.",
+                "Want the world to gaze upon your project? Silicon Valley is the perfect platform to showcase your project, network with like-minded individuals, and gain valuable feedback on your projects.Participants will present their projects along with the working model and will be evaluated based on their presentation and the novelty of the project",
             short_description:
                 "Offline Event",
             rules: [
@@ -58,7 +58,7 @@ const Home = () => {
             icon: "https://img.icons8.com/windows/96/ffffff/presentation-screen.png",
             route: "/the-revolution",
             description:
-                "For all the academics out there, this is a competition to show your prowess. Meet like-minded thinkers and debate cutting-edge technology. Students can present their own work or any openly available literature.",
+                "Ready to dive into the depths of technology and share your insights with the world? Whether you're a developer, engineer, or entrepreneur, Look no further than our upcoming paper presentation! This is your chance to showcase your hard work and share your latest findings with the world. With interactive discussions, and Q&A sessions this is an event you won't want to miss! Sign up now, and let the competition begin.",
             short_description:
                 "Offline Event",
             rules: [
@@ -92,7 +92,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/bug.png",
             route: "/404-not-found",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Are you ready to put your bug-hunting skills to the test? Join our exciting technological competition and discover hidden flaws in the code. Don't miss out on this opportunity to flex your problem-solving muscles and come out on top as the ultimate bug-finding champion. Sign up now and let the hunt begin!",
             short_description:
                 "Offline Event",
             rules: [
@@ -126,7 +126,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/web.png",
             route: "/icatching",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Calling all web design enthusiasts! Are you ready to put your HTML and CSS skills to the test? Join our exciting website replication competition and showcase your ability to recreate a visually stunning and responsive website design. Push the boundaries of what is possible with HTML and CSS. Don't miss out on this opportunity to flex your design muscles and come out on top as the ultimate web design champion.",
             short_description:
                 "Offline Event",
             rules: ["Rule 1", "Rule 2"],
@@ -153,7 +153,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/keyboard.png",
             route: "/halt-and-catch-fire",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "With lightning-fast coding rounds one after another just like a relay, this competition is designed to test your skills and push you to the limit. Each team will be given a set of coding challenges that they must solve within a given time limit, and the team that completes the most challenges with the least errors will be declared the winner. Don't miss out on the chance to be a part of the action!",
             short_description:
                 "Offline Event",
             rules: [
@@ -188,7 +188,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/flag--v1.png",
             route: "/the-perfect-exploit",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Join the elite ranks of cyber warriors in our intense Capture the Flag hacking event! Assemble your team, sharpen your skills and put your cunning and expertise to the test as you race to capture flags and outsmart your opponents. With a variety of challenging vulnerabilities to exploit, this event is the ultimate test of your hacking abilities and strategy. Will you rise to the top and claim victory? Sign up now and let the games begin!",
             short_description:
                 "Online Event",
             rules: [
@@ -224,7 +224,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/briefcase.png",
             route: "/the-office",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Get ready to ace your next job interview and take your career to new heights with our upcoming Mock Interview competition! This is your chance to showcase your skills, gain valuable feedback and take on the challenge of performing in a simulated real-world interview scenario. So, sharpen your skills, polish your resume and join us for an exciting and challenging competition.",
             short_description:
                 "Offline Event",
             rules: [
@@ -258,7 +258,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/workstation.png",
             route: "/machine-impossible",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Are you ready to flex your computer-building muscles and show off your technical prowess? This is your chance to showcase your abilities as a computer geek and prove that you know the ins and outs of a PC. With a pile of parts and a ticking clock, this competition will test your ability to assemble a PC from scratch and get it running.The participant who completes the assembly and gets the PC running the fastest will be declared the winner.",
             short_description:
                 "Offline Event",
             rules: [
@@ -292,7 +292,7 @@ const Home = () => {
             icon: "https://img.icons8.com/material-rounded/96/ffffff/bot.png",
             route: "/ex-machina",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Want to take automation to the next level? Come and showcase your skills in our upcoming UIPath competition! This is your chance to test your knowledge of automation and prove that you know exactly where to put the machine to maximize efficiency.Participants will be given a problem statement on the spot and will have 2 hours to solve the problem using UIPath. The team or individual whose submission has the least running time will be declared the winner.",
             short_description:
                 "Offline Event",
             rules: [
@@ -327,7 +327,7 @@ const Home = () => {
             icon: "https://img.icons8.com/material-rounded/96/ffffff/drone.png",
             route: "/fly-high",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Interested to take flight and unleash the potential of drones? This is your chance to prove that you have what it takes to realize the untapped potential of drones and take it to the next level.Participants will present their drone projects and ideas, which will be judged on the basis of feasibility, creativity, code standards, and innovation. Whether it's a drone that can perform aerial acrobatics, a drone that can navigate through obstacles, or a drone that can perform a specific task, we want to see it all!",
             short_description:
                 "Offline Event",
             rules: ["Rule 1", "Rule 2"],
@@ -361,7 +361,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/voice-recognition-scan.png",
             route: "/vanmam",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Ranting is like yoga, it is healthy but it is not everyones cup of tea. Vanmam presents a platform for the ranter in you to shine and show off your skills.               Participants will be given an image, which will be the main subject of the rant.  The participant will be evaluated on their logic, comedic skills, quick wit, and stage presence.",
             short_description:
                 "Offline Event",
             rules: [
@@ -405,7 +405,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/valorant.png",
             route: "/ready-player-one-valorant",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
             short_description:
                 "Offline Event",
             rules: ["Rule 1", "Rule 2"],
@@ -469,7 +469,7 @@ const Home = () => {
             icon: "https://img.icons8.com/external-others-pike-picture/100/ffffff/external-President-democracy-others-pike-picture-3.png",
             route: "/oru-naal-president",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "\"When I become the President I will..\" is a statement we dont hear ofter. What would happen if your favourite pop culture idols campaign to be one? Can you convince the judges to vote for them?\n\nOru Naal President tingles the persuader in you while testing your comedic, reasoning and oratorical skills.\n\n Participants are given a character on the spot and are asked to explain why they(as the character) should be elected as the president of the country. The participant with the best reason, fluency and comical element to their speech is deemed the winner.",
             short_description:
                 "Offline Event",
             rules: [
@@ -509,7 +509,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
             route: "/fandom-quiz",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n                The first round is a kahoot quiz round. The time limit would be 20 minutes with around 15-20 questions.\n\n Top-scoring teams would be selected for the finals.\n\n                The second round is a buzzer round. The fastest team to score the highest points will be given the title of the ultimate fan.",
             short_description:
                 "Offline Event",
             rules: [
@@ -553,7 +553,7 @@ const Home = () => {
             icon: "https://img.icons8.com/material-sharp/96/ffffff/micro.png",
             route: "/naduvula-konjam-audiova-kaanom",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Step into the spotlight and let your dubbing talent shine in our uproarious Naduvula Konjam Audio-va Kaanom event! Gather your team, pick your scenes and get ready for a non-stop laughter ride as you lip-sync and dub over your favourite movies and TV shows. With a wide range of comical and challenging scenes to choose from, this event is the ultimate test of your dubbing skills and creativity. Will you be the one to steal the show? Sign up now and let the fun begin!",
             short_description:
                 "Offline Event",
             rules: [
@@ -589,12 +589,12 @@ const Home = () => {
             link: "",
         },
         {
-            name: "Tiki-Taka",
+            name: "Cup Mukkiyam Bigiley ",
             info: "Futsal",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
             route: "/tiki-taka",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Unleash your inner football star in our ultimate Cup Mukkiyam Bigiley tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Cup Mukkiyam Bigiley? Sign up now and let the games begin!",
             short_description:
                 "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
             rules: [
@@ -646,7 +646,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios/100/ffffff/cricket.png",
             route: "/master-the-blaster",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "Ready, set, blast! Join our epic Master The Blaster Box Cricket tournament and showcase your skills as you lead your team to glory. With challenging opponents and thrilling matches, this event is the ultimate test of your cricketing talent and strategy. Will you reign supreme and lift the Master The Blaster trophy? Sign up now and let the games begin!",
             short_description:
                 "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
             rules: [
@@ -699,7 +699,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
             route: "/kodak",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "The art of capturing moments is called photography. With the whole campus as your subject capture the spirit of the day and wow us with your skills. This is your chance to showcase your talent and creativity in photography. The participants will submit their entries in the form of a presentation and the best pictures should be submitted in the forms provided. The submissions should be in the form of a slideshow and it will be evaluated on the basis of creativity, consistency and the general look and feel.",
             short_description:
                 "First Round is Online & Final round is Offline",
             rules: [
@@ -743,7 +743,7 @@ const Home = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/woman-head.png",
             route: "/she-boss",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semperLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales libero sit amet libero venenatis molestie. Proin vitae efficitur mi. Sed semper",
+                "ATTENTION GIRLS !! It’s a callout to all the women entrepreneurs out there. She Boss! Is a womens only event conducted in the spirit of entrepreneurship and women empowerment. Be ready to pitch your product to the judges. Participants are expected to be ready with a product pitch of their own and give their pitch to the juries. The pitches will be judged based on innovation, market viability, fluency, confidence of the contestant and monetary value of the product.",
             short_description:
                 "Offline Event",
             rules: [
