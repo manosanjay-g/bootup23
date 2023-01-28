@@ -47,7 +47,7 @@ const Home = () => {
                 {
                     name: "Chinna Sakthi V",
                     event: "Silicon Valley",
-                    image: "",
+                    image: "silicon_valley/SiliconValley_ChinnaSakthi_K.jpg",
                 },
             ],
             link: "",
@@ -76,12 +76,12 @@ const Home = () => {
                 {
                     name: "Jeevitha C",
                     event: "The Revolution",
-                    image: "",
+                    image: "the_revolution/Jeevitha_.jpg",
                 },
                 {
                     name: "Jeevamutharasi S",
                     event: "The Revolution",
-                    image: "",
+                    image: "the_revolution/Jeevamutharasi_.jpg  ",
                 },
             ],
             link: "",
@@ -110,7 +110,7 @@ const Home = () => {
                 {
                     name: "Vijay A",
                     event: "404 Not Found",
-                    image: "404_not_found/vijay_a",
+                    image: "404_not_found/vijay_a.jpg",
                 },
                 {
                     name: "Zafar Sadik H D",
@@ -144,12 +144,12 @@ const Home = () => {
                 {
                     name: "Akhila Vignesh",
                     event: "iCatching",
-                    image: "",
+                    image: "iCatching/Akhila Vignesh.jpeg",
                 },
                 {
                     name: "Jayapriyaa RG",
                     event: "iCatching",
-                    image: "",
+                    image: "iCatching/iCatching_Jayapriyaa.jpg",
                 },
             ],
             link: "",
@@ -179,12 +179,12 @@ const Home = () => {
                 {
                     name: "Jeevana V",
                     event: "Halt and Catch Fire",
-                    image: "",
+                    image: "Halt and Catch Fire/Halt and catch fire - Jeevana V.jpg",
                 },
                 {
                     name: "Harish Kumar S",
                     event: "Halt and Catch Fire",
-                    image: "",
+                    image: "Halt and Catch Fire/Halt and catch fire - Harish Kumar S.jpg",
                 },
             ],
             link: "",
@@ -215,7 +215,7 @@ const Home = () => {
                 {
                     name: "Abuthahir A",
                     event: "The Perfect Exploit",
-                    image: "",
+                    image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.png",
                 },
                 {
                     name: "Krithic Kumar U B",
@@ -249,12 +249,12 @@ const Home = () => {
                 {
                     name: "Rohit M",
                     event: "The Office",
-                    image: "",
+                    image: "the office/TheOffice_Rohit M.jpg",
                 },
                 {
                     name: "Sriviveknath S R",
                     event: "The Office",
-                    image: "",
+                    image: "the office/TheOffice_Sriviveknath S R.jpg",
                 },
             ],
             link: "",
@@ -283,12 +283,12 @@ const Home = () => {
                 {
                     name: "Abhijit PV",
                     event: "Machine Impossible",
-                    image: "",
+                    image: "MissionImpossible/MissionImpossible_Abhijith.jpg",
                 },
                 {
                     name: "Charan V",
                     event: "Machine Impossible",
-                    image: "",
+                    image: "MissionImpossible/MissionImpossible_Charan.jpg",
                 },
             ],
             link: "",
@@ -345,7 +345,7 @@ const Home = () => {
                 {
                     name: "Jagadeep N",
                     event: "Fly High",
-                    image: "",
+                    image: "Fly High/",
                 },
                 {
                     name: "Nesigan M L",
@@ -355,7 +355,7 @@ const Home = () => {
                 {
                     name: "Raghavi V",
                     event: "Fly High",
-                    image: "",
+                    image: "Fly High/Fly High_Raghavi V.jpg",
                 },
             ],
             link: "",
@@ -821,50 +821,50 @@ const Home = () => {
         {
             name: "Varun Rishwandh",
             role: "<role>1",
-            image: "",
+            image: "OrgCom/OrgCom_Varun.jpg",
         },
         {
             name: "Daadreyaa",
             role: "<role>",
-            image: "",
+            image: "OrgCom/OrgCom_Daadreyaa.jpg",
         },
         {
             name: "Thuhin Khanna",
             role: "<role>",
-            image: "",
+            image: "OrgCom/OrgCom_ThuhinKhanna.jpg",
         },
         {
             name: "Suraj",
             role: "<role>",
-            image: "",
+            image: "OrgCom/OrgCom_Suraj.png",
         },
 
         {
             name: "Sriviveknath",
             role: "<role>",
-            image: "",
+            image: "OrgCom/OrgCom_Sriviveknath S R.jpg",
         },
     ];
     const promotionsTeam = [
         {
             name: "Mano Sanjay",
             team: "Website Team",
-            image: "promotions/Website_ManoSanjay",
+            image: "promotions/Website_ManoSanjay.jpg",
         },
         {
             name: "Keshav",
             team: "Website Team",
-            image: "promotions/Website_keshav",
+            image: "promotions/Website_keshav.jpg",
         },
         {
             name: "Subash",
             team: "Website Team",
-            image: "promotions/Website_SubhashB",
+            image: "promotions/Website_SubhashB.jpg",
         },
         {
             name: "Suriya Prakash",
             team: "Website Team",
-            image: "promotions/Website_SuriyaPrakash",
+            image: "promotions/Website_SuriyaPrakash.jpg",
         },
         {
             name: "Supriya",

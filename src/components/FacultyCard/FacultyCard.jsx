@@ -49,7 +49,7 @@ const FacultyCard = ({ name, event, image, index }) => {
                     </div>
                     <div></div>
 
-                    <img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="organizer-img" src={process.env.PUBLIC_URL + '/cropped/' + image + '.jpg'} className="h-48 w-48 object-cover rounded-md my-2 self-center " />
+                    <img viewport={{ once: true, amount: 0.5 }} initial="hidden" whileInView="visible" variants={imageAnimate} alt="organizer-img" src={process.env.PUBLIC_URL + '/cropped/' + image} className="h-48 w-48 object-cover rounded-md my-2 self-center " />
                     <div></div>
                 </div>
             </div>
