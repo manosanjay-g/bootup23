@@ -208,7 +208,7 @@ const Home = () => {
                 {
                     name: "Abuthahir A",
                     event: "The Perfect Exploit",
-                    image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.png",
+                    image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.jpg",
                 },
                 {
                     name: "Krithic Kumar U B",
