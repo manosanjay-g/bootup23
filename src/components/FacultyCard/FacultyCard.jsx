@@ -35,7 +35,7 @@ const FacultyCard = ({ name, event, image, index }) => {
                     minHeight: "24rem",
                     maxHeight: "24rem",
                 }}
-                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-purple-400 text-center mt-4 cursor-default org-container "
+                className="organizer-card rounded-lg bg-zinc-900 snap-center border-4  border-purple-400 text-center mt-4 cursor-default organizers-container"
 
             >
 

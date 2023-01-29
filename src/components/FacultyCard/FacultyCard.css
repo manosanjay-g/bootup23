@@ -1,15 +1,4 @@
-.org-container {
-  position: relative;
-  z-index: 1;
-  background-image: linear-gradient(
-    111.7deg,
-    rgb(165, 41, 185) 19.9%,
-    rgb(80, 177, 225) 95%
-  );
-  filter: brightness(120%);
-}
-
-.org-container:before {
+.organizers-container:before {
   z-index: -1;
   position: absolute;
   content: "";
@@ -28,7 +17,6 @@
 .gradient {
   color: white;
   text-align: center;
-  /* opacity: 0.6; */
 }
 
 .gradient:hover {

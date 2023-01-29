@@ -441,7 +441,7 @@ const TechnicalEvents = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex mx-2 gap-4 items-center">
+            <div className="flex mx-2 gap-4 items-center justify-center">
                 <img
                     src="https://img.icons8.com/ios/50/ffffff/left-squared--v1.png"
                     className=" w-10 h-10 opacity-50 hover:opacity-100 transition duration-700 cursor-pointer left-arrow"

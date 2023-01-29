@@ -62,7 +62,7 @@ const EventDetails = () => {
                         {state.eligibility.toUpperCase()}
                     </p>
                 </div>
-                <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
+                {state.roundDescription.length > 0 ? <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
                     {
                         state.roundDescription.map((e, index) => {
                             return <div>
@@ -74,8 +74,8 @@ const EventDetails = () => {
                         })
                     }
 
-                </div>
-                <div className="text-left px-5 md:px-20 mt-12 pd-" id="event-rules">
+                </div> : <></>}
+                <div className="text-left px-5 md:px-20 mt-6 pd-" id="event-rules">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         RULES
                     </p>

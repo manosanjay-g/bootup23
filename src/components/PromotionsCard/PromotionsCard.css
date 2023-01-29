@@ -1,10 +1,3 @@
-.promotions-container {
-  position: relative;
-  z-index: 1;
-  background-image: linear-gradient(43deg, #80ff72 0%, #7ee8fa 100%);
-  filter: brightness(120%);
-}
-
 .promotions-container:before {
   z-index: -1;
   position: absolute;
@@ -20,7 +13,6 @@
 .gradient {
   color: white;
   text-align: center;
-  /* opacity: 0.6; */
 }
 
 .gradient:hover {
