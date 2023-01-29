@@ -4,12 +4,12 @@ const Coordinators = () => {
         {
             name: "Dr.Kumar P",
             role: "HOD",
-            image: "OrgCom/OrgCom_Varun.jpg",
+            image: "OrgCom/Kumar.png",
         },
         {
             name: "Dr.Vinod Kumar S",
             role: "Faculty Coordinator",
-            image: "OrgCom/OrgCom_ThuhinKhanna.png",
+            image: "OrgCom/Vinodhkumar.jpeg",
         },
         {
             name: "Mr.Bhuvaneswaran",
