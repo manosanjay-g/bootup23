@@ -24,22 +24,22 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Mohanapriya R",
-                    event: "9361325944",
+                    event: "+919361325944",
                     image: "Vanmam/Vanmam_MOHANAPRIYA-min.jpg",
                 },
                 {
                     name: "Potheeswari J",
-                    event: "9500280512",
+                    event: "+919500280512",
                     image: "Vanmam/Vanmam_Potheeswari J.jpg",
                 },
                 {
                     name: "Pavithra S",
-                    event: "9444965295",
+                    event: "+919444965295",
                     image: "Vanmam/Vanmam_Pavithra S.jpeg",
                 },
                 {
                     name: "Mierudhula Sa",
-                    event: "9659830830",
+                    event: "+919659830830",
                     image: "Vanmam/Vanmam_Mierudhula Sa.jpg",
                 },
             ],
@@ -70,22 +70,22 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Dhanush Aravind A",
-                    event: "9176158019",
+                    event: "+919176158019",
                     image: "valorant/ReadyPlayerOne(Valorant)_Dhanush.jpg",
                 },
                 {
                     name: "Adesh Sai A",
-                    event: "9940581913",
+                    event: "+919940581913",
                     image: "",
                 },
                 {
                     name: "Udhayachandhiran",
-                    event: "7395989910",
+                    event: "+917395989910",
                     image: "valorant/udhayachandiran.jpg",
                 },
                 {
                     name: "Venkatesan R S",
-                    event: "9962565751",
+                    event: "+919962565751",
                     image: "valorant/valo_venkat.jpg",
                 },
             ],
@@ -113,17 +113,17 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sudarchanan MS",
-                    event: "9361570062",
+                    event: "+919361570062",
                     image: "bgmi/BGMI_ SUDARCHANAN.jpg",
                 },
                 {
                     name: "Varun S",
-                    event: "8072061100",
+                    event: "+918072061100",
                     image: "bgmi/BGMI_VARUN.jpg",
                 },
                 {
                     name: "Sriram TK",
-                    event: "9445539784 ",
+                    event: "+919445539784 ",
                     image: "bgmi/BGMI_SRIRAM.jpg",
                 },
 
@@ -153,17 +153,17 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Anagha Nambiar",
-                    event: "9384000428",
+                    event: "+919384000428",
                     image: "Oru Naal President/OruNaalPresident_AnaghaNambiar.jpg",
                 },
                 {
                     name: "Deepthi P",
-                    event: "7708951558",
+                    event: "+917708951558",
                     image: "Oru Naal President/Deepthi_P.jpeg",
                 },
                 {
                     name: "Nandita Sajeev",
-                    event: "7358440920",
+                    event: "+917358440920",
                     image: "Oru Naal President/Nandita_Sajeev.jpg",
                 },
             ],
@@ -191,22 +191,22 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Anjana D",
-                    event: "6383690775",
+                    event: "+916383690775",
                     image: "Fandom wars/Fandomwars_Anjana.jpeg",
                 },
                 {
                     name: "Deepika R",
-                    event: "8870009343",
+                    event: "+918870009343",
                     image: "Fandom wars/Fandomwars_Deepika.jpg",
                 },
                 {
                     name: "Dhanalakshmi R",
-                    event: "9025128205",
+                    event: "+919025128205",
                     image: "Fandom wars/FandomWars-Dhanalakshmi.jpeg",
                 },
                 {
                     name: "Kesheka E",
-                    event: "9445535577",
+                    event: "+919445535577",
                     image: "Fandom wars/FandomWars-E Kesheka.jpg",
                 },
             ],
@@ -236,17 +236,17 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Aruna S",
-                    event: "9150998095",
+                    event: "+919150998095",
                     image: "NaduvulaKonjamAudiovaKanom/nkak_aruna.jpg",
                 },
                 {
                     name: "Deepasree R",
-                    event: "9150183228",
+                    event: "+919150183228",
                     image: "NaduvulaKonjamAudiovaKanom/IMG_20220306_141201.jpg",
                 },
                 {
                     name: "Geethanjali M",
-                    event: "6369311310",
+                    event: "+916369311310",
                     image: "NaduvulaKonjamAudiovaKanom/NaduvulaKonjamAudiovaKanom-Geethanjali.jpeg",
                 },
             ],
@@ -277,27 +277,27 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Harish S",
-                    event: "7904887508",
+                    event: "+917904887508",
                     image: "tiki-taka/Harish.jpg",
                 },
                 {
                     name: "Lakshmi Prasath S",
-                    event: "7010358491",
+                    event: "+917010358491",
                     image: "tiki-taka/LakshmiPrasath.jpg",
                 },
                 {
                     name: "Krishna Vamsee",
-                    event: "9789801173",
+                    event: "+919789801173",
                     image: "tiki-taka/KrishnaVamsee.png",
                 },
                 {
                     name: "Jabez Samuel W",
-                    event: "6369122317",
+                    event: "+916369122317",
                     image: "tiki-taka/JabezSamuel.jpg",
                 },
                 {
                     name: "Kevin Austin",
-                    event: "9080795301",
+                    event: "+919080795301",
                     image: "tiki-taka/Kevin.jpg",
                 },
             ],
@@ -329,27 +329,27 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sabarish Abishek",
-                    event: "7010204983",
+                    event: "+917010204983",
                     image: "Master The Blaster/Master the Blaster - Sabarish Abishek W R.jpg",
                 },
                 {
                     name: "Riyazuddin",
-                    event: "9361498467",
+                    event: "+919361498467",
                     image: "Master The Blaster/Master the Blaster - Riyazuddin R.jpg",
                 },
                 {
                     name: "Sabarish VU",
-                    event: "9840182224",
+                    event: "+919840182224",
                     image: "Master The Blaster/Master the Blaster - Sabarish V U.jpg",
                 },
                 {
                     name: "Santhosh R",
-                    event: "6382704684",
+                    event: "+916382704684",
                     image: "Master The Blaster/Master the Blaster - Santhosh R.jpg",
                 },
                 {
                     name: "Sasidharan S",
-                    event: "8668182011",
+                    event: "+918668182011",
                     image: "Master The Blaster/Master the blaster-Sasidharan S.jpg",
                 },
             ],
@@ -382,17 +382,17 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sharveshwaran R",
-                    event: "7397245931",
+                    event: "+917397245931",
                     image: "Kodak/Kodak_Sharveshwaran.jpg",
                 },
                 {
                     name: "Shwetha M",
-                    event: "7358278497",
+                    event: "+917358278497",
                     image: "Kodak/Kodak_Shwetha.jpg",
                 },
                 {
                     name: "Santoshkumar PA",
-                    event: "9150159685",
+                    event: "+919150159685",
                     image: "Kodak/Kodak_Santoshkumar.jpg",
                 },
             ],
@@ -421,17 +421,17 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Varsha P",
-                    event: "9840388293",
+                    event: "+919840388293",
                     image: "She Boss/She Boss-Varsha P.jpg",
                 },
                 {
                     name: "Urjha MB",
-                    event: "9361479789",
+                    event: "+919361479789",
                     image: "She Boss/She Boss-Urjha M B.jpg",
                 },
                 {
                     name: "Pooja V",
-                    event: "9025662885",
+                    event: "+919025662885",
                     image: "She Boss/She_boss_-_Pooja_V.jpg",
                 },
             ],
