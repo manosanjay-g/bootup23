@@ -19,7 +19,7 @@ const Coordinators = () => {
         {
             name: "Varun Rishwandh",
             role: "Final Year",
-            image: "WhatsApp Image 2023-01-29 at 7.58.02 PM.jpeg",
+            image: "WhatsApp Image.jpeg",
         },
         {
             name: "Daadreyaa",
