@@ -13,7 +13,7 @@ const Coordinators = () => {
         },
         {
             name: "Mr.Bhuvaneswaran",
-            role: "Final Year",
+            role: "Faculty Coordinator",
             image: "OrgCom/Bhuvaneswaran B-min.jpeg",
         },
         {
