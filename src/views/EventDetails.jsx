@@ -1,15 +1,15 @@
 import FacultyCard from "../components/FacultyCard/FacultyCard";
 import Footer from "../components/Footer";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useEffect } from 'react'
+import { useEffect } from "react";
 import "./light.css";
 import ParticlesBackground from "../components/ParticlesBackground";
 const EventDetails = () => {
-    const { state } = useLocation()
+    const { state } = useLocation();
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div>
             <ParticlesBackground />
@@ -17,17 +17,21 @@ const EventDetails = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 1 } }}
                 exit={{ opacity: 0 }}
-                id="event-details" className="flex flex-col pt-7 bg-black bg-opacity-50">
+                id="event-details"
+                className="flex flex-col pt-7 bg-black bg-opacity-50"
+            >
                 <div
                     className="flex flex-col text-left px-5 md:pl-20 "
                     id="event-description"
                 >
                     <div class="light text-5xl mb-3" data-text={state.name.toUpperCase()}>
-                        <h1>{state.name === "iCatching" ? "iCATCHING" : state.name.toUpperCase()}</h1>
+                        <h1>
+                            {state.name === "iCatching"
+                                ? "iCATCHING"
+                                : state.name.toUpperCase()}
+                        </h1>
                     </div>
-                    {/* <h2 className="text-white text-left font-bold  text-4xl tracking-widest">
-                    {state.name.toUpperCase()}
-                </h2> */}
+
                     <div className="my-4 ">
                         <p className="text-white mb-2 font-semibold text-2xl  justify-center  tracking-widest">
                             {state.info.toUpperCase()}
@@ -62,19 +66,24 @@ const EventDetails = () => {
                         {state.eligibility.toUpperCase()}
                     </p>
                 </div>
-                {state.roundDescription.length > 0 ? <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
-                    {
-                        state.roundDescription.map((e, index) => {
-                            return <div>
-                                <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
-                                    ROUND {index + 1}
-                                </p>
-                                <p className="my-5 text-xl text-white " key={e + index}>{e}</p>
-                            </div>
-                        })
-                    }
-
-                </div> : <></>}
+                {state.roundDescription.length > 0 ? (
+                    <div className="text-left px-5 md:px-20 mt-12 pd-5" id="event-rules">
+                        {state.roundDescription.map((e, index) => {
+                            return (
+                                <div>
+                                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+                                        ROUND {index + 1}
+                                    </p>
+                                    <p className="my-5 text-xl text-white " key={e + index}>
+                                        {e}
+                                    </p>
+                                </div>
+                            );
+                        })}
+                    </div>
+                ) : (
+                    <></>
+                )}
                 <div className="text-left px-5 md:px-20 mt-6 pd-" id="event-rules">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         RULES
@@ -83,11 +92,13 @@ const EventDetails = () => {
                         className=" text-lg text-left list-inside list-decimal text-white my-2"
                         id="event-rules-list"
                     >
-                        {
-                            state.rules.map((e, index) => {
-                                return <li className="my-5 text-xl " key={e + index}>{e}</li>
-                            })
-                        }
+                        {state.rules.map((e, index) => {
+                            return (
+                                <li className="my-5 text-xl " key={e + index}>
+                                    {e}
+                                </li>
+                            );
+                        })}
                     </ul>
                 </div>
                 {/* <div className="flex justify-center animate-bounce mt-5 rounded-lg">
@@ -128,7 +139,15 @@ const EventDetails = () => {
                     </p>
                     <div className="flex flex-row flex-wrap justify-center gap-10 mt-4">
                         {state.organizers.map((e, index) => {
-                            return <FacultyCard event={state.name} image={e.image} index={index} name={e.name} key={index + e.name} />
+                            return (
+                                <FacultyCard
+                                    event={state.name}
+                                    image={e.image}
+                                    index={index}
+                                    name={e.name}
+                                    key={index + e.name}
+                                />
+                            );
                         })}
                     </div>
                 </div>
