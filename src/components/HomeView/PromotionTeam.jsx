@@ -45,7 +45,7 @@ const PromotionTeam = () => {
         {
             name: "Abirami",
             team: "Design Team",
-            image: "",
+            image: "promotions/Design team -Abirami.PNG",
         },
         {
             name: "Muqaddam Aaqil Sheriff",
