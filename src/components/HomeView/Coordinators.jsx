@@ -2,6 +2,21 @@ import FacultyCard from "../../components/FacultyCard/FacultyCard";
 const Coordinators = () => {
     const coordinators = [
         {
+            name: "Dr.Kumar P",
+            role: "HOD",
+            image: "OrgCom/OrgCom_Varun.jpg",
+        },
+        {
+            name: "Dr.Vinod Kumar S",
+            role: "Faculty Coordinator",
+            image: "OrgCom/OrgCom_Varun.jpg",
+        },
+        {
+            name: "Mr.Bhuvaneswaran",
+            role: "Final Year",
+            image: "OrgCom/Bhuvaneswaran B-min.jpeg",
+        },
+        {
             name: "Varun Rishwandh",
             role: "Final Year",
             image: "OrgCom/OrgCom_Varun.jpg",

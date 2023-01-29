@@ -35,13 +35,13 @@ const FacultyCard = ({ name, event, image, index }) => {
                     className="front-card flex flex-col items-center justify-between py-6 px-6 gradient bg-zinc-900 rounded-lg"
                 >
 
-                    <div viewport={{ once: true, amount: 0.2 }} className="mb-4 place-self-center">
-                        <h2 className="font-semibold text-xl mb-1 mx-2 tracking-widest decoration-slice whitespace-normal ">{uppercaseName}</h2>
-                        <p className="text-gray-300 font-semibold tracking-widest decoration-slice whitespace-pre-wrap">{uppercaseEvent}</p>
+                    <div viewport={{ once: true, amount: 0.2 }} className="mb-2 place-self-center">
+                        <h2 className="font-semibold text-lg mb-1 mx-2 tracking-widest decoration-slice  whitespace-normal">{uppercaseName}</h2>
+                        <p className="text-gray-300 font-semibold tracking-widest decoration-slice ">{uppercaseEvent}</p>
                     </div>
                     <div></div>
 
-                    <img viewport={{ once: true, amount: 0.5 }} alt="organizer-img" src={process.env.PUBLIC_URL + '/cropped/' + image} className="h-48 w-48 object-cover rounded-md my-2 self-center " />
+                    <img viewport={{ once: true, amount: 0.5 }} alt="organizer-img" src={process.env.PUBLIC_URL + '/cropped/' + image} className="h-48 w-48 object-cover rounded-md self-center " />
                     <div></div>
                 </div>
             </div>
