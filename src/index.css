@@ -15,6 +15,7 @@
     url("assets/fonts/opensans/OpenSans-SemiBold.ttf"),
     url("assets/fonts/opensans/OpenSans-Bold.ttf"),
     url("assets/fonts/opensans/OpenSans-ExtraBold.ttf");
+  font-display: swap;
 }
 html {
   font-family: "Open Sans", sans-serif;
