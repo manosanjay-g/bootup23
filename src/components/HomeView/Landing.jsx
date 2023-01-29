@@ -107,7 +107,7 @@ const Landing = () => {
                 </p>
                 <Countdown></Countdown>
             </div>
-            <div className="flex justify-center animate-bounce ">
+            <div className="flex justify-center">
                 <a
                     id="explore-button"
                     href="#events-technical"

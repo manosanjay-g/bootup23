@@ -196,7 +196,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Anjana D",
                     event: "Fandom Wars",
-                    image: "Fandom wars/Fandomwars_Anjana.JPG",
+                    image: "Fandom wars/Fandomwars_Anjana.jpeg",
                 },
                 {
                     name: "Deepika R",
