@@ -313,10 +313,18 @@ const TechnicalEvents = () => {
             description:
                 "Interested to take flight and unleash the potential of drones? This is your chance to prove that you have what it takes to realize the untapped potential of drones and take it to the next level.Participants will present their drone projects and ideas, which will be judged on the basis of feasibility, creativity, code standards, and innovation. Whether it's a drone that can perform aerial acrobatics, a drone that can navigate through obstacles, or a drone that can perform a specific task, we want to see it all!",
             short_description: "Offline Event",
-            rules: ["Rule 1", "Rule 2"],
-            roundDescriptions: [],
-            type: "Team Event",
-            eligibility: "Open to all departments",
+            rules: [
+                "Participants must bring their own drones and no additional support will be given.", 
+                "A working model is only accepted.",
+                "The drone will be judged based on its design, speed, and efficiency",
+                "Participants will be disqualified if they indulge in malpractice and will not be allowed to participate in other events.",
+                "The panel’s decision will be the final.",
+            ],
+            roundDescriptions: [
+                "1. The performance of the drone is then assessed after its design has been assessed.\n\n2. The primary use case for evaluating the metrics is food delivery.\n\n3. A drone is required to fly between three points (a start, intermediate, and endpoint) while transporting water cups and book covers on separate occasions.\n\n4. The amount of water in the cup is measured for efficiency evaluations, and speed evaluations use the drone's flight time.\n\n5. All of the metrics mentioned earlier will be taken into account when choosing the winner."
+            ],
+            type: "Individual Event",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Jagadeep N",
