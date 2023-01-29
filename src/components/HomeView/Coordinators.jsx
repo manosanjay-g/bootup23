@@ -9,7 +9,7 @@ const Coordinators = () => {
         {
             name: "Dr.Vinod Kumar S",
             role: "Faculty Coordinator",
-            image: "OrgCom/OrgCom_Varun.jpg",
+            image: "OrgCom/OrgCom_ThuhinKhanna.png",
         },
         {
             name: "Mr.Bhuvaneswaran",
@@ -19,7 +19,7 @@ const Coordinators = () => {
         {
             name: "Varun Rishwandh",
             role: "Final Year",
-            image: "OrgCom/WhatsApp Image 2023-01-29 at 7.44.08 PM.jpeg",
+            image: "WhatsApp Image 2023-01-29 at 7.58.02 PM.jpeg",
         },
         {
             name: "Daadreyaa",
