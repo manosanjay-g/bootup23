@@ -65,17 +65,17 @@ const PromotionTeam = () => {
         {
             name: "Vijayakumar ",
             team: "Video Team",
-            image: "",
+            image: "promotions/Vijayakumar.jpeg",
         },
         {
             name: "Rohit Gangadhar ",
             team: "Video Team",
-            image: "",
+            image: "promotions/Rohith Gangadhar-min.JPG",
         },
         {
             name: "Rifhath Aslam ",
             team: "Video Team",
-            image: "",
+            image: "promotions/Rifhath.jpg",
         },
         {
             name: "Sai Nishit ",

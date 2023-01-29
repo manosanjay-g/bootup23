@@ -71,7 +71,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Dhanush Aravind A",
                     event: "Ready Player One",
-                    image: "",
+                    image: "valorant/ReadyPlayerOne(Valorant)_Dhanush.jpg",
                 },
                 {
                     name: "Adesh Sai A",
