@@ -25,7 +25,7 @@ const Footer = () => {
                     <p onClick={() => navigate("/")} className="cursor-pointer text-white text-lg">Home</p>
                 </div>
                 <div className="footer-item-events">
-                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">
+                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         Events
                     </p>
                     <div className="h-1 w-14 bg-blue-400 mb-5"></div>
@@ -37,7 +37,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="footer-item-contacts">
-                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest text-2xl">
+                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         Contacts
                     </p>
                     <div className="h-1 w-14 bg-blue-400 mb-5"></div>
