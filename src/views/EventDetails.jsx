@@ -141,7 +141,7 @@ const EventDetails = () => {
                         {state.organizers.map((e, index) => {
                             return (
                                 <FacultyCard
-                                    event={state.name}
+                                    event={e.event}
                                     image={e.image}
                                     index={index}
                                     name={e.name}

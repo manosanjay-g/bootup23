@@ -26,12 +26,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Surya V",
-                    event: "Silicon Valley",
+                    event: "8072228533",
                     image: "silicon_valley/SuryaV-Si_Valley.jpg",
                 },
                 {
                     name: "Chinna Sakthi V",
-                    event: "Silicon Valley",
+                    event: "8754510421",
                     image: "silicon_valley/SiliconValley_ChinnaSakthi_K.jpg",
                 },
             ],
@@ -59,12 +59,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jeevitha C",
-                    event: "The Revolution",
+                    event: "9500115703",
                     image: "the_revolution/Jeevitha_.jpg",
                 },
                 {
                     name: "Jeevamutharasi S",
-                    event: "The Revolution",
+                    event: "8946076575",
                     image: "the_revolution/Jeevamutharasi_.jpg  ",
                 },
             ],
@@ -92,12 +92,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Vijay A",
-                    event: "404 Not Found",
+                    event: "8667003095",
                     image: "404_not_found/vijay_a.jpg",
                 },
                 {
                     name: "Zafar Sadik H D",
-                    event: "404 Not Found",
+                    event: "7305334231",
                     image: "404_not_found/Zafar.jpg",
                 },
             ],
@@ -125,12 +125,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Akhila Vignesh",
-                    event: "iCatching",
+                    event: "9150860054",
                     image: "iCatching/Akhila Vignesh.jpeg",
                 },
                 {
                     name: "Jayapriyaa RG",
-                    event: "iCatching",
+                    event: "9626686122",
                     image: "iCatching/iCatching_Jayapriyaa.jpg",
                 },
             ],
@@ -159,12 +159,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jeevana V",
-                    event: "Halt and Catch Fire",
+                    event: "9840299034",
                     image: "Halt and Catch Fire/Halt and catch fire - Jeevana V.jpg",
                 },
                 {
                     name: "Harish Kumar S",
-                    event: "Halt and Catch Fire",
+                    event: "9003405276",
                     image: "Halt and Catch Fire/Halt and catch fire - Harish Kumar S.jpg",
                 },
             ],
@@ -194,12 +194,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Abuthahir A",
-                    event: "The Perfect Exploit",
+                    event: "9940348532",
                     image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.jpg",
                 },
                 {
                     name: "Krithic Kumar U B",
-                    event: "The Perfect Exploit",
+                    event: "9092730367",
                     image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
                 },
             ],
@@ -227,12 +227,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Rohit M",
-                    event: "The Office",
+                    event: "7092201124",
                     image: "the office/TheOffice_Rohit M.jpg",
                 },
                 {
                     name: "Sriviveknath",
-                    event: "The Office",
+                    event: "8056222577",
                     image: "the office/TheOffice_Sriviveknath S R.jpg",
                 },
             ],
@@ -260,12 +260,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Abhijit PV",
-                    event: "Machine Impossible",
+                    event: "9677082475",
                     image: "MissionImpossible/MissionImpossible_Abhijith.jpg",
                 },
                 {
                     name: "Charan V",
-                    event: "Machine Impossible",
+                    event: "8056083192",
                     image: "MissionImpossible/MissionImpossible_Charan.jpg",
                 },
             ],
@@ -294,12 +294,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sriviveknath",
-                    event: "Ex Machina",
+                    event: "8056222577",
                     image: "Ex_Machina/ExMachina_Sriviveknath S R.jpg",
                 },
                 {
                     name: "Sujan G",
-                    event: "Ex Machina",
+                    event: "8825750741",
                     image: "Ex_Machina/ExMachina_Sujan_G.jpg",
                 },
             ],
@@ -328,12 +328,12 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jagadeep N",
-                    event: "Fly High",
+                    event: "7010545365",
                     image: "Fly High/Fly High_Jagadeep N.jpeg",
                 },
                 {
                     name: "Nesigan M L",
-                    event: "Fly High",
+                    event: "7010607327",
                     image: "Fly High/Fly High_Nesigan M L.jpg",
                 },
                 {
