@@ -338,7 +338,7 @@ const TechnicalEvents = () => {
                 },
                 {
                     name: "Raghavi V",
-                    event: "Fly High",
+                    event: "6369026891",
                     image: "Fly High/Fly High_Raghavi V.jpg",
                 },
             ],
