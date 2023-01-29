@@ -32,26 +32,30 @@ const PromotionTeam = () => {
             team: "Design Team",
             image: "promotions/Design team - Monish.jpg",
         },
-
+        {
+            name: "Chandini Devi",
+            team: "Design Team",
+            image: "promotions/Design team-Chandini.jpg",
+        },
+        {
+            name: "Angelin Gracia",
+            team: "Design Team",
+            image: "promotions/Design team - Angelin Gracia A .jpg",
+        },
         {
             name: "Abirami",
             team: "Design Team",
             image: "",
         },
         {
-            name: "Chandini Devi",
-            team: "Design Team",
-            image: "",
+            name: "Muqaddam Aaqil Sheriff",
+            team: "Social Media Team",
+            image: "promotions/Socialmedia_Aaqil.jpeg",
         },
         {
             name: "Supriya",
             team: "Social Media Team",
             image: "promotions/socialmedia_supriya.jpeg",
-        },
-        {
-            name: "Muqaddam Aaqil Sheriff",
-            team: "Social Media Team",
-            image: "promotions/Socialmedia_Aaqil.jpeg",
         },
         {
             name: "Kamalakshi ",
@@ -76,9 +80,8 @@ const PromotionTeam = () => {
         {
             name: "Sai Nishit ",
             team: "Video Team",
-            image: "",
+            image: "promotions/Videoteam_R Sai Nishit.jpg",
         },
-
     ];
     const PromotionsTeamMap = promotionsTeam.map((e, index) => {
         return (
@@ -191,7 +194,7 @@ const PromotionTeam = () => {
                 />
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default PromotionTeam;

@@ -27,7 +27,7 @@ const TechnicalEvents = () => {
                 {
                     name: "Surya V",
                     event: "Silicon Valley",
-                    image: "",
+                    image: "silicon_valley/SuryaV-Si_Valley.jpg",
                 },
                 {
                     name: "Chinna Sakthi V",
@@ -321,12 +321,12 @@ const TechnicalEvents = () => {
                 {
                     name: "Jagadeep N",
                     event: "Fly High",
-                    image: "Fly High/",
+                    image: "Fly High/Fly High_Jagadeep N.jpeg",
                 },
                 {
                     name: "Nesigan M L",
                     event: "Fly High",
-                    image: "",
+                    image: "Fly High/Fly High_Nesigan M L.jpg",
                 },
                 {
                     name: "Raghavi V",

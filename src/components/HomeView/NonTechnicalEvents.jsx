@@ -81,12 +81,12 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Udhayachandhiran",
                     event: "Ready Player One",
-                    image: "",
+                    image: "valorant/udhayachandiran.jpg",
                 },
                 {
                     name: "Venkatesan R S",
                     event: "Ready Player One",
-                    image: "",
+                    image: "valorant/valo_venkat.jpg",
                 },
             ],
             link: "",
@@ -114,7 +114,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Sudarchanan MS",
                     event: "Ready Player One",
-                    image: "",
+                    image: "bgmi/BGMI_ SUDARCHANAN.jpg",
                 },
                 {
                     name: "Varun S",
@@ -129,7 +129,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Sriramakrishnan B",
                     event: "Ready Player One",
-                    image: "",
+                    image: "bgmi/BGMI_SRIRAMAKRISHNAN.jpg",
                 },
             ],
             link: "",
@@ -241,7 +241,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Aruna S",
                     event: "Naduvula Konjam Audio-va Kaanom",
-                    image: "NaduvulaKonjamAudiovaKanom/",
+                    image: "NaduvulaKonjamAudiovaKanom/nkak_aruna.jpg",
                 },
                 {
                     name: "Deepasree R",
@@ -287,7 +287,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Lakshmi Prasath S",
                     event: "Tiki-Taka",
-                    image: "tiki-taka/.jpg",
+                    image: "tiki-taka/LakshmiPrasath.jpg",
                 },
                 {
                     name: "Krishna Vamsee",
