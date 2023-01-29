@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Landing from "../components/HomeView/Landing";
 import TechnicalEvents from "../components/HomeView/TechnicalEvents";
 import NonTechnicalEvents from "../components/HomeView/NonTechnicalEvents";

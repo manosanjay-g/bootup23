@@ -1,8 +1,6 @@
 import Countdown from "../../components/Countdown/Countdown";
 const Landing = () => {
-    const goToTechnical = () => {
-        window.location.href = "#events-technical";
-    };
+
     return (
         <div
             id="landing"
@@ -112,8 +110,7 @@ const Landing = () => {
             <div className="flex justify-center animate-bounce ">
                 <a
                     id="explore-button"
-                    href={goToTechnical}
-                    onClick={goToTechnical}
+                    href="#events-technical"
                     className="rounded-md relative cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
                 >
                     <span className="rounded-lg w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
