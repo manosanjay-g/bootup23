@@ -126,11 +126,11 @@ const NonTechnicalEvents = () => {
                     event: "9445539784 ",
                     image: "bgmi/BGMI_SRIRAM.jpg",
                 },
-                {
+                /* {
                     name: "Sriramakrishnan B",
                     event: "",
                     image: "bgmi/BGMI_SRIRAMAKRISHNAN.jpg",
-                },
+                }, */
             ],
             link: "",
         },
@@ -387,17 +387,17 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Sharveshwaran R",
                     event: "7397245931",
-                    image: "Kodak/Kodak_Santoshkumar.jpg",
+                    image: "Kodak/Kodak_Sharveshwaran.jpg",
                 },
                 {
                     name: "Shwetha M",
                     event: "7358278497",
-                    image: "Kodak/Kodak_Sharveshwaran.jpg",
+                    image: "Kodak/Kodak_Shwetha.jpg",
                 },
                 {
                     name: "Santoshkumar PA",
                     event: "9150159685",
-                    image: "Kodak/Kodak_Shwetha.jpg",
+                    image: "Kodak/Kodak_Santoshkumar.jpg",
                 },
             ],
             link: "",
