@@ -25,7 +25,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Mohanapriya R",
                     event: "9361325944",
-                    image: "Vanmam/Vanmam_",
+                    image: "Vanmam/Vanmam_MOHANAPRIYA-min.jpg",
                 },
                 {
                     name: "Potheeswari J",
@@ -126,11 +126,7 @@ const NonTechnicalEvents = () => {
                     event: "9445539784 ",
                     image: "bgmi/BGMI_SRIRAM.jpg",
                 },
-                /* {
-                    name: "Sriramakrishnan B",
-                    event: "",
-                    image: "bgmi/BGMI_SRIRAMAKRISHNAN.jpg",
-                }, */
+
             ],
             link: "",
         },
@@ -314,7 +310,7 @@ const NonTechnicalEvents = () => {
             route: "/master-the-blaster",
             description:
                 "Ready, set, blast! Join our epic Master The Blaster Box Cricket tournament and showcase your skills as you lead your team to glory. With challenging opponents and thrilling matches, this event is the ultimate test of your cricketing talent and strategy. Will you reign supreme and lift the Master The Blaster trophy? Sign up now and let the games begin!",
-            short_description: "Offline Event\n\n* Entry Fee : Rs. 100 per team *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
             rules: [
                 "The team must consist of 5 players.",
                 "A total of 16 teams can participate in this event.",
