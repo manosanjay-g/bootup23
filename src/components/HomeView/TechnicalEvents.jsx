@@ -200,7 +200,7 @@ const TechnicalEvents = () => {
                 {
                     name: "Krithic Kumar U B",
                     event: "The Perfect Exploit",
-                    image: "",
+                    image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
                 },
             ],
             link: "",
@@ -314,7 +314,7 @@ const TechnicalEvents = () => {
                 "Interested to take flight and unleash the potential of drones? This is your chance to prove that you have what it takes to realize the untapped potential of drones and take it to the next level.Participants will present their drone projects and ideas, which will be judged on the basis of feasibility, creativity, code standards, and innovation. Whether it's a drone that can perform aerial acrobatics, a drone that can navigate through obstacles, or a drone that can perform a specific task, we want to see it all!",
             short_description: "Offline Event",
             rules: [
-                "Participants must bring their own drones and no additional support will be given.", 
+                "Participants must bring their own drones and no additional support will be given.",
                 "A working model is only accepted.",
                 "The drone will be judged based on its design, speed, and efficiency",
                 "Participants will be disqualified if they indulge in malpractice and will not be allowed to participate in other events.",
