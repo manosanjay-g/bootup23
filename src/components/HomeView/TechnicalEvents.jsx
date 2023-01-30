@@ -98,7 +98,7 @@ const TechnicalEvents = () => {
                 {
                     name: "Zafar Sadik H D",
                     event: "+91 73053 34231",
-                    image: "404_not_found/Zafar.jpg",
+                    image: "404_not_found/IMG_1622-min.JPG",
                 },
             ],
             link: "https://forms.gle/2SHiV6azJHV9hh4n7",
