@@ -26,16 +26,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Surya V",
-                    event: "+918072228533",
+                    event: "+91 80722 28533",
                     image: "silicon_valley/SuryaV-Si_Valley.jpg",
                 },
                 {
                     name: "Chinna Sakthi V",
-                    event: "+918754510421",
+                    event: "+91 87545 10421",
                     image: "silicon_valley/SiliconValley_ChinnaSakthi_K.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "The Revolution",
@@ -59,16 +59,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jeevitha C",
-                    event: "+919500115703",
+                    event: "+91 95001 15703",
                     image: "the_revolution/Jeevitha_.jpg",
                 },
                 {
                     name: "Jeevamutharasi S",
-                    event: "+918946076575",
+                    event: "+91 89460 76575",
                     image: "the_revolution/Jeevamutharasi_.jpg  ",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "404 Not Found",
@@ -92,16 +92,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Vijay A",
-                    event: "+918667003095",
+                    event: "+91 86670 03095",
                     image: "404_not_found/vijay_a.jpg",
                 },
                 {
                     name: "Zafar Sadik H D",
-                    event: "+917305334231",
+                    event: "+91 73053 34231",
                     image: "404_not_found/Zafar.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "iCatching",
@@ -125,16 +125,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Akhila Vignesh",
-                    event: "+919150860054",
+                    event: "+91 91508 60054",
                     image: "iCatching/Akhila Vignesh.jpeg",
                 },
                 {
                     name: "Jayapriyaa RG",
-                    event: "+919626686122",
+                    event: "+91 96266 86122",
                     image: "iCatching/iCatching_Jayapriyaa.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Halt and Catch Fire",
@@ -159,16 +159,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jeevana V",
-                    event: "+919840299034",
+                    event: "+91 98402 99034",
                     image: "Halt and Catch Fire/Halt and catch fire - Jeevana V.jpg",
                 },
                 {
                     name: "Harish Kumar S",
-                    event: "+919003405276",
+                    event: "+91 90034 05276",
                     image: "Halt and Catch Fire/Halt and catch fire - Harish Kumar S.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "The Perfect Exploit",
@@ -194,16 +194,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Abuthahir A",
-                    event: "+919940348532",
+                    event: "+91 99403 48532",
                     image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.jpg",
                 },
                 {
                     name: "Krithic Kumar U B",
-                    event: "+919092730367",
+                    event: "+91 90927 30367",
                     image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "The Office",
@@ -227,16 +227,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Rohit M",
-                    event: "+917092201124",
+                    event: "+91 70922 01124",
                     image: "the office/TheOffice_Rohit M.jpg",
                 },
                 {
                     name: "Sriviveknath",
-                    event: "+918056222577",
+                    event: "+91 80562 22577",
                     image: "the office/TheOffice_Sriviveknath S R.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Machine Impossible",
@@ -260,16 +260,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Abhijit PV",
-                    event: "+919677082475",
+                    event: "+91 96770 82475",
                     image: "MissionImpossible/MissionImpossible_Abhijith.jpg",
                 },
                 {
                     name: "Charan V",
-                    event: "+918056083192",
+                    event: "+91 80560 83192",
                     image: "MissionImpossible/MissionImpossible_Charan.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Ex Machina",
@@ -294,16 +294,16 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sriviveknath",
-                    event: "+918056222577",
+                    event: "+91 80562 22577",
                     image: "Ex_Machina/ExMachina_Sriviveknath S R.jpg",
                 },
                 {
                     name: "Sujan G",
-                    event: "+918825750741",
+                    event: "+91 88257 50741",
                     image: "Ex_Machina/ExMachina_Sujan_G.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Fly High",
@@ -328,21 +328,21 @@ const TechnicalEvents = () => {
             organizers: [
                 {
                     name: "Jagadeep N",
-                    event: "+917010545365",
+                    event: "+91 70105 45365",
                     image: "Fly High/Fly High_Jagadeep N.jpeg",
                 },
                 {
                     name: "Nesigan M L",
-                    event: "+917010607327",
+                    event: "+91 70106 07327",
                     image: "Fly High/Fly High_Nesigan M L.jpg",
                 },
                 {
                     name: "Raghavi V",
-                    event: "+916369026891",
+                    event: "+91 63690 26891",
                     image: "Fly High/Fly High_Raghavi V.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
     ];
     const technicalEventsMap = technicalEvents.map((e, index) => {

@@ -117,7 +117,9 @@ const EventDetails = () => {
                 <div className="flex justify-center animate-bounce">
                     <a
                         id="register-button"
-                        href="/promotions"
+                        href={state.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         //onClick={goToTechnical}
                         className="relative rounded-md cursor-pointer inline-flex items-center justify-start px-5 py-3 overflow-hidden font-bold group"
                     >

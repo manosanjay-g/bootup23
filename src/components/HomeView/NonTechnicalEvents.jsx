@@ -24,26 +24,26 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Mohanapriya R",
-                    event: "+919361325944",
+                    event: "+91 93613 25944",
                     image: "Vanmam/Vanmam_MOHANAPRIYA-min.jpg",
                 },
                 {
                     name: "Potheeswari J",
-                    event: "+919500280512",
+                    event: "+91 95002 80512",
                     image: "Vanmam/Vanmam_Potheeswari J.jpg",
                 },
                 {
                     name: "Pavithra S",
-                    event: "+919444965295",
+                    event: "+91 94449 65295",
                     image: "Vanmam/Vanmam_Pavithra S.jpeg",
                 },
                 {
                     name: "Mierudhula Sa",
-                    event: "+919659830830",
+                    event: "+91 96598 30830",
                     image: "Vanmam/Vanmam_Mierudhula Sa.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Ready Player One",
@@ -70,26 +70,26 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Dhanush Aravind A",
-                    event: "+919176158019",
+                    event: "+91 91761 58019",
                     image: "valorant/ReadyPlayerOne(Valorant)_Dhanush.jpg",
                 },
                 {
                     name: "Adesh Sai A",
-                    event: "+919940581913",
+                    event: "+91 99405 81913",
                     image: "",
                 },
                 {
                     name: "Udhayachandhiran",
-                    event: "+917395989910",
+                    event: "+91 73959 89910",
                     image: "valorant/udhayachandiran.jpg",
                 },
                 {
                     name: "Venkatesan R S",
-                    event: "+919962565751",
+                    event: "+91 99625 65751",
                     image: "valorant/valo_venkat.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/vVLQjZTZahY1Neaf9",
         },
         {
             name: "Ready Player One",
@@ -113,22 +113,22 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sudarchanan MS",
-                    event: "+919361570062",
+                    event: "+91 93615 70062",
                     image: "bgmi/BGMI_ SUDARCHANAN.jpg",
                 },
                 {
                     name: "Varun S",
-                    event: "+918072061100",
+                    event: "+91 80720 61100",
                     image: "bgmi/BGMI_VARUN.jpg",
                 },
                 {
                     name: "Sriram TK",
-                    event: "+919445539784 ",
+                    event: "+91 94455 39784 ",
                     image: "bgmi/BGMI_SRIRAM.jpg",
                 },
 
             ],
-            link: "",
+            link: "https://forms.gle/X6VbYrp8RapfqfX79",
         },
         {
             name: "Oru Naal President",
@@ -153,21 +153,21 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Anagha Nambiar",
-                    event: "+919384000428",
+                    event: "+91 93840 00428",
                     image: "Oru Naal President/OruNaalPresident_AnaghaNambiar.jpg",
                 },
                 {
                     name: "Deepthi P",
-                    event: "+917708951558",
+                    event: "+91 77089 51558",
                     image: "Oru Naal President/Deepthi_P.jpeg",
                 },
                 {
                     name: "Nandita Sajeev",
-                    event: "+917358440920",
+                    event: "+91 73584 40920",
                     image: "Oru Naal President/Nandita_Sajeev.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Fandom Wars",
@@ -178,7 +178,7 @@ const NonTechnicalEvents = () => {
                 "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n                The first round is a kahoot quiz round. The time limit would be 20 minutes with around 15-20 questions.\n\n Top-scoring teams would be selected for the finals.\n\n                The second round is a buzzer round. The fastest team to score the highest points will be given the title of the ultimate fan.",
             short_description: "Offline Event",
             rules: [
-                "The domain for this event includes popular television series both new & old, movies and other pop culture references.",
+                "The domain for this event includes popular television series both new & old and other pop culture references.",
                 "Internet access is not allowed.",
                 "The Panel decision is final.",
             ],
@@ -191,26 +191,26 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Anjana D",
-                    event: "+916383690775",
+                    event: "+91 63836 90775",
                     image: "Fandom wars/Fandomwars_Anjana.jpeg",
                 },
                 {
                     name: "Deepika R",
-                    event: "+918870009343",
+                    event: "+91 88700 09343",
                     image: "Fandom wars/Fandomwars_Deepika.jpg",
                 },
                 {
                     name: "Dhanalakshmi R",
-                    event: "+919025128205",
+                    event: "+91 90251 28205",
                     image: "Fandom wars/FandomWars-Dhanalakshmi.jpeg",
                 },
                 {
                     name: "Kesheka E",
-                    event: "+919445535577",
+                    event: "+91 94455 35577",
                     image: "Fandom wars/FandomWars-E Kesheka.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Naduvula Konjam Audio-va Kaanom",
@@ -236,21 +236,21 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Aruna S",
-                    event: "+919150998095",
+                    event: "+91 91509 98095",
                     image: "NaduvulaKonjamAudiovaKanom/nkak_aruna.jpg",
                 },
                 {
                     name: "Deepasree R",
-                    event: "+919150183228",
+                    event: "+91 91501 83228",
                     image: "NaduvulaKonjamAudiovaKanom/IMG_20220306_141201.jpg",
                 },
                 {
                     name: "Geethanjali M",
-                    event: "+916369311310",
+                    event: "+91 63693 11310",
                     image: "NaduvulaKonjamAudiovaKanom/NaduvulaKonjamAudiovaKanom-Geethanjali.jpeg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "Tiki-Taka ",
@@ -277,31 +277,31 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Harish S",
-                    event: "+917904887508",
+                    event: "+91 79048 87508",
                     image: "tiki-taka/Harish.jpg",
                 },
                 {
                     name: "Lakshmi Prasath S",
-                    event: "+917010358491",
+                    event: "+91 70103 58491",
                     image: "tiki-taka/LakshmiPrasath.jpg",
                 },
                 {
                     name: "Krishna Vamsee",
-                    event: "+919789801173",
+                    event: "+91 97898 01173",
                     image: "tiki-taka/KrishnaVamsee.png",
                 },
                 {
                     name: "Jabez Samuel W",
-                    event: "+916369122317",
+                    event: "+91 63691 22317",
                     image: "tiki-taka/JabezSamuel.jpg",
                 },
                 {
                     name: "Kevin Austin",
-                    event: "+919080795301",
+                    event: "+91 90807 95301",
                     image: "tiki-taka/Kevin.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/qkLP2rBUWoS5NwPE9",
         },
         {
             name: "Master the Blaster",
@@ -329,31 +329,31 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sabarish Abishek",
-                    event: "+917010204983",
+                    event: "+91 70102 04983",
                     image: "Master The Blaster/Master the Blaster - Sabarish Abishek W R.jpg",
                 },
                 {
                     name: "Riyazuddin",
-                    event: "+919361498467",
+                    event: "+91 93614 98467",
                     image: "Master The Blaster/Master the Blaster - Riyazuddin R.jpg",
                 },
                 {
                     name: "Sabarish VU",
-                    event: "+919840182224",
+                    event: "+91 98401 82224",
                     image: "Master The Blaster/Master the Blaster - Sabarish V U.jpg",
                 },
                 {
                     name: "Santhosh R",
-                    event: "+916382704684",
+                    event: "+91 63827 04684",
                     image: "Master The Blaster/Master the Blaster - Santhosh R.jpg",
                 },
                 {
                     name: "Sasidharan S",
-                    event: "+918668182011",
+                    event: "+91 86681 82011",
                     image: "Master The Blaster/Master the blaster-Sasidharan S.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/w8P8axVBr1vb2RDP6",
         },
         {
             name: "Kodak",
@@ -382,21 +382,21 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Sharveshwaran R",
-                    event: "+917397245931",
+                    event: "+91 73972 45931",
                     image: "Kodak/Kodak_Sharveshwaran.jpg",
                 },
                 {
                     name: "Shwetha M",
-                    event: "+917358278497",
+                    event: "+91 73582 78497",
                     image: "Kodak/Kodak_Shwetha.jpg",
                 },
                 {
                     name: "Santoshkumar PA",
-                    event: "+919150159685",
+                    event: "+91 91501 59685",
                     image: "Kodak/Kodak_Santoshkumar.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
         {
             name: "She Boss!",
@@ -421,21 +421,21 @@ const NonTechnicalEvents = () => {
             organizers: [
                 {
                     name: "Varsha P",
-                    event: "+919840388293",
+                    event: "+91 98403 88293",
                     image: "She Boss/She Boss-Varsha P.jpg",
                 },
                 {
                     name: "Urjha MB",
-                    event: "+919361479789",
+                    event: "+91 93614 79789",
                     image: "She Boss/She Boss-Urjha M B.jpg",
                 },
                 {
                     name: "Pooja V",
-                    event: "+919025662885",
+                    event: "+91 90256 62885",
                     image: "She Boss/She_boss_-_Pooja_V.jpg",
                 },
             ],
-            link: "",
+            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
     ];
 
