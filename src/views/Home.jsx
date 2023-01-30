@@ -19,7 +19,7 @@ const Home = ({ isLoading, setLoading }) => {
     return (
         isLoading === true ? <Loading /> :
             <motion.div
-                className=""
+                className="scroll-smooth"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 1 } }}
                 exit={{ opacity: 0 }}
