@@ -4,7 +4,7 @@ const Landing = () => {
     return (
         <div
             id="landing"
-            className="flex flex-col items-center py-7  text-white stretch-to-screen  justify-between"
+            className="flex flex-col items-center py-7  text-white justify-between "
         >
             <div className="flex flex-row justify-center">
                 <img

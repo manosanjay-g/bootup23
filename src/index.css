@@ -157,3 +157,7 @@ body {
 #event-details {
   white-space: pre-line;
 }
+
+#landing {
+  min-height: 100svh;
+}
