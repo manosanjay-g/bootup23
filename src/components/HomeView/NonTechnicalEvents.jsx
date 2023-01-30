@@ -76,7 +76,7 @@ const NonTechnicalEvents = () => {
                 {
                     name: "Adesh Sai A",
                     event: "+91 99405 81913",
-                    image: "",
+                    image: "valorant/Adesh.jpg",
                 },
                 {
                     name: "Udhayachandhiran",
