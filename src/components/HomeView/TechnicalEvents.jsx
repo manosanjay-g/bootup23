@@ -63,7 +63,7 @@ const TechnicalEvents = () => {
                     image: "the_revolution/Jeevitha_.jpg",
                 },
                 {
-                    name: "Jeevamutharasi S",
+                    name: "Jeevamutharasi",
                     event: "+91 89460 76575",
                     image: "the_revolution/Jeevamutharasi_.jpg  ",
                 },
@@ -198,7 +198,7 @@ const TechnicalEvents = () => {
                     image: "The Perfect Exploit/ThePerfectExploit-Abuthahir.jpg",
                 },
                 {
-                    name: "Krithic Kumar U B",
+                    name: "Krithic Kumar",
                     event: "+91 90927 30367",
                     image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
                 },

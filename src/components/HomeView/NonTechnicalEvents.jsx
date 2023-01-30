@@ -281,7 +281,7 @@ const NonTechnicalEvents = () => {
                     image: "tiki-taka/Harish.jpg",
                 },
                 {
-                    name: "Lakshmi Prasath S",
+                    name: "Lakshmi Prasath",
                     event: "+91 70103 58491",
                     image: "tiki-taka/LakshmiPrasath.jpg",
                 },
@@ -381,7 +381,7 @@ const NonTechnicalEvents = () => {
             eligibility: "2 Rounds",
             organizers: [
                 {
-                    name: "Sharveshwaran R",
+                    name: "Sharveshwaran",
                     event: "+91 73972 45931",
                     image: "Kodak/Kodak_Sharveshwaran.jpg",
                 },
@@ -391,7 +391,7 @@ const NonTechnicalEvents = () => {
                     image: "Kodak/Kodak_Shwetha.jpg",
                 },
                 {
-                    name: "Santoshkumar PA",
+                    name: "Santoshkumar",
                     event: "+91 91501 59685",
                     image: "Kodak/Kodak_Santoshkumar.jpg",
                 },

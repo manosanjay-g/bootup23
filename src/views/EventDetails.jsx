@@ -84,7 +84,7 @@ const EventDetails = () => {
                 ) : (
                     <></>
                 )}
-                <div className="text-left px-5 md:px-20 mt-6 pd-" id="event-rules">
+                <div className="text-left px-5 md:px-20 mt-6 mb-10 pd-" id="event-rules">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         RULES
                     </p>
