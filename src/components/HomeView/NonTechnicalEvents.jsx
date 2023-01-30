@@ -310,7 +310,7 @@ const NonTechnicalEvents = () => {
             route: "/master-the-blaster",
             description:
                 "Ready, set, blast! Join our epic Master The Blaster Box Cricket tournament and showcase your skills as you lead your team to glory. With challenging opponents and thrilling matches, this event is the ultimate test of your cricketing talent and strategy. Will you reign supreme and lift the Master The Blaster trophy? Sign up now and let the games begin!",
-            short_description: "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
             rules: [
                 "The team must consist of 5 players.",
                 "A total of 16 teams can participate in this event.",
