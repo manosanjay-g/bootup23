@@ -1,9 +1,11 @@
-import ParticlesBackground from "../components/ParticlesBackground";
-
+import { motion } from 'framer-motion'
 const Loading = () => {
     return (
-        <div className="flex justify-center stretch-to-screen">
-            <ParticlesBackground />
+        <motion.div className="flex justify-center stretch-to-screen"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 1.5 } }}
+            exit={{ opacity: 0 }}
+        >
             <div className="flex flex-row items-center">
                 <svg
                     width="190"
@@ -54,7 +56,7 @@ const Loading = () => {
                     BOOTING UP
                 </h1>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

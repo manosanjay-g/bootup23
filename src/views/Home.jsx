@@ -17,23 +17,28 @@ const Home = ({ isLoading, setLoading }) => {
         setLoading(false);
     }, 2500);
     return (
-        isLoading === true ? <Loading /> :
-            <motion.div
-                className="scroll-smooth"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, transition: { duration: 1 } }}
-                exit={{ opacity: 0 }}
-            >
-                <ParticlesBackground />
-                <Landing />
-                <TechnicalEvents />
-                <NonTechnicalEvents />
-                <Sponsers />
-                <Coordinators />
-                <PromotionTeam />
+        <div>
+            <ParticlesBackground />
+            {isLoading === true ? (
+                <Loading />
+            ) : (
+                <motion.div
+                    className="scroll-smooth"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, transition: { duration: 1.5 } }}
+                    exit={{ opacity: 0 }}
+                >
+                    <Landing />
+                    <TechnicalEvents />
+                    <NonTechnicalEvents />
+                    <Sponsers />
+                    <Coordinators />
+                    <PromotionTeam />
 
-                <Footer />
-            </motion.div>
+                    <Footer />
+                </motion.div>
+            )}
+        </div>
     );
 };
 
