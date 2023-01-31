@@ -21,14 +21,14 @@ const Promotions = () => {
             image: "promotions/Website_ManoSanjay.jpg",
         },
         {
-            name: "Keshav",
-            team: "Website Team",
-            image: "promotions/Website_keshav.jpg",
-        },
-        {
             name: "Subhash",
             team: "Website Team",
             image: "promotions/Website_SubhashB.jpg",
+        },
+        {
+            name: "Keshav",
+            team: "Website Team",
+            image: "promotions/Website_keshav.jpg",
         },
 
 
