@@ -11,6 +11,11 @@ const Promotions = () => {
     }, [])
     const promotionsTeam = [
         {
+            name: "Suriya Prakash",
+            team: "Website Team",
+            image: "promotions/Website_SuriyaPrakash.jpg",
+        },
+        {
             name: "Mano Sanjay",
             team: "Website Team",
             image: "promotions/Website_ManoSanjay.jpg",
@@ -25,11 +30,7 @@ const Promotions = () => {
             team: "Website Team",
             image: "promotions/Website_SubhashB.jpg",
         },
-        {
-            name: "Suriya Prakash",
-            team: "Website Team",
-            image: "promotions/Website_SuriyaPrakash.jpg",
-        },
+
 
         {
             name: "Muqaddam Aaqil Sheriff",
