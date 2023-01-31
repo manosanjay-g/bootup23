@@ -6,7 +6,6 @@ import Landing from "../components/HomeView/Landing";
 import TechnicalEvents from "../components/HomeView/TechnicalEvents";
 import NonTechnicalEvents from "../components/HomeView/NonTechnicalEvents";
 import Coordinators from "../components/HomeView/Coordinators";
-import PromotionTeam from "../components/HomeView/PromotionTeam";
 import Sponsers from "../components/HomeView/Sponsors";
 import Loading from "./Loading";
 const Home = ({ isLoading, setLoading }) => {

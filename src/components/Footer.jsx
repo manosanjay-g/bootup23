@@ -20,10 +20,9 @@ const Footer = () => {
                 className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0"
             >
                 <div className="footer-item-links">
-                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">Links</p>
-                    <div className='h-1 w-14 bg-blue-400 mb-5'></div>
-                    <p onClick={() => navigate("/")} className="cursor-pointer text-white text-lg">Home</p>
-                    <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Our Promotions Team</p>
+                    <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">Meet our Team</p>
+                    <div className='h-1 w-24 bg-blue-400 mb-5'></div>
+                    <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Promotions Team</p>
                 </div>
                 <div className="footer-item-events">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">

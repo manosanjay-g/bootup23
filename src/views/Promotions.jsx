@@ -30,11 +30,23 @@ const Promotions = () => {
             team: "Website Team",
             image: "promotions/Website_SuriyaPrakash.jpg",
         },
+
         {
-            name: "Vijayakumar ",
-            team: "Video Team",
-            image: "promotions/Vijayakumar.jpeg",
+            name: "Muqaddam Aaqil Sheriff",
+            team: "Social Media Team",
+            image: "promotions/Socialmedia_Aaqil.jpeg",
         },
+        {
+            name: "Supriya",
+            team: "Social Media Team",
+            image: "promotions/socialmedia_supriya.jpeg",
+        },
+        {
+            name: "Kamalakshi ",
+            team: "Social Media Team",
+            image: "promotions/SocialMedia_Kamalakshi.jpg",
+        },
+
         {
             name: "Rohit Gangadhar ",
             team: "Video Team",
@@ -51,19 +63,9 @@ const Promotions = () => {
             image: "promotions/Videoteam_R Sai Nishit.jpg",
         },
         {
-            name: "Muqaddam Aaqil Sheriff",
-            team: "Social Media Team",
-            image: "promotions/Socialmedia_Aaqil.jpeg",
-        },
-        {
-            name: "Supriya",
-            team: "Social Media Team",
-            image: "promotions/socialmedia_supriya.jpeg",
-        },
-        {
-            name: "Kamalakshi ",
-            team: "Social Media Team",
-            image: "promotions/SocialMedia_Kamalakshi.jpg",
+            name: "Vijayakumar ",
+            team: "Video Team",
+            image: "promotions/Vijayakumar.jpeg",
         },
         {
             name: "Praveen",
@@ -90,7 +92,7 @@ const Promotions = () => {
             team: "Design Team",
             image: "promotions/Design team - Angelin Gracia A .jpg",
         },
-        
+
     ];
     return (
         <div>
@@ -104,15 +106,15 @@ const Promotions = () => {
                 <div class="light flex justify-center text-4xl mb-3" data-text="PROMOTIONS TEAM">
                     <h1>PROMOTIONS TEAM</h1>
                 </div>
-                <div className="shadow-inner flex px-4 overflow-x-scroll gap-8 py-6 scroll scroll-smooth whitespace-nowrap snap-x lg:flex lg:flex-row lg:flex-wrap lg:justify-center lg:gap-10">
+                <div className="flex  py-6 scroll scroll-smooth snap-x flex-row flex-wrap justify-center gap-10">
                     {promotionsTeam.map((e, index) => {
                         return <PromotionsCard
-                        team={e.team}
-                        name={e.name}
-                        image={e.image}
-                        index={index + "-t"}
-                        key={index}
-                    />
+                            team={e.team}
+                            name={e.name}
+                            image={e.image}
+                            index={index + "-t"}
+                            key={index}
+                        />
                     })}
                 </div>
                 <Footer />
