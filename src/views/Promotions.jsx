@@ -81,15 +81,16 @@ const Promotions = () => {
             image: "promotions/Design team-Chandini.jpg",
         },
         {
-            name: "Angelin Gracia",
-            team: "Design Team",
-            image: "promotions/Design team - Angelin Gracia A .jpg",
-        },
-        {
             name: "Abirami",
             team: "Design Team",
             image: "promotions/Design team -Abirami.PNG",
         },
+        {
+            name: "Angelin Gracia",
+            team: "Design Team",
+            image: "promotions/Design team - Angelin Gracia A .jpg",
+        },
+        
     ];
     return (
         <div>

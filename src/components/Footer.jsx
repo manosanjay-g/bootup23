@@ -104,7 +104,7 @@ const Footer = () => {
                                 </g>
                             </g>
                         </svg>
-                        <a href="tel:9566170560">+91 95661 70560</a>
+                        <a href="tel:9566170560">+91 95661 70560</a><p> - Thuhin Khanna R</p>
                     </p>
                     <p
                         className="flex flex-row gap-x-2 items-center my-3"
