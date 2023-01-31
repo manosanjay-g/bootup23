@@ -33,7 +33,7 @@ const Home = ({ isLoading, setLoading }) => {
                     <NonTechnicalEvents />
                     <Sponsers />
                     <Coordinators />
-                    <PromotionTeam />
+                    {/* <PromotionTeam /> */}
 
                     <Footer />
                 </motion.div>
