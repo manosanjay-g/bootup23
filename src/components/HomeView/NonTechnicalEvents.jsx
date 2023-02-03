@@ -256,57 +256,57 @@ const NonTechnicalEvents = () => {
             ],
             link: "https://forms.gle/2SHiV6azJHV9hh4n7",
         },
-        {
-            name: "Tiki-Taka ",
-            info: "Futsal",
-            icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
-            route: "/tiki-taka",
-            description:
-                "Unleash your inner football star in our ultimate Tiki-Taka tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Tiki-Taka? Sign up now and let the games begin!",
-            short_description: "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
-            rules: [
-                "Maximum of 8 people in a team is allowed.",
-                "5 players are allowed on the pitch at anytime and the rest are substitutes.",
-                "The timings of the event will be 5+5 minutes, and a break of 1 minute will be given.",
-                "College ID cards are required for verification.",
-                "Goalkeeper gloves, shin pads, and full stockings are required.",
-                "A knockout system will be followed.",
-                "Teams must report before their matches.",
-                "Any kind of intentional physical contact or use of foul language on the pitch will lead to disqualification from the event",
-                "The referee's decision is final.",
-            ],
-            roundDescriptions: [],
-            type: "Team Event (5 players + 3 substitutes)",
-            eligibility: "Knockout",
-            organizers: [
-                {
-                    name: "Harish S",
-                    event: "+91 79048 87508",
-                    image: "tiki-taka/Harish.jpg",
-                },
-                {
-                    name: "Lakshmi Prasath",
-                    event: "+91 70103 58491",
-                    image: "tiki-taka/LakshmiPrasath.jpg",
-                },
-                {
-                    name: "Krishna Vamsee",
-                    event: "+91 97898 01173",
-                    image: "tiki-taka/KrishnaVamsee.png",
-                },
-                {
-                    name: "Jabez Samuel W",
-                    event: "+91 63691 22317",
-                    image: "tiki-taka/JabezSamuel.jpg",
-                },
-                {
-                    name: "Kevin Austin",
-                    event: "+91 90807 95301",
-                    image: "tiki-taka/Kevin.jpg",
-                },
-            ],
-            link: "https://forms.gle/qkLP2rBUWoS5NwPE9",
-        },
+        // {
+        //     name: "Tiki-Taka ",
+        //     info: "Futsal",
+        //     icon: "https://img.icons8.com/ios-glyphs/90/ffffff/beach-soccer.png",
+        //     route: "/tiki-taka",
+        //     description:
+        //         "Unleash your inner football star in our ultimate Tiki-Taka tournament! Assemble your team, perfect your strategy and unleash your skills as you battle it out on the field for glory. With a series of challenging opponents to face, this event is designed to test your limits and bring out the champion in you. Will you lead your team to victory and lift the coveted Tiki-Taka? Sign up now and let the games begin!",
+        //     short_description: "Offline Event\n\n* Entry Fee : Rs. 400 per team *",
+        //     rules: [
+        //         "Maximum of 8 people in a team is allowed.",
+        //         "5 players are allowed on the pitch at anytime and the rest are substitutes.",
+        //         "The timings of the event will be 5+5 minutes, and a break of 1 minute will be given.",
+        //         "College ID cards are required for verification.",
+        //         "Goalkeeper gloves, shin pads, and full stockings are required.",
+        //         "A knockout system will be followed.",
+        //         "Teams must report before their matches.",
+        //         "Any kind of intentional physical contact or use of foul language on the pitch will lead to disqualification from the event",
+        //         "The referee's decision is final.",
+        //     ],
+        //     roundDescriptions: [],
+        //     type: "Team Event (5 players + 3 substitutes)",
+        //     eligibility: "Knockout",
+        //     organizers: [
+        //         {
+        //             name: "Harish S",
+        //             event: "+91 79048 87508",
+        //             image: "tiki-taka/Harish.jpg",
+        //         },
+        //         {
+        //             name: "Lakshmi Prasath",
+        //             event: "+91 70103 58491",
+        //             image: "tiki-taka/LakshmiPrasath.jpg",
+        //         },
+        //         {
+        //             name: "Krishna Vamsee",
+        //             event: "+91 97898 01173",
+        //             image: "tiki-taka/KrishnaVamsee.png",
+        //         },
+        //         {
+        //             name: "Jabez Samuel W",
+        //             event: "+91 63691 22317",
+        //             image: "tiki-taka/JabezSamuel.jpg",
+        //         },
+        //         {
+        //             name: "Kevin Austin",
+        //             event: "+91 90807 95301",
+        //             image: "tiki-taka/Kevin.jpg",
+        //         },
+        //     ],
+        //     link: "https://forms.gle/qkLP2rBUWoS5NwPE9",
+        // },
         {
             name: "Master the Blaster",
             info: "Box Cricket",
@@ -457,7 +457,7 @@ const NonTechnicalEvents = () => {
                 short_description={e.short_description}
                 rules={e.rules}
                 eligibility={e.eligibility}
-                link={e.link}
+                link={""}
                 organizers={e.organizers}
                 type={e.type}
                 roundDescription={e.roundDescriptions}
