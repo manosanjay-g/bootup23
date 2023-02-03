@@ -12,88 +12,88 @@ const Promotions = () => {
   const websiteTeam = [
     {
         name: "Suriya Prakash",
-        team: "Website Team",
+        team: "3rd Year",
         image: "promotions/Website_SuriyaPrakash.jpg",
       },
     {
       name: "Mano Sanjay",
-      team: "Website Team",
+      team: "3rd Year",
       image: "promotions/Website_ManoSanjay.jpg",
     },
     {
       name: "Subhash",
-      team: "Website Team",
+      team: "3rd Year",
       image: "promotions/Website_SubhashB.jpg",
     },
     {
       name: "Keshav",
-      team: "Website Team",
+      team: "3rd Year",
       image: "promotions/Website_keshav.jpg",
     },
   ];
   const socialmediaTeam = [
     {
       name: "Muqaddam Aaqil Sheriff",
-      team: "Social Media Team",
+      team: "3rd Year",
       image: "promotions/Socialmedia_Aaqil.jpeg",
     },
     {
       name: "Supriya",
-      team: "Social Media Team",
+      team: "Final Year",
       image: "promotions/socialmedia_supriya.jpeg",
     },
     {
       name: "Kamalakshi ",
-      team: "Social Media Team",
+      team: "3rd Year",
       image: "promotions/SocialMedia_Kamalakshi.jpg",
     },
   ];
   const designTeam = [
     {
       name: "Praveen",
-      team: "Design Team",
+      team: "3rd Year",
       image: "promotions/Design_Praveen.jpg",
     },
     {
       name: "Monish ",
-      team: "Design Team",
+      team: "Final Year",
       image: "promotions/Design team - Monish.jpg",
     },
     {
       name: "Chandini Devi",
-      team: "Design Team",
+      team: "3rd Year",
       image: "promotions/Design team-Chandini.jpg",
     },
     {
       name: "Abirami",
-      team: "Design Team",
+      team: "3rd Year",
       image: "promotions/WhatsApp Image 2023-01-31 at 8.27.33 PM.jpeg",
     },
     {
       name: "Angelin Gracia",
-      team: "Design Team",
+      team: "3rd Year",
       image: "promotions/Design team - Angelin Gracia A .jpg",
     },
   ];
   const videoTeam = [
     {
       name: "Rohit Gangadhar ",
-      team: "Video Team",
+      team: "Final Year",
       image: "promotions/Rohith Gangadhar-min.JPG",
     },
     {
       name: "Rifhath Aslam ",
-      team: "Video Team",
+      team: "Final Year",
       image: "promotions/Rifhath.jpg",
     },
     {
       name: "Sai Nishit ",
-      team: "Video Team",
+      team: "Final Year",
       image: "promotions/Videoteam_R Sai Nishit.jpg",
     },
     {
       name: "Vijayakumar ",
-      team: "Video Team",
+      team: "Final Year",
       image: "promotions/Vijayakumar.jpeg",
     },
   ];
