@@ -53,7 +53,7 @@ const NonTechnicalEvents = () => {
             route: "/ready-player-one-valorant",
             description:
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
-            short_description: "Offline Event\n\n* Entry Fee : Rs. 50 per person *",
+            short_description: "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
             rules: [
                 "Players should play on their main account.",
                 "A knockout system will be followed",
