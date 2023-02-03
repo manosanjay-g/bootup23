@@ -368,7 +368,7 @@ const TechnicalEvents = () => {
                 short_description={e.short_description}
                 rules={e.rules}
                 eligibility={e.eligibility}
-                link={""}
+                link={e.link}
                 organizers={e.organizers}
                 type={e.type}
                 roundDescription={e.roundDescriptions}
