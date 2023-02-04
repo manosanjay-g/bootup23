@@ -9,7 +9,7 @@ const Footer = () => {
             id="footer"
             className="flex flex-col lg:flex-row w-full p-7 bg-zinc-900 md:justify-start"
         >
-            <div className="flex flex-col mb-6 gap-3 text-white text-center lg:text-left ">
+            <div className="flex flex-col mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
                 <p className="text-white text-3xl  font-semibold ">
                     BOOTUP'23
                 </p>
