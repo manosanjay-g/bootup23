@@ -178,7 +178,7 @@ const NonTechnicalEvents = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
             route: "/fandom-quiz",
             description:
-                "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n                The first round is a kahoot quiz round. The time limit would be 20 minutes with around 15-20 questions.\n\n Top-scoring teams would be selected for the finals.\n\n                The second round is a buzzer round. The fastest team to score the highest points will be given the title of the ultimate fan.",
+                "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n ",
             short_description: "Offline Event",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Tiki Taka, Master The Blaster.",
