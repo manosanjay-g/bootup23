@@ -68,7 +68,7 @@ const NonTechnicalEvents = () => {
                 // "1. This is an offline round.\n\n2. PCs will be provided for this round of matches.",
             ],
             type: "Team Event (Exactly 5 members + Substitutes as needed)",
-            eligibility: "Rounds varies as the teams progress.",
+            eligibility: "Rounds vary as the teams progress.",
             organizers: [
                 {
                     name: "Dhanush Aravind A",
