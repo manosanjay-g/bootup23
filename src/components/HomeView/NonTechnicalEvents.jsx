@@ -324,7 +324,6 @@ const NonTechnicalEvents = () => {
                 "Every innings will be for 5 overs.",
                 "Timings for each match will be for 30 minutes (maximum).",
                 "Every team should bring their own bat.",
-                "The ball type is a Tennis ball (Mercury +).",
                 "Umpires decision will be final.",
                 "Ball type : Mercury+ (tennis ball)",
             ],
