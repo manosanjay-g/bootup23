@@ -53,8 +53,9 @@ const NonTechnicalEvents = () => {
             route: "/ready-player-one-valorant",
             description:
                 "Ready, Steady, Game...\n\nAttack, Defend and Win. It’s the time to apply your strategies and gaming skills to test. \n\n               Experience the ultimate gaming battle in the virtual world of Valorant with our 'Ready Player One' event! Gather your team, sharpen your skills, this event will test your abilities, your strategy, and your ability to navigate the virtual world. Will you be the one to conquer the battleground and emerge victorious? Let the game begins!",
-            short_description: "Offline Event\n\n* Entry Fee : Rs. 200 per team *",
+            short_description: "Online Event\n\n* Entry Fee : Rs. 200 per team *",
             rules: [
+                "This is a online event, which will be for two days, 11th and 12th of February",
                 "Players should play on their main account.",
                 "A knockout system will be followed",
                 "Maps will be decided by community vote.",
@@ -63,11 +64,11 @@ const NonTechnicalEvents = () => {
                 "Both teams will be playing a 5v5 mode in custom game,time out can be claimed and cheats are disabled",
             ],
             roundDescriptions: [
-                "1. This is an online round.\n\n2. Players winning both the matches will advance to the next round.",
-                "1. This is an offline round.\n\n2. PCs will be provided for this round of matches.",
+                // "1. This is an online round.\n\n2. Players winning both the matches will advance to the next round.",
+                // "1. This is an offline round.\n\n2. PCs will be provided for this round of matches.",
             ],
             type: "Team Event (Exactly 5 members + Substitutes as needed)",
-            eligibility: "2 Rounds",
+            eligibility: "1 Rounds",
             organizers: [
                 {
                     name: "Dhanush Aravind A",
@@ -80,7 +81,7 @@ const NonTechnicalEvents = () => {
                     image: "valorant/Adesh.jpg",
                 },
                 {
-                    name: "Udhayachandhiran",
+                    name: "Udhayachandiran",
                     event: "+91 73959 89910",
                     image: "valorant/udhayachandiran.jpg",
                 },
@@ -318,7 +319,6 @@ const NonTechnicalEvents = () => {
             rules: [
                 "The team must consist of 5 players.",
                 "A total of 16 teams can participate in this event.",
-                "Team allocation will be done on the basis of First Come First Basis",
                 "The registrations will be closed once 16 teams have registered.",
                 "Every match is a knockout match.",
                 "Every innings will be for 5 overs.",
@@ -326,6 +326,7 @@ const NonTechnicalEvents = () => {
                 "Every team should bring their own bat.",
                 "The ball type is a Tennis ball (Mercury +).",
                 "Umpires decision will be final.",
+                "Ball type : Mercury+ (tennis ball)",
             ],
             roundDescriptions: [],
             type: "Team Event (Exactly 5 players)",

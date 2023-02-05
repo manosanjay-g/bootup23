@@ -38,10 +38,10 @@ const Footer = () => {
                     </p>
                     <div className="h-1 w-14 bg-blue-400 mb-5"></div>
                     <p className="text-white text-lg">
-                        <a href="/#events-technical">Techincal Events</a>
+                        <a href="/#events-technical">Technical Events</a>
                     </p>
                     <p className="text-white text-lg">
-                        <a href="/#events-non-technical">Non-Techincal Events</a>
+                        <a href="/#events-non-technical">Non-Technical Events</a>
                     </p>
                 </div>
                 <div className="footer-item-contacts">
