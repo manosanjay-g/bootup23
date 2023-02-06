@@ -91,7 +91,7 @@ const NonTechnicalEvents = () => {
                     image: "valorant/valo_venkat.jpg",
                 },
             ],
-            link: "https://forms.gle/vVLQjZTZahY1Neaf9",
+            link: "https://forms.gle/Lj5yAWDXzZvYW3HE7",
         },
         {
             name: "Ready Player One",
@@ -130,7 +130,7 @@ const NonTechnicalEvents = () => {
                 },
 
             ],
-            link: "https://forms.gle/X6VbYrp8RapfqfX79",
+            link: "https://forms.gle/Lj5yAWDXzZvYW3HE7",
         },
         {
             name: "Oru Naal President",
@@ -357,7 +357,7 @@ const NonTechnicalEvents = () => {
                     image: "Master The Blaster/Master the blaster-Sasidharan S.jpg",
                 },
             ],
-            link: "https://forms.gle/w8P8axVBr1vb2RDP6",
+            link: "https://forms.gle/Lj5yAWDXzZvYW3HE7",
         },
         {
             name: "Kodak",
