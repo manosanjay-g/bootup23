@@ -258,7 +258,7 @@ const TechnicalEvents = () => {
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
                 "Internet access is not allowed.",
                 "Participants indulging in malpractice will be subject to disqualification.",
-                "The Panel\'s decision is final.",
+                "The Panel's decision is final.",
             ],
             roundDescriptions: [
                 "1. This will be a pen-paper round.\n\n2. The participants with the highest scores will move on to the next round.\n\n3. The duration of this event is 30 minutes.",

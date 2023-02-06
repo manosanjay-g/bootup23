@@ -324,7 +324,7 @@ const NonTechnicalEvents = () => {
                 "Every innings will be for 5 overs.",
                 "Timings for each match will be for 30 minutes (maximum).",
                 "Every team should bring their own bat.",
-                "Umpire\'s decision will be final.",
+                "Umpire's decision will be final.",
                 "Ball type : Mercury+ (tennis ball)",
             ],
             roundDescriptions: [],
@@ -376,7 +376,7 @@ const NonTechnicalEvents = () => {
                 "The photograph that has been digitally altered beyond standard optimization (dust removal, cropping, color, contrast, etc.) will be disqualified.",
                 "For final round submission, both macro photography submission and event photography submissions are required.",
                 "Photographs should be submitted in JPEG and PNG format; other formats are not valid and will be disqualified.",
-                "The file Name should be the candidate name and phone number."'
+                "The file Name should be the candidate name and phone number.",
                 "The Panel's decision is final.",
             ],
             roundDescriptions: [
