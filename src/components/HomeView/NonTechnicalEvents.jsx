@@ -365,17 +365,18 @@ const NonTechnicalEvents = () => {
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
             route: "/kodak",
             description:
-                "The art of capturing moments is called photography. With the whole campus as your subject capture the spirit of the day and wow us with your skills. This is your chance to showcase your talent and creativity in photography. The participants will submit their entries in the form of a presentation and the best pictures should be submitted in the forms provided. The submissions should be in the form of a slideshow and it will be evaluated on the basis of creativity, consistency and the general look and feel.",
+                "The art of capturing moments is called photography.This is your chance to showcase your talent and creativity in photography.This is an individual event which consists of 2 rounds . The theme of the first round (selection round) will be pet animals / vehicals. All the registered participants will be asked to select one Theme and submit their picture only in JPEG / PNG format .The pictures will be evaluated and shortlisted for the second round.\n\n Selected participants should be present in the campus .The second round (Final round) will have 2 sub divisions. Each participant will be asked to submit 2 picture based on macro photography and 3 pictures of other ongoing bootup events in the campus. pictures submitted will be evaluated and winner will be announced.\n",
+ 
             short_description: "First Round is Online & Final round is Offline",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
                 "Participants can use any kind of device to capture pictures.",
                 "The photograph must be original and no watermark of any kind should be on the photograph.",
-                "Participants can submit color or black-and-white photography.",
                 "The photograph must be of the highest resolution possible.",
                 "The photograph that has been digitally altered beyond standard optimization (dust removal, cropping, color, contrast, etc.) will be disqualified.",
                 "For final round submission, both macro photography submission and event photography submissions are required.",
                 "Photographs should be submitted in JPEG and PNG format; other formats are not valid and will be disqualified.",
+                "The file Name should be the candidate name and phone number."'
                 "The Panel's decision is final.",
             ],
             roundDescriptions: [
