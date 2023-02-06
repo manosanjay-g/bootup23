@@ -130,7 +130,7 @@ const Coordinators = () => {
                     COORDINATORS
                 </h1>
                 <p className="text-gray-400 my-4 text-lg text-center font-medium">
-                    COMPUTER SCIENCE AND ENGINEERING DEPARTMENT
+                DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING 
                 </p>
             </div>
             <div className="flex mx-2 gap-4 items-center justify-center">

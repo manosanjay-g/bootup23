@@ -107,6 +107,9 @@ const Landing = () => {
                 </p>
                 <Countdown></Countdown>
             </div>
+            <p className="font-semibold wide-text text-center text-xl animate-pulse">
+                    REGISTRATIONS OPEN
+                </p>
             <div className="flex justify-center">
                 <a
                     id="explore-button"
