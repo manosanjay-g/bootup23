@@ -186,7 +186,7 @@ const TechnicalEvents = () => {
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
                 "* This event will be conducted on Feb 12, 2023 *",
-                "* Registrations for this event will be closed on Feb 9, 2023 *",
+     
                 "This is a 24 hours event. This event starts from Feb 12,2023 12:00 AM and ends at 11:59 PM.",
                 "The capture the flag event will be hosted on the Tryhackme Platform. The event will be private, only the registered participants can join the room to solve these challenges.",
                 "The problem solving mode for this CTF is Jeopardy.",
