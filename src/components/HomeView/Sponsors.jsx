@@ -22,7 +22,8 @@ const Sponsers = () => {
                         className="w-52 h-52  "
                         alt=""
                     />
-                </div>
+                
+                </div>              
             </div>
         </div>
     )
