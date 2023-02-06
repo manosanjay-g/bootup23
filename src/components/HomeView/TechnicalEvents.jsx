@@ -36,7 +36,7 @@ const TechnicalEvents = () => {
                     image: "silicon_valley/SiliconValley_ChinnaSakthi_K.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "The Revolution",
@@ -71,7 +71,7 @@ const TechnicalEvents = () => {
                     image: "the_revolution/Jeevamutharasi_.jpg  ",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "404 Not Found",
@@ -105,7 +105,7 @@ const TechnicalEvents = () => {
                     image: "404_not_found/IMG_1622-min.JPG",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "iCatching",
@@ -139,7 +139,7 @@ const TechnicalEvents = () => {
                     image: "iCatching/iCatching_Jayapriyaa.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Halt and Catch Fire",
@@ -173,7 +173,7 @@ const TechnicalEvents = () => {
                     image: "Halt and Catch Fire/Halt and catch fire - Harish Kumar S.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "The Perfect Exploit",
@@ -210,7 +210,7 @@ const TechnicalEvents = () => {
                     image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "The Office",
@@ -244,7 +244,7 @@ const TechnicalEvents = () => {
                     image: "the office/TheOffice_Sriviveknath S R.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Machine Impossible",
@@ -278,7 +278,7 @@ const TechnicalEvents = () => {
                     image: "MissionImpossible/MissionImpossible_Charan.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Ex Machina",
@@ -313,7 +313,7 @@ const TechnicalEvents = () => {
                     image: "Ex_Machina/ExMachina_Sujan_G.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Fly High",
@@ -353,7 +353,7 @@ const TechnicalEvents = () => {
                     image: "Fly High/Fly High_Raghavi V.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
     ];
     const technicalEventsMap = technicalEvents.map((e, index) => {

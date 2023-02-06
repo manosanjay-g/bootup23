@@ -44,7 +44,7 @@ const NonTechnicalEvents = () => {
                     image: "Vanmam/Vanmam_Mierudhula Sa.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Ready Player One",
@@ -170,7 +170,7 @@ const NonTechnicalEvents = () => {
                     image: "Oru Naal President/Nandita_Sajeev.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Fandom Wars",
@@ -214,7 +214,7 @@ const NonTechnicalEvents = () => {
                     image: "Fandom wars/FandomWars-E Kesheka.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "Naduvula Konjam Audio-va Kaanom",
@@ -255,7 +255,7 @@ const NonTechnicalEvents = () => {
                     image: "NaduvulaKonjamAudiovaKanom/NaduvulaKonjamAudiovaKanom-Geethanjali.jpeg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         // {
         //     name: "Tiki-Taka ",
@@ -402,7 +402,7 @@ const NonTechnicalEvents = () => {
                     image: "Kodak/Kodak_Santoshkumar.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
         {
             name: "She Boss!",
@@ -442,7 +442,7 @@ const NonTechnicalEvents = () => {
                     image: "She Boss/She_boss_-_Pooja_V.jpg",
                 },
             ],
-            link: "https://forms.gle/2SHiV6azJHV9hh4n7",
+            link: "https://www.rajalakshmi.org/bootup23/",
         },
     ];
 
