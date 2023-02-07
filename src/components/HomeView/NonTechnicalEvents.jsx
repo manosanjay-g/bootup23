@@ -367,7 +367,7 @@ const NonTechnicalEvents = () => {
             description:
                 "The art of capturing moments is called photography.This is your chance to showcase your talent and creativity in photography.This is an individual event which consists of 2 rounds . The theme of the first round (selection round) will be pet animals / vehicals. All the registered participants will be asked to select one Theme and submit their picture only in JPEG / PNG format .The pictures will be evaluated and shortlisted for the second round.\n\n Selected participants should be present in the campus .The second round (Final round) will have 2 sub divisions. Each participant will be asked to submit 2 picture based on macro photography and 3 pictures of other ongoing bootup events in the campus. pictures submitted will be evaluated and winner will be announced.\n",
  
-            short_description: "First Round is Online & Final round is Offline",
+            short_description: "Single round (online submission) Participants should be present in campus",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
                 "Participants can use any kind of device to capture pictures.",
@@ -380,11 +380,10 @@ const NonTechnicalEvents = () => {
                 "The Panel's decision is final.",
             ],
             roundDescriptions: [
-                "1. This is a selection round.\n\n2. The theme will be pet animals or vehicles. Participants can select any one theme and submit a picture they have shot recently.\n\n3. The finals will be taking place on Feb 13 and the shortlisted participants will be informed prior to the event.",
-                "1. This will be conducted offline in the college premises.\n\n2. Participants are encouraged to stroll around the campus and capture the magic of the symposium.\n\n3. The participants are asked to submit two photos based on the theme of macro photography and a minimum of 10 photos of other events conducted in BOOT UP 23.",
+                "1. This will be conducted offline in the college premises.\n\n2. Participants are encouraged to stroll around the campus and capture the magic of the symposium.\n\n3. The participants are asked to submit two photos based on the theme of macro photography and a minimum of 4 photos of other events conducted in BOOTUP'23.",
             ],
             type: "Individual Event",
-            eligibility: "2 Rounds",
+            eligibility: "1 Round",
             organizers: [
                 {
                     name: "Sharveshwaran",

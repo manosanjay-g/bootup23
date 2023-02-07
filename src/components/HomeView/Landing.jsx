@@ -107,7 +107,7 @@ const Landing = () => {
                 </p>
                 <Countdown></Countdown>
             </div>
-            <p className="font-semibold wide-text text-center text-xl my-2 animate-pulse">
+            <p className="font-semibold wide-text text-center text-xl my-5 animate-pulse">
                     REGISTRATIONS OPEN
                 </p>
             <div className="flex justify-center">
