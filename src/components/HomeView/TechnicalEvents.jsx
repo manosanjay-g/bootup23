@@ -48,10 +48,11 @@ const TechnicalEvents = () => {
             short_description: "Offline Event",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
-                "The final presentation Template will be shared with the respective team leaders 5-6 days before the competition.",
+                "The abstract and the presentation has to be presented in front of the panelists on the day of the event.",
                 "If the work is discovered to be plagiarised, any team will be liable to disqualification",
                 "The teams are evaluated on various technical and business competencies. The top 3 teams will be rewarded.",
                 "The decision of the panel is final.",
+                "Refer to the ppt attached on the drive.\nhttps://drive.google.com/drive/folders/13o8kL0yf-7PfXObW5-AYPXA-Hk59YDtt?usp=share_link"
             ],
             roundDescriptions: [
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
@@ -88,7 +89,7 @@ const TechnicalEvents = () => {
                 "The decision of the panel is final.",
             ],
             roundDescriptions: [
-                "1. This is pen-paper round.\n\n2. A time limit of 20 minutes is provided for debugging.",
+                "1. This is pen-paper round.\n\n2. A time limit of 30 minutes is provided for debugging.",
                 "1. A set of programs will be provided with errors in them.\n\n2. Participants are required to execute the program successfully.",
             ],
             type: "Individual Event",
@@ -152,9 +153,9 @@ const TechnicalEvents = () => {
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
                 "The relay order of the teammates will be collected prior and it cannot be changed once the round begins.",
-                "Only one round will be conducted for all the teams. If the question is answered before the stipulated time then the next team member can utilize the saved time for answering the next question and so on. Each question must be answered by only one teammate. ",
-                "Team members cannot help each other while solving the questions.",
-                "Malpractice will not be tolerated, and if any are discovered, the corresponding teamwill be eliminated.",
+                "Only one round will be conducted for all the teams. Each question needs to be answered individually. 30mins will be provided for solving each question.",
+                "Each Team member is provided with only one question one after the another and cannot help each other while solving the questions.",
+                "Malpractice will not be tolerated, and if any are discovered, the corresponding team will be eliminated.",
                 "If a teammate is unable to complete the given question within 30 mins then the corresponding status of that question will be considered for evaluation and the next team member can proceed further.",
                 "The decision taken by the panel will be final.",
             ],
@@ -297,6 +298,7 @@ const TechnicalEvents = () => {
                 "The time taken to build the solution is considered a parameter for tie-breakers.",
                 "Participants indulging in malpractice will be subject to disqualification.",
                 "The Panel decision is final.",
+                "Refer to the below link to download.\nhttps://www.uipath.com/landing/academic-studio-download"
             ],
             roundDescriptions: [],
             type: "Individual Event",

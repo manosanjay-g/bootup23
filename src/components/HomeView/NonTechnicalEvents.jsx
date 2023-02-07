@@ -178,7 +178,7 @@ const NonTechnicalEvents = () => {
             icon: "https://img.icons8.com/ios-filled/100/ffffff/fandom.png",
             route: "/fandom-quiz",
             description:
-                "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms, Anime and Comics. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n ",
+                "Get to know if you have what it takes to be the ultimate fan of pop culture. We challenge your knowledge in Pop culture movies, TV sitcoms and Anime. Brush up the details and be ready with the Batman to your Robin, the Joey to your Phoebe, the Sheldon to your Leonard, the Dr. Bruce to your Stark. To face the burning questions.\n\n ",
             short_description: "Offline Event",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
@@ -226,13 +226,15 @@ const NonTechnicalEvents = () => {
             short_description: "Offline Event",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
-                "This event is based on ‘Tamil and English Movie Scenes’.",
-                "Each participate will be provided with a muted video clip of around 1 minute in duration.",
+                "This event is based on ‘Tamil and English Movie/series scenes’.",
+                "The participants can be either individual or a group of 2/3.",
+                "Each participant will be provided with a video clip  of around 1-2 minutes in duration based on chosen slots.",
                 "The video will be played once or maximum twice to the participants.",
-                "The participants will be given 60 seconds to prepare",
-                "Participants should dub for a muted video that will be played for them. The motive is to bring humor with the background vocals for the muted boring video clip.",
-                "Usage of profanity is discouraged",
-                "The participants will be judged based on their creativity, spontaneity, humor, and consistency.",
+                "They will be given 1 minute to prepare.",
+                "Usage of both Tamil and English is allowed.",
+                "The use of profanities is strictly prohibited.",
+                "Any attempt by the participant to defame the institution will result in disqualification.",
+                "The participants will be judged based on their Sync, creativity, spontaneity, humour and oral expressions.",
                 "The Panel's decision is final.",
             ],
             roundDescriptions: [],
@@ -365,7 +367,7 @@ const NonTechnicalEvents = () => {
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/compact-camera.png",
             route: "/kodak",
             description:
-                "The art of capturing moments is called photography.This is your chance to showcase your talent and creativity in photography.This is an individual event which consists of 2 rounds . The theme of the first round (selection round) will be pet animals / vehicals. All the registered participants will be asked to select one Theme and submit their picture only in JPEG / PNG format .The pictures will be evaluated and shortlisted for the second round.\n\n Selected participants should be present in the campus .The second round (Final round) will have 2 sub divisions. Each participant will be asked to submit 2 picture based on macro photography and 3 pictures of other ongoing bootup events in the campus. pictures submitted will be evaluated and winner will be announced.\n",
+                "The art of capturing moments is called photography. This is your chance to showcase your talent and creativity in photography. All the Participants should be present in the campus. This is an individual event which consists of a single round and that round will have 2 sub divisions. Each participant will be asked to submit 2 pictures based on macro photography and 4 pictures of other ongoing bootup events in the campus. Participants should submit their picture only in JPEG / PNG format. The submitted pictures will be evaluated and winner will be announced.",
  
             short_description: "Single round (online submission) Participants should be present in campus",
             rules: [
