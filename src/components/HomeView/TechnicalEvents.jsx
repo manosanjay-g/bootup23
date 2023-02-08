@@ -48,11 +48,11 @@ const TechnicalEvents = () => {
             short_description: "Offline Event",
             rules: [
                 "You can register and participate in a total of 6 events with the entry fee of 150 rupees. The events excluded in this entry are: Ready Player One, Master The Blaster.",
-                "The abstract and the presentation has to be presented in front of the panelists on the day of the event.",
+                "Teams must present their ideas using the presentation template on the day of the event.",
                 "If the work is discovered to be plagiarised, any team will be liable to disqualification",
                 "The teams are evaluated on various technical and business competencies. The top 3 teams will be rewarded.",
                 "The decision of the panel is final.",
-                "Refer to the ppt attached on the drive.\nhttps://drive.google.com/drive/folders/13o8kL0yf-7PfXObW5-AYPXA-Hk59YDtt?usp=share_link"
+                "Please submit your abstract in the link below after your registrations.\nhttps://forms.gle/f55AApCDmk7XYM1dA"
             ],
             roundDescriptions: [
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
@@ -209,6 +209,11 @@ const TechnicalEvents = () => {
                     name: "Krithic Kumar",
                     event: "+91 90927 30367",
                     image: "The Perfect Exploit/ThePerfectExploit-Krithic Kumar.jpeg",
+                },
+                {
+                    name: "Sujitha R",
+                    event: "+91 99622 51185",
+                    image: "The Perfect Exploit/ThePerfectExploit-Sujitha.jpg",
                 },
             ],
             link: "https://www.rajalakshmi.org/bootup23/",
