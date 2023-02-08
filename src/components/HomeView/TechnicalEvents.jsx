@@ -52,7 +52,8 @@ const TechnicalEvents = () => {
                 "If the work is discovered to be plagiarised, any team will be liable to disqualification",
                 "The teams are evaluated on various technical and business competencies. The top 3 teams will be rewarded.",
                 "The decision of the panel is final.",
-                "Please submit your abstract in the link below after your registrations.\nhttps://forms.gle/f55AApCDmk7XYM1dA"
+                "Please submit your abstract in the link below after your registrations.\nhttps://forms.gle/f55AApCDmk7XYM1dA",
+                "Refer to the ppt attached on the drive.\nhttps://drive.google.com/drive/folders/13o8kL0yf-7PfXObW5-AYPXA-Hk59YDtt?usp=share_link"
             ],
             roundDescriptions: [
                 "1. In the first round, the teams are supposed to submit an abstract giving a gist of the work  consisting of not more than 300 words. \n\n2. The top 10-15 teams will be shortlisted for the final round where the teams are supposed to present their ideas which should comprehend both technical and business aspects.",
