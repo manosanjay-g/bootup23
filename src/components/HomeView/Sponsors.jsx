@@ -12,11 +12,11 @@ const Sponsers = () => {
                         className="w-52 h-52  "
                         alt=""
                     />
-                    <img
+                    {/* <img
                         src={require("../../assets/ieeeCert.png")}
                         className="w-52 h-52  "
                         alt=""
-                    />
+                    /> */}
                     <img
                         src={require("../../assets/acmCert.png")}
                         className="w-52 h-52  "
