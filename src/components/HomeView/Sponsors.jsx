@@ -10,45 +10,40 @@ const Sponsers = () => {
                     
                     <img
                         src={require("../../assets/eatsure.png")}
-                        className="w-52 h-45 "
+                        className="w-52 h-45 my-4"
                         alt=""
                     />
                     <img
                         src={require("../../assets/dental.png")}
-                        className="w-52 h-45  "
+                        className="w-52 h-45 my-4  "
                         alt=""
                     />
                     <img
                         src={require("../../assets/poorvika.png")}
-                        className="w-52 h-45 my-10"
+                        className="w-52 h-45 my-10 "
                         alt=""
                     />
                     <img
                         src={require("../../assets/rosemilk.png")}
-                        className="w-52 h-45 "
+                        className="w-52 h-45 my-4"
                         alt=""
                     />
                 
                 </div>              
-                <div className="flex flex-col items-center md:flex-row md:justify-around  flex-wrap">
+                <div className="flex flex-col items-center md:flex-row md:justify-around flex-wrap md:gap-x-10">
                     <img
                         src={require("../../assets/csiCert.png")}
-                        className="w-52 h-52 mb-10"
+                        className="w-52 h-52 mb-10 my-4"
                         alt=""
                     />
-                    {/* <img
-                        src={require("../../assets/ieeeCert.png")}
-                        className="w-52 h-52 "
-                        alt=""
-                    /> */}
                     <img
                         src={require("../../assets/uipath.png")}
-                        className="object cover w-57 h-52 mb-10 "
+                        className="w-96 my-4"
                         alt=""
                     />
                     <img
                         src={require("../../assets/acmCert.png")}
-                        className="w-52 h-52  "
+                        className="w-52 h-52  my-4"
                         alt=""
                     />
                     
