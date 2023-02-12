@@ -114,7 +114,7 @@ const EventDetails = () => {
                         <span className="absolute inset-0  rounded-lg border-2 border-white"></span>
                     </a>
                 </div> */}
-                <div className="flex justify-center animate-bounce">
+                {/* <div className="flex justify-center animate-bounce">
                     <a
                         id="register-button"
                         href={state.link}
@@ -130,7 +130,7 @@ const EventDetails = () => {
                         </span>
                         <span className="rounded-lg absolute inset-0 border-2 border-white"></span>
                     </a>
-                </div>
+                </div> */}
 
                 <div
                     id="organizers-technical"
